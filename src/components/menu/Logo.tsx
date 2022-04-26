@@ -33,7 +33,7 @@ const Logo:React.FC<Props> = ({isPushed, togglePush, href, isMobile }) => {
     const innerLogo = <img alt='mgg-logo' src='/logo.png' width='60px' />
 
     return (
-        <Flex>
+        <Flex alignItems='center'>
             {
                 isMobile && (
                     <MenuButton aria-label="Toggle menu" onClick={togglePush} mr="24px">
