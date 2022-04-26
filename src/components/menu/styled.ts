@@ -1,5 +1,7 @@
 import styled from "styled-components";
-import { MENU_HEIGHT } from "./config";
+import { MENU_HEIGHT, SIDEBAR_WIDTH_FULL, SIDEBAR_WIDTH_REDUCED } from "./config";
+import { breakpoints } from "theme/Breakpoints";
+import Overlay from 'components/overlay/Overlay'
 
 export const Wrapper = styled.div`
   position: relative;
@@ -26,6 +28,23 @@ export const StyledNav = styled.div<{ showMenu?: boolean; isMobile?: boolean }>`
   }
 `;
 
+export const BodyWrapper = styled.div`
+  position: relative;
+  display: flex;
+`;
+
+export const Inner = styled.div<{ isPushed: boolean; showMenu: boolean }>`
+  flex-grow: 1;
+  margin-top: ${({ showMenu }) => (showMenu ? `${MENU_HEIGHT}px` : 0)};
+  transition: margin-top 0.2s;
+  transform: translate3d(0, 0, 0);
+  ${({ theme }) => theme.mediaQueries.nav} {
+    // margin-left: ${({ isPushed }) => `${isPushed ? SIDEBAR_WIDTH_FULL : SIDEBAR_WIDTH_REDUCED}px`};
+    margin-left: ${SIDEBAR_WIDTH_REDUCED};
+  }
+`;
+
+
 
 // Components
 export const LaunchButton = styled.button`
@@ -35,8 +54,19 @@ export const LaunchButton = styled.button`
     border-radius: 15px;    
     text-align: center;
     font-size: 0.5rem;
+    ${({theme}) => `@media screen and (max-width: ${breakpoints.Mobile.tablet}px)`} {
+      font-size: 1rem;
+      padding: 10px;
+    }
     ${({theme}) => theme.mediaQueries.md} {
       padding: 10px;
       font-size: 1rem;
     }
 `
+export const MobileOnlyOverlay = styled(Overlay)`
+  position: fixed;
+  height: 100%;
+  ${({ theme }) => theme.mediaQueries.nav} {
+    display: none;
+  }
+`;

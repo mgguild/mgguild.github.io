@@ -2,9 +2,10 @@ import React, { useContext } from "react";
 import styled, { ThemeContext } from "styled-components";
 import { useLocation } from "react-router-dom";
 import { MoreHorizontal } from "react-feather";
-import { Dropdown, MenuEntry as IMenuEntry, Text, Flex } from "@metagg/mgg-uikit";
+import { Dropdown, Text, Flex } from "@metagg/mgg-uikit";
 import { LinkLabel, MenuEntry } from "./MenuEntry";
 import MenuLink from "./MenuLink";
+import { MenuEntry as IMenuEntry } from "./types";
 
 const LinkContainer = styled.div`
   display: flex;

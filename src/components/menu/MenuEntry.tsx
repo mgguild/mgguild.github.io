@@ -31,7 +31,7 @@ const LinkLabel = styled.div<{ isPushed?: boolean; isActive?: boolean }>`
     &::before {
       position: absolute;
         transform: translateX(-50%);
-        background: ${({theme}) => theme.colors.tertiary};
+        background: ${({theme}) => theme.colors.primary};
         bottom: 0;
         height: 2px;
         content: '';

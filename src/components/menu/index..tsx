@@ -2,10 +2,11 @@ import React from "react";
 import { useMatchBreakpoints } from "@metagg/mgg-uikit";
 import NavbarMenu from "./NavbarMenu";
 import Logo from "./Logo";
-import { LaunchButton, StyledNav, Wrapper } from "./styled";
+import Panel from "./Panel";
+import { BodyWrapper, LaunchButton, StyledNav, Wrapper, Inner, MobileOnlyOverlay} from "./styled";
 import links from "./config";
 
-const MainMenu = () => {
+const Menu = (props) => {
   const { isXl } = useMatchBreakpoints();
   const isMobile = isXl === false;
   const [isPushed, setIsPushed] = React.useState(!isMobile);
@@ -25,17 +26,24 @@ const MainMenu = () => {
           Launch App
         </LaunchButton>
       </StyledNav>
+      <BodyWrapper>
+        { isMobile && (
+        <Panel 
+          isPushed={isPushed}
+          isMobile={isMobile}
+          showMenu={showMenu}
+          pushNav={setIsPushed}
+          links={links}
+          />
+        )}
+        <Inner isPushed={isPushed} showMenu={showMenu}>
+          { props.children }
+        </Inner>
+        <MobileOnlyOverlay show={isPushed} onClick={() => setIsPushed(false)} role="presentation" />
+      </BodyWrapper>
     </Wrapper>
   );
 };
 
-const Menu = (props) => {
-  return (
-    <>
-      <MainMenu />
-      {props.children}
-    </>
-  );
-};
 
 export default Menu;

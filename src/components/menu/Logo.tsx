@@ -1,6 +1,6 @@
 import styled from 'styled-components'
 import React from 'react'
-import { Flex, LogoIcon } from '@metagg/mgg-uikit'
+import { Flex, Text } from '@metagg/mgg-uikit'
 import { Link } from 'react-router-dom'
 import { Menu } from 'react-feather'
 import MenuButton from './MenuButton';
@@ -30,7 +30,7 @@ interface Props {
   }
 `;
 const Logo:React.FC<Props> = ({isPushed, togglePush, href, isMobile }) => {
-    const innerLogo = 'LOGO'
+    const innerLogo = <img alt='mgg-logo' src='/logo.png' width='60px' />
 
     return (
         <Flex>
