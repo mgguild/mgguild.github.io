@@ -19,36 +19,38 @@ const rainbowAnimation = keyframes`
 
 const LinkLabel = styled.div<{ isPushed?: boolean; isActive?: boolean }>`
   color: ${({ theme, isActive }) => isActive && theme.colors.text};
+  cursor: pointer;
   transition: color 0.4s;
   flex-grow: 1;
   display: inline-block;
   vertical-align: top;
   position: relative;
   text-align: center;
-  padding: 20px 10px;
-  ${({ isActive, theme }) =>
-    isActive &&
-    `
-    // border-bottom: 3px solid ${theme.colors.MGG_accent1};
-    // &::before {
-    //   transform: translateX(-50%);
-    //   position: absolute;
-    //   background: ${theme.colors.primary};
-    //   bottom: 0px;
-    //   height: 8px;
-    //   content: '';
-    //   width: 8px;
-    //   left: 50%;
-    // }
-  `}
+  padding: 7px 0px;
+  &:hover {
+    &::before {
+      position: absolute;
+        transform: translateX(-50%);
+        background: ${({theme}) => theme.colors.tertiary};
+        bottom: 0;
+        height: 2px;
+        content: '';
+        width: 100%;
+        left: 50%;
+      }
+  }
   @media (max-width: 836px){
     &::before {
       display: none;
   }
+
+  ${({theme}) => theme.mediaQueries.md} {
+    padding: 20px 10px;
+  }
 `;
 
 const MenuEntry = styled.div<Props>`
-  cursor: pointer;
+  // cursor: pointer;
   display: flex;
   align-items: center;
   height: ${MENU_ENTRY_HEIGHT}px;
@@ -65,9 +67,6 @@ const MenuEntry = styled.div<Props>`
   }
   svg {
     fill: ${({ theme, isActive }) => (isActive ? theme.colors.primary : theme.colors.textSubtle)};
-  }
-  &:hover {
-    background-color: ${({ theme }) => theme.colors.tertiary};
   }
   // Safari fix
   flex-shrink: 0;

@@ -3,7 +3,7 @@ import { useMatchBreakpoints } from "@metagg/mgg-uikit";
 import NavbarMenu from "./NavbarMenu";
 import Logo from "./Logo";
 import { LaunchButton, StyledNav, Wrapper } from "./styled";
-import links from './config'
+import links from "./config";
 
 const MainMenu = () => {
   const { isXl } = useMatchBreakpoints();
@@ -13,20 +13,27 @@ const MainMenu = () => {
 
   return (
     <Wrapper>
-    <StyledNav isMobile={isMobile} showMenu={showMenu}>
-    <Logo />
-    <NavbarMenu links={links}/>
-    <LaunchButton as='a' href="https://app.metagg.com/#/farms"> Launch App </LaunchButton>    
-    </StyledNav>
+      <StyledNav isMobile={isMobile} showMenu={showMenu}>
+        <Logo 
+        isPushed={isPushed}
+        togglePush={() => setIsPushed((prevState: boolean) => !prevState)}
+        href="/"
+        isMobile={isMobile}
+        />
+        {!isMobile && <NavbarMenu links={links} />}
+        <LaunchButton as="a" href="https://app.metagg.com/#/farms">
+          Launch App
+        </LaunchButton>
+      </StyledNav>
     </Wrapper>
   );
 };
 
 const Menu = (props) => {
   return (
-      <>
-    <MainMenu />
-    { props.children}
+    <>
+      <MainMenu />
+      {props.children}
     </>
   );
 };

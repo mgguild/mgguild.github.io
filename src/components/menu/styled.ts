@@ -12,7 +12,7 @@ export const StyledNav = styled.div<{ showMenu?: boolean; isMobile?: boolean }>`
   left: 0;
   transition: top 0.2s;
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
   align-items: center;
   width: 100%;
   height: ${MENU_HEIGHT}px;
@@ -21,6 +21,9 @@ export const StyledNav = styled.div<{ showMenu?: boolean; isMobile?: boolean }>`
   z-index: 20;
   transform: translate3d(0, 0, 0);
   padding: ${({ isMobile }) => !isMobile && `0px 50px 0px 50px`};
+  ${({ theme }) => theme.mediaQueries.md} {
+    justify-content: space-around;
+  }
 `;
 
 
@@ -28,6 +31,12 @@ export const StyledNav = styled.div<{ showMenu?: boolean; isMobile?: boolean }>`
 export const LaunchButton = styled.button`
     background-color: ${({theme}) => theme.colors.MGG_accent2};
     color: white;
-    padding: 10px;
+    padding: 3px;
     border-radius: 15px;    
+    text-align: center;
+    font-size: 0.5rem;
+    ${({theme}) => theme.mediaQueries.md} {
+      padding: 10px;
+      font-size: 1rem;
+    }
 `
