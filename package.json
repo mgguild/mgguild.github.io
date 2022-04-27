@@ -16,7 +16,10 @@
     "typecheck": "tsc --noEmit"
   },
   "dependencies": {
+    "@emotion/react": "^11.9.0",
+    "@emotion/styled": "^11.8.1",
     "@metagg/mgg-uikit": "^1.1.2",
+    "@mui/material": "^5.6.3",
     "babel-plugin-styled-components": "^2.0.7",
     "gatsby": "^4.12.1",
     "gatsby-plugin-google-gtag": "^4.12.1",
@@ -26,6 +29,7 @@
     "react-dom": "^17.0.1",
     "react-feather": "^2.0.9",
     "react-helmet": "^6.1.0",
+    "react-icons": "^4.3.1",
     "react-router-dom": "^6.3.0",
     "styled-components": "^5.3.5"
   },
