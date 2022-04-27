@@ -5,7 +5,7 @@ const config: GatsbyConfig = {
     title: `mgg-website`,
     siteUrl: `https://www.yourdomain.tld`
   },
-  plugins: [ {
+  plugins: [{
     resolve: `gatsby-plugin-google-gtag`,
     options: {
       // You can add multiple tracking ids and a pageview event will be fired for all of them.
@@ -22,7 +22,7 @@ const config: GatsbyConfig = {
         // Setting this parameter is also optional
       },
     },
-  }, "gatsby-plugin-styled-components", "gatsby-plugin-react-helmet"]
+  }, "gatsby-plugin-styled-components", "gatsby-plugin-react-helmet", "gatsby-plugin-root-import"]
 };
 
 export default config;
