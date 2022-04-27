@@ -53,8 +53,10 @@ const Footer: React.FC = () => {
               </Link>
             </Grid>
           ))}
-          <Grid item xs={6} md={6} margin='25px 0px'>
-          <LaunchButton />
+          <Grid item>
+              <div style={{margin: '10px 0px'}}>
+            <LaunchButton />
+            </div>
           </Grid>
         </Grid>
       </StyledMenuWrapper>

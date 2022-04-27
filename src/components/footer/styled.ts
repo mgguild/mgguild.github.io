@@ -34,7 +34,7 @@ export const StyledLogoWrapper = styled(WrapperChild)`
 export const StyledMenuWrapper = styled(WrapperChild)`
     width: 500px;
     padding: 15px 0px;
-    margin-top: 50px;
+    margin-top: 60px;
     @media screen and (max-width: ${breakpoints.Mobile.tablet}px) {
         width: 300px;
     }
