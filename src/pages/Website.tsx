@@ -8,6 +8,7 @@ import GlobalStyle from "style/Global";
 
 const Website: React.FC = () => {
   const Homepage = lazy(() => import("./Homepage"));
+  const Roadmap = lazy(() => import("./Roadmap"));
   const NotFound = lazy(() => import("./NotFound"));
   return (
     <HashRouter>
@@ -17,6 +18,7 @@ const Website: React.FC = () => {
         <SuspenseWithChunkError fallback={<PageLoader />}>
           <Routes>
             <Route path="/home" element={<Homepage />} />
+            <Route path="/roadmap" element={<Roadmap />} />
             {/* Redirects */}
             <Route path="/" element={<Navigate replace to='/home' />} />
             {/* 404 */}
