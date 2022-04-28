@@ -1,11 +1,13 @@
 import React from 'react'
 import { Text } from '@metagg/mgg-uikit'
 import Page from 'components/layout/Page'
+import { EcoSection, HomeSection } from './sections'
 
 const Homepage = () => {
     return (
         <Page>
-        <Text>HomePage</Text>
+            <HomeSection />
+            <EcoSection />
         </Page>
     )
 }

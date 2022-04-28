@@ -3,7 +3,7 @@ import styled from 'styled-components'
 import { Facebook, Send, Twitter, Linkedin, Instagram, HelpCircle} from "react-feather"
 import { SiDiscord } from 'react-icons/si' 
 import { FaMediumM } from 'react-icons/fa'
-import { names } from "components/footer/types"
+import { names } from "components/Footer/types"
 
 const StyledLogo = styled.span`
     & > * {

@@ -1,9 +1,13 @@
 import React, { useState } from 'react'
 import { ThemeProvider as SCThemeProvider } from 'styled-components'
 import { light, dark } from '@metagg/mgg-uikit'
+import { Colors as addOnColors } from 'theme/Base'
 
 const CACHE_KEY = 'IS_DARK'
-
+const newDark = {
+  ...dark, 
+  ...addOnColors,
+}
 const ThemeContext = React.createContext({ isDark: true, toggleTheme: () => null })
 
 const ThemeContextProvider = ({ children }) => {
@@ -18,10 +22,9 @@ const ThemeContextProvider = ({ children }) => {
       return !prevState
     })
   }
-
   return (
     <ThemeContext.Provider value={{ isDark, toggleTheme }}>
-      <SCThemeProvider theme={isDark ? dark : light}>{children}</SCThemeProvider>
+      <SCThemeProvider theme={isDark ? newDark : light}>{children}</SCThemeProvider>
     </ThemeContext.Provider>
   )
 }
