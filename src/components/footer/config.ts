@@ -4,39 +4,39 @@ const Config: Props = {
   links: [
     {
       name: names.links.home,
-      href: "www.facebook.com",
+      href: "/home",
     },
     {
         name: names.links.partners,
-        href: "www.facebook.com",
+        href: "/partners",
       },
     {
       name: names.links.revModel,
-      href: "www.facebook.com",
+      href: "/revenue-model",
     },
     {
         name: names.links.whitePaper,
-        href: "www.facebook.com",
+        href: "/whitepaper",
       },
     {
       name: names.links.teams,
-      href: "www.facebook.com",
+      href: "/teams",
     },
     {
         name: names.links.blog,
-        href: "www.facebook.com",
+        href: "/blog",
       },
     {
       name: names.links.roadmap,
-      href: "www.facebook.com",
+      href: "/roadmap",
     },
     {
       name: names.links.contact,
-      href: "www.facebook.com",
+      href: "/contact-us",
     },
     {
         name: names.links.token,
-        href: "www.facebook.com",
+        href: "/mgg-token",
       },
   ],
   socials: [
