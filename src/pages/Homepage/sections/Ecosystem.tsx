@@ -9,7 +9,7 @@ import { IEcosystems, Ecosystems } from "../config";
 import * as IconModule from './icons'
 
 const Container = styled(Flex)`
-  padding: 30px;
+  padding: 50px;
   flex-direction: column;
   text-align: center;
   margin: 0px auto;
@@ -53,7 +53,6 @@ const Card: React.FC<IEcosystems> = ({
   status = "",
 }) => {
   const theme = useContext(ThemeContext);
-  console.log(image)
     const Icon = Icons[image]
     const iconElement: React.ReactElement = <Icon width="24px" mr="8px" height="24" />
   return (
@@ -89,7 +88,7 @@ const Cards: React.FC = () => {
       {Ecosystems.map((Ecosystem) => {
         const { name, subtitle, description, status, image } = Ecosystem;
         return (
-          <Grid key={name} item xs={4} sm={4} md={4} lg={3}>
+          <Grid key={name} item xs={12} sm={4} md={4} lg={3}>
             <Card
               name={name}
               subtitle={subtitle}

@@ -9,14 +9,16 @@ import { Figures } from "../config";
 
 
 const Container = styled.div`
-  margin: 25px auto;
+  margin: 30px auto;
   display: flex;
+  padding: 50px;
   text-align: center;
   align-items: center;
   flex-direction: column;
 `;
 const FigureWrapper = styled.div`
-width: 100%;
+  min-width: 0px;
+  width: 100%;
   display: flex;
   padding: 24px;
   align-items: center;
@@ -29,7 +31,7 @@ width: 100%;
   }
 
   ${({theme}) => theme.mediaQueries.md} {
-      width: 1400px;
+      min-width: 1400px;
   }
 `;
 
@@ -38,17 +40,17 @@ const FigureComponent = () => {
     <FigureWrapper>
       <Grid container alignItems='center' rowSpacing={{xs: 4, md: 4}} >
         <Grid item xs={12} sm={12} md={6} zeroMinWidth>
-          <Grid container rowSpacing={{ md: 12 }}>
+          <Grid container rowSpacing={{xs: 5,  md: 12 }}>
             {Figures.map((figure) => {
               return (
                 <Grid
                   key={figure.subtitle}
                   item
-                  xs={6}
+                  xs={12}
                   md={6}
                   zeroMinWidth
                 >
-                  <Heading size="xxl">{figure.amount}</Heading>
+                  <Heading size="xl">{figure.amount}</Heading>
                   <Text className="subtitle" fontSize="1.5em">
                     {figure.subtitle}
                   </Text>

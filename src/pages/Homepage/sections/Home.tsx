@@ -6,14 +6,15 @@ import { HomeContainer, PageTitle } from './styled'
 
 
 const Container = styled(Flex)`
-    width: 720px;
+    min-width: 0px;
     max-width: 720px;
     align-items: center;
     flex-direction: column;
-    justify-content: space-around;
+    justify-content: space-between;
     text-align: center;
     margin: 0px auto;
     position: relative;
+    font-size: 10px;
      :before {
         top: 0;
         width: 100%;
@@ -30,7 +31,12 @@ const Container = styled(Flex)`
     }
     & :first-child { 
         letter-spacing: 2px;
+        line-height: 1em;
         z-index: 1;
+    }
+    ${({theme}) => theme.mediaQueries.md} {
+        min-width: 720px;
+        font-size: 19px;
     }
 
 `
@@ -47,16 +53,16 @@ const Section:React.FC = () => {
     return (
         <HomeContainer height='100'>
             <Container>
-                <Heading size='xxl'>We Create Metaverse <br/> Gaming Opportunities <br /> for P2E Masses </Heading>
+                <Text fontSize="3em" bold marginTop='160px'>We Create Metaverse Gaming Opportunities for P2E Masses </Text>
                 <DescriptionContainer flexDirection='column' alignItems='space-around' padding='10px 0px'>
                     <PageTitle size='xl'> About MetaGaming Guild </PageTitle>
                     <Text as='p' fontSize='1.2em'>
-                        MetaGaming Guild is a unified DAO-based ecosystem of Gaming <br />
-                        Guild, INO/IGO Launchpad, Gamefi Vaults, Game Yield Farming <br />
+                        MetaGaming Guild is a unified DAO-based ecosystem of Gaming
+                        Guild, INO/IGO Launchpad, Gamefi Vaults, Game Yield Farming
                         and Play-to-Earn Game aimed at democratizing game finance.
                     </Text>
                     <Text fontSize='1.2em'>
-                        MetaGaming Guild envisions to become the primary and most <br />
+                        MetaGaming Guild envisions to become the primary and most
                         community-centric DAO in the Gamefi metaverse!
                     </Text>
                 </DescriptionContainer>
