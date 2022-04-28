@@ -1,7 +1,9 @@
 import { Flex, Heading, Text } from '@metagg/mgg-uikit'
 import styled from 'styled-components'
 import React from 'react'
+import MGGLogo from 'assets/background/MGGLogo.png'
 import { HomeContainer, PageTitle } from './styled'
+
 
 const Container = styled(Flex)`
     width: 720px;
@@ -11,12 +13,30 @@ const Container = styled(Flex)`
     justify-content: space-around;
     text-align: center;
     margin: 0px auto;
+    position: relative;
+     :before {
+        top: 0;
+        width: 100%;
+        height: 100%;
+        opacity: 0.3;
+        display: block;
+        position: absolute;
+        background-image: url(${MGGLogo});
+        background-repeat: no-repeat;
+        background-size: 50%;
+        background-position: center 10px;
+        content: ' ';
+        z-index: 0;
+    }
     & :first-child { 
         letter-spacing: 2px;
+        z-index: 1;
     }
 
 `
 const DescriptionContainer = styled(Flex)`
+
+    // margin-top: 30px;
     & > * {
         margin: 10px 0px;
     }
@@ -25,7 +45,7 @@ const DescriptionContainer = styled(Flex)`
 const Section:React.FC = () => {
 
     return (
-        <HomeContainer>
+        <HomeContainer height='100'>
             <Container>
                 <Heading size='xxl'>We Create Metaverse <br/> Gaming Opportunities <br /> for P2E Masses </Heading>
                 <DescriptionContainer flexDirection='column' alignItems='space-around' padding='10px 0px'>

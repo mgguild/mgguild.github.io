@@ -106,7 +106,7 @@ const Cards: React.FC = () => {
 
 const Section: React.FC = () => {
   return (
-    <EcoContainer>
+    <EcoContainer height="100">
       <Container>
         <PageTitle size="xl">MetaGaming Guild Ecosystem</PageTitle>
           <Cards />

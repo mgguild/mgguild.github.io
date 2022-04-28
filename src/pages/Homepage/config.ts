@@ -6,6 +6,11 @@ export interface IEcosystems {
   image?: string;
 }
 
+export interface IFigures {
+  amount: string;
+  subtitle: string;
+}
+
 export const Ecosystems: IEcosystems[] = [
   {
     name: "MetaGamers",
@@ -57,3 +62,31 @@ export const Ecosystems: IEcosystems[] = [
     status: "coming soon",
   },
 ];
+
+
+export const Figures:IFigures[] = [
+  {
+    amount: '$100,000+',
+    subtitle: 'Monthly Revenue',
+  },
+  {
+    amount: '1,000+',
+    subtitle: 'Active Scholars',
+  },
+  {
+    amount: '30+',
+    subtitle: 'Acquired Early-game Assets'
+  },
+  {
+    amount: '1,000,000+',
+    subtitle: 'SLP Farmed per Month'
+  },
+  {
+    amount: '30+',
+    subtitle: 'Renowned Gaming Partners'
+  },
+  {
+    amount: '5,000+',
+    subtitle: 'NFTs in the Treasury'
+  }
+]
