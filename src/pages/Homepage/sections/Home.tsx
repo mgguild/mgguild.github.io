@@ -51,7 +51,7 @@ const DescriptionContainer = styled(Flex)`
 const Section:React.FC = () => {
 
     return (
-        <HomeContainer height='100'>
+        <HomeContainer height='95'>
             <Container>
                 <Text fontSize="3em" bold marginTop='160px'>We Create Metaverse Gaming Opportunities for P2E Masses </Text>
                 <DescriptionContainer flexDirection='column' alignItems='space-around' padding='10px 0px'>
