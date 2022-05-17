@@ -30,7 +30,7 @@ const Footer: React.FC = () => {
   return (
     <WrapperContainer>
       <StyledLogoWrapper>
-        <Flex flexDirection="column">
+        <Flex flexDirection="column" alignItems='flex-end' justifyContent='center'>
           <Logo />
           <Heading size="sm" color={theme.colors.MGG_accent2}>
             "A community of tactical gamers"
