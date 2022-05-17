@@ -1,12 +1,12 @@
 import React, { useContext } from "react";
 import { Link } from "react-router-dom";
-import { ThemeContext } from 'styled-components'
 import { Flex, Heading, Text } from "@metagg/mgg-uikit";
 import { SocialIcon } from "./IconHelpers";
 import {
   StyledLogoWrapper,
   StyledMenuWrapper,
   WrapperContainer,
+  Description
 } from "./styled";
 import config from "./config";
 import { Grid } from "@mui/material";
@@ -24,15 +24,14 @@ const Logo = () => {
 
 const Footer: React.FC = () => {
   const { socials, links } = config;
-  const theme = useContext(ThemeContext);
   return (
     <WrapperContainer>
       <StyledLogoWrapper>
         <Flex flexDirection="column" alignItems='flex-end' justifyContent='center'>
           <Logo />
-          <Heading size="sm" color={theme.colors.MGG_accent2}>
+          <Description size="sm">
             "A community of tactical gamers"
-          </Heading>
+          </Description>
           <Flex paddingTop="10px">
             {socials.map((social) => (
               <a key={social.name} href={social.href}>

@@ -1,4 +1,5 @@
 import styled from 'styled-components'
+import { Heading } from '@metagg/mgg-uikit'
 import { breakpoints } from 'theme/Breakpoints'
 
 export const WrapperContainer = styled.div`
@@ -42,4 +43,8 @@ export const StyledMenuWrapper = styled(WrapperChild)`
         width: 100%;
     }
     
+`
+
+export const Description = styled(Heading)`
+    colors: ${(({theme}) => theme.colors.MGG_accent2)};
 `

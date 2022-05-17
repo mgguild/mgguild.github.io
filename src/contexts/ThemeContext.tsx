@@ -2,13 +2,13 @@ import React, { useState } from 'react'
 import { ThemeProvider as SCThemeProvider } from 'styled-components'
 import { dark } from '@metagg/mgg-uikit'
 import { Colors as addOnColors } from 'theme/Base'
-import { DefaultTheme } from 'styled-components'
 
 const CACHE_KEY = 'IS_DARK'
-const newDark: DefaultTheme = {
+const newDark = {
   ...dark, 
   ...addOnColors,
 }
+
 const ThemeContext = React.createContext({ isDark: true, toggleTheme: () => null })
 
 const ThemeContextProvider = ({ children }) => {
