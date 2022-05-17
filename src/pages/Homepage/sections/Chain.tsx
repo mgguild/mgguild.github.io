@@ -20,19 +20,26 @@ const Container = styled.div`
         font-size: 16px;
     }
 `
+const StyledImg = styled.img`
+    width: 200px;
+    margin: 0px auto;
+    ${({theme}) => theme.mediaQueries.md} {
+        width: 450px;
+    }
+`
 
 const chains = [BSC, ETH, FANTOM]
 
 const Section: React.FC = () => {
     return (
-        <ChainContainer height='60'>
+        <ChainContainer height='55'>
             <Container>
                 <Flex flexDirection='column' alignItems='center' justifyContent='center' style={{width: '100%', textAlign: 'center'}}>
-                    <PageTitle size="xl">Game Finance. Democratized.</PageTitle>
+                    <PageTitle size="lg">Game Finance. Democratized.</PageTitle>
                     <Text fontSize='2em'>Users get Real-time Cross-Chain Interoperability</Text>
                 </Flex>
                 <Flex justifyContent='space-between' alignItems='center' style={{ width: '100%'}} flexWrap='wrap'>
-                  {chains.map((src) => (<img key={src} src={src} alt='chain-icon' style={{width: '350px', margin: '0px auto'}} />))}
+                  {chains.map((src) => (<StyledImg key={src} src={src} alt='chain-icon' />))}
                 </Flex>
             </Container>
         </ChainContainer>
