@@ -14,7 +14,7 @@ const Container = styled(Flex)`
     text-align: center;
     margin: 0px auto;
     position: relative;
-    font-size: 10px;
+    font-size: 12px;
      :before {
         top: 0;
         width: 100%;
