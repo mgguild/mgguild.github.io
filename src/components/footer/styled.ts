@@ -44,7 +44,6 @@ export const StyledMenuWrapper = styled(WrapperChild)`
     }
     
 `
-
 export const Description = styled(Heading)`
-    colors: ${(({theme}) => theme.colors.MGG_accent2)};
+    color: ${(({theme}) => theme.colors.MGG_accent2)};
 `
