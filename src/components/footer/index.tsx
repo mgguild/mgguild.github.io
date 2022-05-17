@@ -1,6 +1,6 @@
 import React, { useContext } from "react";
 import { Link } from "react-router-dom";
-import { ThemeContext } from "styled-components";
+import { ThemeContext } from 'styled-components'
 import { Flex, Heading, Text } from "@metagg/mgg-uikit";
 import { SocialIcon } from "./IconHelpers";
 import {
@@ -8,17 +8,15 @@ import {
   StyledMenuWrapper,
   WrapperContainer,
 } from "./styled";
-import { Props, LinkProps } from "./types";
 import config from "./config";
 import { Grid } from "@mui/material";
-import { link } from "fs";
 import LaunchButton from "components/LaunchButton";
 
 const Logo = () => {
   return (
     <Flex alignItems="center">
       <img alt="mgg-logo" src="/logo.png" width="60px" height="60px" />
-      &nbsp;
+      &nbsp; 
       <Heading size="lg">MetaGaming Guild</Heading>
     </Flex>
   );
