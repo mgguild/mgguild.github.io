@@ -3,7 +3,7 @@ import { MenuEntry } from './types'
 const links: MenuEntry[] = [
   {
     label: 'Homepage',
-    href: "/home"
+    href: "/homepage"
   },
   {
     label: 'Revenue Model',

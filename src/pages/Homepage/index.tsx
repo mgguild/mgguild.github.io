@@ -4,9 +4,11 @@ import Page from 'components/layout/Page'
 
 const Homepage = () => {
     return (
+        <>
         <Page>
         <Text>HomePage</Text>
         </Page>
+        </>
     )
 }
 
