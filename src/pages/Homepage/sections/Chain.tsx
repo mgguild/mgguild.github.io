@@ -13,7 +13,7 @@ const Container = styled.div`
     justify-content: space-around;
     align-items: center;
     margin: 0px auto;
-    padding: 15px;
+    padding: 25px;
     flex-direction: column;
     ${({theme}) => theme.mediaQueries.md} {
         min-width: 1500px;
@@ -21,10 +21,10 @@ const Container = styled.div`
     }
 `
 const StyledImg = styled.img`
-    width: 200px;
+    width: 150px;
     margin: 5px auto;
     ${({theme}) => theme.mediaQueries.md} {
-        width: 450px;
+        width: 350px;
         margin: 0px auto;
     }
 `
@@ -33,13 +33,13 @@ const chains = [BSC, ETH, FANTOM]
 
 const Section: React.FC = () => {
     return (
-        <ChainContainer height='55'>
+        <ChainContainer height='40'>
             <Container>
-                <Flex flexDirection='column' alignItems='center' justifyContent='center' style={{width: '100%', textAlign: 'center'}}>
+                <Flex flexDirection='column' alignItems='center' justifyContent='flex-start' style={{width: '100%', textAlign: 'center'}}>
                     <PageTitle size="lg">Game Finance. Democratized.</PageTitle>
                     <Text fontSize='2em'>Users get Real-time Cross-Chain Interoperability</Text>
                 </Flex>
-                <Flex justifyContent='space-between' alignItems='center' style={{ width: '100%'}} flexWrap='wrap'>
+                <Flex justifyContent='space-evenly' alignItems='center' style={{ width: '100%'}} flexWrap='wrap'>
                   {chains.map((src) => (<StyledImg key={src} src={src} alt='chain-icon' />))}
                 </Flex>
             </Container>
