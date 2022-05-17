@@ -22,9 +22,10 @@ const Container = styled.div`
 `
 const StyledImg = styled.img`
     width: 200px;
-    margin: 0px auto;
+    margin: 5px auto;
     ${({theme}) => theme.mediaQueries.md} {
         width: 450px;
+        margin: 0px auto;
     }
 `
 
