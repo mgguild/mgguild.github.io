@@ -22,7 +22,18 @@ const config: GatsbyConfig = {
         // Setting this parameter is also optional
       },
     },
-  }, "gatsby-plugin-styled-components", "gatsby-plugin-react-helmet", "gatsby-plugin-root-import"]
+  },
+  {
+    resolve: `gatsby-plugin-google-fonts`,
+    options: {
+      fonts: [
+        `Monda`,
+        'Play'
+      ],
+      display: 'swap'
+    }
+  },
+  "gatsby-plugin-styled-components", "gatsby-plugin-react-helmet", "gatsby-plugin-root-import"]
 };
 
 export default config;
