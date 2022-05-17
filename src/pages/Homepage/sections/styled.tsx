@@ -41,5 +41,5 @@ export const ChainContainer = styled(SectionContainer)`
 export const PageTitle = styled(Heading)`
   color: ${({ theme }) => theme.colors.primary};
   margin: 25px 0px;
-  letter-spacing: 2px;
+  letter-spacing: 1px;
 `;

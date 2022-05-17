@@ -26,7 +26,6 @@ const Website: React.FC = () => {
           <Footer />
         </SuspenseWithChunkError>
       </Menu>
-  
     </HashRouter>
   );
 };

@@ -21,7 +21,7 @@ const Container = styled.div`
     }
 `
 const StyledImg = styled.img`
-    width: 150px;
+    width: 300px;
     margin: 5px auto;
     ${({theme}) => theme.mediaQueries.md} {
         width: 350px;
@@ -33,11 +33,11 @@ const chains = [BSC, ETH, FANTOM]
 
 const Section: React.FC = () => {
     return (
-        <ChainContainer height='40'>
+        <ChainContainer height='60'>
             <Container>
                 <Flex flexDirection='column' alignItems='center' justifyContent='flex-start' style={{width: '100%', textAlign: 'center'}}>
-                    <PageTitle size="lg">Game Finance. Democratized.</PageTitle>
-                    <Text fontSize='2em'>Users get Real-time Cross-Chain Interoperability</Text>
+                    <PageTitle size="xl">Game Finance. Democratized.</PageTitle>
+                    <Text fontSize='1.8em'>Users get Real-time Cross-Chain Interoperability</Text>
                 </Flex>
                 <Flex justifyContent='space-evenly' alignItems='center' style={{ width: '100%'}} flexWrap='wrap'>
                   {chains.map((src) => (<StyledImg key={src} src={src} alt='chain-icon' />))}
