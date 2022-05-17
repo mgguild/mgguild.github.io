@@ -1,3 +1,8 @@
+export const Fonts = {
+  primary: `'Play', sans-serif`,
+  secondary: `'Monda', sans-serif`
+}
+
 export const Colors = {
   addOnColors: {
     background1: "#140937",
