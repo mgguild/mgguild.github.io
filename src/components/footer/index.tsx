@@ -15,7 +15,7 @@ import LaunchButton from "components/LaunchButton";
 const Logo = () => {
   return (
     <Flex alignItems="center">
-      <img alt="mgg-logo" src="/logo.png" width="60px" height="60px" />
+      <img alt="mgg-logo" src="/static/logo.png" width="60px" height="60px" />
       &nbsp; 
       <Heading size="lg">MetaGaming Guild</Heading>
     </Flex>
