@@ -33,6 +33,16 @@ const config: GatsbyConfig = {
       icon: 'public/static/favicon.ico',
     },
   },
+  {
+    resolve: `gatsby-plugin-google-fonts`,
+    options: {
+      fonts: [
+        `Monda`,
+        'Play'
+      ],
+      display: 'swap'
+    }
+  },
   "gatsby-plugin-styled-components", "gatsby-plugin-react-helmet", "gatsby-plugin-root-import"]
 };
 
