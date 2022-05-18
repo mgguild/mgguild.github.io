@@ -1,5 +1,5 @@
 import * as React from "react"
-
+import { Link } from "react-router-dom"
 // styles
 const pageStyles = {
   color: "#232129",
@@ -26,6 +26,7 @@ const codeStyles = {
 // markup
 const NotFoundPage = () => {
   return (
+    <>
     <main style={pageStyles}>
       <title>Not found</title>
       <h1 style={headingStyles}>Page not found</h1>
@@ -46,6 +47,7 @@ const NotFoundPage = () => {
         <br />
       </p>
     </main>
+    </>
   )
 }
 

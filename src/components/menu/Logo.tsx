@@ -30,7 +30,7 @@ interface Props {
   }
 `;
 const Logo:React.FC<Props> = ({isPushed, togglePush, href, isMobile }) => {
-    const innerLogo = <img alt='mgg-logo' src='/logo.png' width='60px' />
+    const innerLogo = <img alt='mgg-logo' src='/static/logo.png' width='60px' />
 
     return (
         <Flex alignItems='center'>

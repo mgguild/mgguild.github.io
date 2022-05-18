@@ -40,7 +40,7 @@ class SuspenseWithChunkError extends React.Component<SuspenseProps, State> {
     const { fallback } = this.props
 
     if (hasError) {
-      return fallback
+      return <>{fallback}</>
     }
 
     return <Suspense {...this.props} />

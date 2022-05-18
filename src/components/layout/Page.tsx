@@ -1,6 +1,9 @@
 import React, { HTMLAttributes } from 'react'
 import styled from 'styled-components'
+import { useLocation } from 'react-router'
+import {DEFAULT_META, getCustomMeta } from 'config/constants/Seo'
 import Container from './Container'
+import SEO from './Head'
 
 const StyledPage = styled(Container)`
   min-height: calc(100vh - 64px);
@@ -17,8 +20,12 @@ const StyledPage = styled(Container)`
 `
 
 const Page: React.FC<HTMLAttributes<HTMLDivElement>> = ({children, ...props}) => {
+  const { pathname } = useLocation()
+  const metaData =  getCustomMeta(pathname) || {}
+  const { title, description } = { ...DEFAULT_META, ...metaData }
     return (
         <>
+          <SEO title={title} description={description} />
             <StyledPage {...props}>{children}</StyledPage>
         </>
     )

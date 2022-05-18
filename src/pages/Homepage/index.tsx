@@ -5,12 +5,14 @@ import { ChainSection, EcoSection, GrowthSection, HomeSection } from './sections
 
 const Homepage = () => {
     return (
+        <>
         <Page>
             <HomeSection />
             <EcoSection />
             <GrowthSection />
             <ChainSection />
         </Page>
+        </>
     )
 }
 
