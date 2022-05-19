@@ -1,18 +1,20 @@
 import React from 'react'
 import { Text } from '@metagg/mgg-uikit'
 import Page from 'components/layout/Page'
-import { ChainSection, EcoSection, GrowthSection, HomeSection } from './sections'
+import * as Sections from './sections'
+
+const Pages = (Sections as unknown) as { [key: string]: React.FC<{}> };
 
 const Homepage = () => {
     return (
-        <>
         <Page>
-            <HomeSection />
-            <EcoSection />
-            <GrowthSection />
-            <ChainSection />
+             { 
+                Object.keys(Pages).reverse().map(function(key ) {
+                    const Page = Pages[key] as React.FC<{}>
+                    return <Page key={key} />
+                })
+            }
         </Page>
-        </>
     )
 }
 
