@@ -7,7 +7,7 @@ const Container = styled.div`
     display: flex;
     align-items: center;
     text-align: center;
-    font-size: 12px;
+    font-size: 8px;
     margin: 0px auto;
     width: 100%;
     ${({theme}) => theme.mediaQueries.md} {
