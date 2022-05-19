@@ -14,3 +14,6 @@ export const HeaderContainer = styled(SectionContainer)`
   background-size: cover;
   background-position: center top;
 `
+export const DetailsContainer = styled(SectionContainer)`
+  background-color: ${({theme}) => theme.addOnColors.background1};
+`

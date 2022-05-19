@@ -1,9 +1,13 @@
 import { Text } from '@metagg/mgg-uikit'
 import React from 'react'
+import { DetailsContainer } from './styled'
+
 
 const Section:React.FC = () => {
     return (
-        <Text>tyes</Text>
+        <DetailsContainer>
+        <Text>Details</Text>
+        </DetailsContainer>
     )
 }
 
