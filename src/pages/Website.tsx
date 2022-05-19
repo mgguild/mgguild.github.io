@@ -17,9 +17,9 @@ const Website: React.FC = () => {
       <Menu>
         <SuspenseWithChunkError fallback={<PageLoader />}>
           <Routes>
-            <Route path="/homepage" element={<Homepage />} />
+            <Route path="/" element={<Homepage />} />
             {/* Redirects */}
-            <Route path="/" element={<Navigate replace to='/homepage' />} />
+            {/* <Route path="/" element={<Navigate replace to='/homepage' />} /> */}
             {/* 404 */}
             <Route path="*" element={<NotFound />} />
           </Routes>
