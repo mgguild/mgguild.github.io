@@ -2,8 +2,9 @@ import type { GatsbyConfig } from "gatsby";
 
 const config: GatsbyConfig = {
   siteMetadata: {
-    title: `mgg-website`,
-    siteUrl: `https://www.yourdomain.tld`
+    title: `MetaGaming Guild`,
+    description: `A community of tactical gamers`,
+    author: `@metagamingguild`,
   },
   plugins: [{
     resolve: `gatsby-plugin-google-gtag`,
@@ -22,7 +23,27 @@ const config: GatsbyConfig = {
         // Setting this parameter is also optional
       },
     },
-  }, "gatsby-plugin-styled-components", "gatsby-plugin-react-helmet", "gatsby-plugin-root-import"]
+  }, 
+  {
+    resolve: 'gatsby-plugin-manifest',
+    options: {
+      name: 'MetaGaming Guild',
+      short_name: `MGG`,
+      start_url: `/`,
+      icon: 'public/static/favicon.ico',
+    },
+  },
+  {
+    resolve: `gatsby-plugin-google-fonts`,
+    options: {
+      fonts: [
+        `Monda`,
+        'Play'
+      ],
+      display: 'swap'
+    }
+  },
+  "gatsby-plugin-styled-components", "gatsby-plugin-react-helmet", "gatsby-plugin-root-import"]
 };
 
 export default config;

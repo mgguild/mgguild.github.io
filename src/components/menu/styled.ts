@@ -47,22 +47,6 @@ export const Inner = styled.div<{ isPushed: boolean; showMenu: boolean }>`
 
 
 // Components
-export const LaunchButton = styled.button`
-    background-color: ${({theme}) => theme.colors.MGG_accent2};
-    color: white;
-    padding: 3px;
-    border-radius: 15px;    
-    text-align: center;
-    font-size: 0.5rem;
-    ${({theme}) => `@media screen and (max-width: ${breakpoints.Mobile.tablet}px)`} {
-      font-size: 1rem;
-      padding: 10px;
-    }
-    ${({theme}) => theme.mediaQueries.md} {
-      padding: 10px;
-      font-size: 1rem;
-    }
-`
 export const MobileOnlyOverlay = styled(Overlay)`
   position: fixed;
   height: 100%;

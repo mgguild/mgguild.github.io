@@ -18,7 +18,7 @@ const NotFound = () => {
   return (
     <Page>
       <StyledNotFound>
-        <img src="/logo.png" alt="LogoIcon" width="64px" style={{ marginBottom: '8px' }} />
+        <img src="/static/logo.png" alt="LogoIcon" width="64px" style={{ marginBottom: '8px' }} />
         <Heading size="xxl">404</Heading>
         <Text mb="16px">Oops, page not found.</Text>
         <Button onClick={() => history('/')} size="sm">

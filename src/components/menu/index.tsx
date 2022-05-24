@@ -3,8 +3,9 @@ import { useMatchBreakpoints } from "@metagg/mgg-uikit";
 import NavbarMenu from "./NavbarMenu";
 import Logo from "./Logo";
 import Panel from "./Panel";
-import { BodyWrapper, LaunchButton, StyledNav, Wrapper, Inner, MobileOnlyOverlay} from "./styled";
+import { BodyWrapper, StyledNav, Wrapper, Inner, MobileOnlyOverlay} from "./styled";
 import links from "./config";
+import LaunchButton from "components/LaunchButton";
 
 const Menu = (props) => {
   const { isXl } = useMatchBreakpoints();
@@ -22,9 +23,7 @@ const Menu = (props) => {
         isMobile={isMobile}
         />
         {!isMobile && <NavbarMenu links={links} />}
-        <LaunchButton as="a" href="https://app.metagg.com/#/farms">
-          Launch App
-        </LaunchButton>
+        <LaunchButton />
       </StyledNav>
       <BodyWrapper>
         { isMobile && (

@@ -1,5 +1,5 @@
 {
     "componentChunkName": "component---cache-dev-404-page-js",
     "path": "/dev-404-page/",
-    "result": {"data":{"allSiteFunction":{"nodes":[]},"allSitePage":{"nodes":[{"path":"/404/"},{"path":"/404.html"},{"path":"/"},{"path":"/NotFound/"},{"path":"/Providers/"},{"path":"/Website/"},{"path":"/Homepage/"},{"path":"/Roadmap/"},{"path":"/Roadmap/roadmap/"}]}},"pageContext":{}},
+    "result": {"data":{"allSiteFunction":{"nodes":[]},"allSitePage":{"nodes":[{"path":"/404/"},{"path":"/404.html"},{"path":"/"},{"path":"/NotFound/"},{"path":"/Providers/"},{"path":"/Website/"},{"path":"/Homepage/config/"},{"path":"/Homepage/"},{"path":"/Homepage/sections/Chain/"},{"path":"/Homepage/sections/Ecosystem/"},{"path":"/Homepage/sections/Growth/"},{"path":"/Homepage/sections/Home/"},{"path":"/Homepage/sections/"},{"path":"/Homepage/sections/styled/"},{"path":"/Homepage/sections/icons/Dao/"},{"path":"/Homepage/sections/icons/"},{"path":"/Homepage/sections/icons/Labs/"},{"path":"/Homepage/sections/icons/MetaGamers/"},{"path":"/Homepage/sections/icons/MetaGamingPad/"},{"path":"/Homepage/sections/icons/Vault/"},{"path":"/Homepage/sections/icons/Warriors/"},{"path":"/Homepage/sections/icons/Yield/"}]}},"pageContext":{}},
     "staticQueryHashes": []}

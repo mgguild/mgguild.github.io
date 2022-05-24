@@ -12,11 +12,6 @@ export interface MenuEntry {
   initialOpenState?: boolean;
 }
 export interface PanelProps {
-  isDark: boolean;
-  toggleTheme: (isDark: boolean) => void;
-  srkPriceUsd?: number;
-  priceUsdLink?: string;
-  currentLang: string;
   links: Array<MenuEntry>;
 }
 
