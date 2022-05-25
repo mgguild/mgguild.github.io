@@ -5,9 +5,6 @@ import { NavOption } from '../../style/Global'
 import roadmaps from '../../config/constants/roadmaps'
 
 const Card = styled.div`
-  flex: 1;
-  max-width: 26rem;
-  min-width: 16rem;
   background-color: #0c012c;
   border: #00f4fd 0.15rem solid;
   border-radius: 0.5rem;
@@ -16,6 +13,13 @@ const Card = styled.div`
   -webkit-box-shadow: inset 0 0 2rem #000000;
   box-shadow: inset 0 0 2rem #000000, 0 0 0.5rem #00f4fd;
   z-index: 3;
+`
+
+const CardContainer = styled.div`
+  flex: 1;
+  max-width: 26rem;
+  min-width: 16rem;
+  position: relative;
 `
 
 const RdmapList = styled.ul`
@@ -97,9 +101,6 @@ const Line = styled.div`
   }
 `
 
-// const latest = roadmaps[Object.keys(roadmaps).pop()];
-// console.log(latest)
-
 const Roadmap = () => {
   const theme = useContext(ThemeContext)
   const [active, setActive] = useState(Object.keys(roadmaps).length)
@@ -112,7 +113,7 @@ const Roadmap = () => {
           <HeadingGlow size='xxl' color='#fdda00' glow="#fdda00">Roadmap</HeadingGlow>
           <Flex
              alignItems="center"
-             margin="10px 0px 20px 0px"
+             margin="2.5rem 0px 2rem 0px"
              padding="0 0 1rem 0"
              style={{
               justifyContent: 'center',
@@ -147,7 +148,7 @@ const Roadmap = () => {
           {active !== 0 ?
             <RdmapCards>
               {Object.keys(getYear).map((quarter) => (
-                <div style={{position: 'relative'}}>
+                <CardContainer>
                   {quarter !== 'Q4' && <Line />}
                   <Card>
                     <HeadingGlow size='xl' color='#00f4fd'>{quarter}</HeadingGlow>
@@ -155,7 +156,7 @@ const Roadmap = () => {
                       {getYear[quarter].map((list) => <li>{list}</li>)}
                     </RdmapList>
                   </Card>
-                </div>
+                </CardContainer>
               ))}
             </RdmapCards>
             :
@@ -165,7 +166,7 @@ const Roadmap = () => {
                   <Heading size='xl'>{year}</Heading>
                   <RdmapCards>
                     {Object.keys(roadmaps[year]).map((quarter) => (
-                      <div style={{position: 'relative'}}>
+                      <CardContainer>
                         {quarter !== 'Q4' && <Line />}
                         <Card>
                           <HeadingGlow size='xl' color='#00f4fd'>{quarter}</HeadingGlow>
@@ -173,7 +174,7 @@ const Roadmap = () => {
                             {roadmaps[year][quarter].map((list) => <li>{list}</li>)}
                           </RdmapList>
                         </Card>
-                      </div>
+                      </CardContainer>
                     ))}
                   </RdmapCards>
                 </div>
