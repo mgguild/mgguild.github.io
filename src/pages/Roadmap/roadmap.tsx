@@ -11,6 +11,8 @@ import {
   Card,
   CardContainer,
   RdmapList,
+  List,
+  CheckList
 } from './styled'
 
 
@@ -66,7 +68,7 @@ const Roadmap = () => {
                   <Card>
                     <HeadingGlow size='xl' color='#00f4fd'>{quarter}</HeadingGlow>
                     <RdmapList>
-                      {getYear[quarter].map((list) => <li>{list}</li>)}
+                      {getYear[quarter].map((list) => (list.check ? <CheckList>{list.txt}</CheckList> : <List>{list.txt}</List>))}
                     </RdmapList>
                   </Card>
                 </CardContainer>
@@ -84,7 +86,7 @@ const Roadmap = () => {
                         <Card>
                           <HeadingGlow size='xl' color='#00f4fd'>{quarter}</HeadingGlow>
                           <RdmapList>
-                            {roadmaps[year][quarter].map((list) => <li>{list}</li>)}
+                            {roadmaps[year][quarter].map((list) => (list.check ? <CheckList>{list.txt}</CheckList> : <List>{list.txt}</List>))}
                           </RdmapList>
                         </Card>
                       </CardContainer>

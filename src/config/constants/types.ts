@@ -9,5 +9,5 @@ export interface RoadmapConfig {
 }
 
 export interface Quarter {
-    [key: string]: string[]
+    [key: string]: {txt: string, check: boolean}[]
 }

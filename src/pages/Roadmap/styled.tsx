@@ -25,17 +25,29 @@ export const RdmapList = styled.ul`
   list-style-type: none;
   line-height: 1.5;
   font-weight: 400;
+`
 
-  li{
-    padding: 1rem 0 0 1rem;
-    &:before{
-      content: "●";
-      color: #fdda00;
-      font-weight: bold;
-      display: inline-block;
-      width: 1rem;
-      margin-left: -1rem;
-    }
+export const CheckList = styled.li`
+  padding: 1rem 0 0 1rem;
+  &:before{
+    content: "✔";
+    color: #06ff65;
+    font-weight: bold;
+    display: inline-block;
+    width: 1rem;
+    margin-left: -1rem;
+  }
+`
+
+export const List = styled.li`
+  padding: 1rem 0 0 1rem;
+  &:before{
+    content: "●";
+    color: #fdda00;
+    font-weight: bold;
+    display: inline-block;
+    width: 1rem;
+    margin-left: -1rem;
   }
 `
 
