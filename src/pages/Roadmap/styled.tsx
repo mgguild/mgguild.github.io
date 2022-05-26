@@ -51,12 +51,13 @@ export const List = styled.li`
   }
 `
 
-export const Page = styled.div`
+export const BgPage = styled.div`
   padding: 5rem;
   text-align: center;
   overflow: hidden;
   width: 100%;
   height: 100%;
+  position: relative;
   &:before {
     content: '';
     position: absolute;
