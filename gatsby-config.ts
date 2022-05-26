@@ -30,7 +30,7 @@ const config: GatsbyConfig = {
       name: 'MetaGaming Guild',
       short_name: `MGG`,
       start_url: `/`,
-      icon: 'public/static/favicon.ico',
+      icon: 'src/assets/static/favicon.ico',
     },
   },
   {

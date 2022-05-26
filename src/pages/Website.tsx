@@ -10,6 +10,7 @@ import Footer from "components/Footer";
 const Website: React.FC = () => {
   const Homepage = lazy(() => import("./Homepage"));
   const RevenueModel = lazy(() => import('./Revenue-Model'));
+  const Roadmap = lazy(() => import("./Roadmap"));
   const NotFound = lazy(() => import("./NotFound"));
   return (
     <HashRouter>
@@ -20,6 +21,8 @@ const Website: React.FC = () => {
           <Routes>
             <Route path="/" element={<Homepage />} />
             <Route path='/revenue-model' element={<RevenueModel /> } />
+            <Route path="/homepage" element={<Homepage />} />
+            <Route path="/roadmap" element={<Roadmap />} />
             {/* Redirects */}
             {/* <Route path="/" element={<Navigate replace to='/homepage' />} /> */}
             {/* 404 */}

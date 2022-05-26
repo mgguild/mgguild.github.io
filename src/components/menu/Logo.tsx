@@ -3,6 +3,7 @@ import React from 'react'
 import { Flex, Text } from '@metagg/mgg-uikit'
 import { Link } from 'react-router-dom'
 import { Menu } from 'react-feather'
+import MGGLogo from 'assets/static/logo.png'
 import MenuButton from './MenuButton';
 
 interface Props {
@@ -30,7 +31,7 @@ interface Props {
   }
 `;
 const Logo:React.FC<Props> = ({isPushed, togglePush, href, isMobile }) => {
-    const innerLogo = <img alt='mgg-logo' src='/static/logo.png' width='60px' />
+    const innerLogo = <img alt='mgg-logo' src={MGGLogo} width='60px' />
 
     return (
         <Flex alignItems='center'>
