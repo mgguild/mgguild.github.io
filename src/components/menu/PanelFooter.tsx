@@ -1,5 +1,6 @@
 import React from "react";
 import styled from "styled-components";
+import MGGLogo from '../../assets/static/logo.png'
 import {  MENU_ENTRY_HEIGHT } from "./config";
 import { PanelProps, PushedProps } from "./types";
 
@@ -21,7 +22,7 @@ const PanelFooter: React.FC<Props> = ({
   return (
     <Container>
       <div style={{ width: "100%", textAlign: "center" }}>
-        <img alt='mgg-icon' src='/logo.png' width='30px' height='30px' />
+        <img alt='mgg-icon' src={MGGLogo} width='30px' height='30px' />
       </div> 
     </Container>
   );

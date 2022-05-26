@@ -1,15 +1,4 @@
-export interface IEcosystems {
-  name: string;
-  subtitle: string;
-  description: string;
-  status?: string;
-  image?: string;
-}
-
-export interface IFigures {
-  amount: string;
-  subtitle: string;
-}
+import { IEcosystems, IFigures } from "./types";
 
 export const Ecosystems: IEcosystems[] = [
   {
