@@ -14,6 +14,14 @@ export const getCustomMeta = (path: string, ): PageMeta => {
       return {
         title: 'Homepage',
       }
+    case '/roadmap':
+      return {
+        title: 'Roadmap',
+      }
+    case '/mgg-token':
+      return {
+        title: 'MGG Token',
+      }
     default:
       return null
   }
