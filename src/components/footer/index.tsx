@@ -43,15 +43,15 @@ const Footer: React.FC = () => {
         </Flex>
       </StyledLogoWrapper>
       <StyledMenuWrapper>
-        <Grid container wrap='wrap' rowSpacing={{xs: 2}} alignItems='center'>
+        <Grid container wrap='wrap' rowSpacing={{xs: 2}} alignItems='center' justifyContent='center'>
           {links.map((link) => (
-            <Grid key={link.name} item xs={6} md={6}>
+            <Grid key={link.name} item xs={5} md={6}>
               <Link to={link.href}>
                   <Text>{link.name}</Text>
               </Link>
             </Grid>
           ))}
-          <Grid item>
+          <Grid item xs={5} md={6}>
               <div style={{margin: '10px 0px'}}>
             <LaunchButton />
             </div>

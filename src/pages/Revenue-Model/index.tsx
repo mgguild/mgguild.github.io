@@ -1,14 +1,12 @@
 import React from 'react'
-import { Text } from '@metagg/mgg-uikit'
 import Page from 'components/layout/Page'
-import * as Sections from './sections'
+import * as Sections from './sections';
 
 const Pages = (Sections as unknown) as { [key: string]: React.FC<{}> };
-
-const Homepage = () => {
+const RevenueModel:React.FC = () => {
     return (
         <Page>
-             { 
+            { 
                 Object.keys(Pages).reverse().map(function(key ) {
                     const Page = Pages[key] as React.FC<{}>
                     return <Page key={key} />
@@ -18,4 +16,4 @@ const Homepage = () => {
     )
 }
 
-export default Homepage;
+export default RevenueModel;

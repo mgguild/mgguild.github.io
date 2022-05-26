@@ -16,7 +16,7 @@ export const WrapperContainer = styled.div`
 const WrapperChild = styled.div`
     display: flex;
     flex-direction: column;
-    padding: 15px;
+    // padding: 15px;
     align-items: center;
     justify-content: center;
 `
@@ -41,6 +41,8 @@ export const StyledMenuWrapper = styled(WrapperChild)`
     }
     @media screen and (max-width: ${breakpoints.Mobile.l}px){
         width: 100%;
+        margin-top: 20px;
+        text-align: center;
     }
     
 `

@@ -5,7 +5,7 @@ import { Grid } from "@mui/material";
 import { breakpoints } from "theme/Breakpoints";
 import { SvgProps } from "components/svgIcon/types";
 import { EcoContainer, PageTitle } from "./styled";
-import { IEcosystems, Ecosystems } from "../config";
+import { IEcosystems, Ecosystems } from "../../../config/constants/homepageConfig";
 import * as IconModule from './icons'
 
 const Container = styled(Flex)`

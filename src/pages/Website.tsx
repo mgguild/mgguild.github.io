@@ -9,6 +9,7 @@ import Footer from "components/Footer";
 
 const Website: React.FC = () => {
   const Homepage = lazy(() => import("./Homepage"));
+  const RevenueModel = lazy(() => import('./Revenue-Model'));
   const Roadmap = lazy(() => import("./Roadmap"));
   const MggToken = lazy(() => import("./MggToken"));
   const NotFound = lazy(() => import("./NotFound"));
@@ -19,11 +20,13 @@ const Website: React.FC = () => {
       <Menu>
         <SuspenseWithChunkError fallback={<PageLoader />}>
           <Routes>
+            <Route path="/" element={<Homepage />} />
+            <Route path='/revenue-model' element={<RevenueModel /> } />
             <Route path="/homepage" element={<Homepage />} />
             <Route path="/roadmap" element={<Roadmap />} />
             <Route path="/mgg-token" element={<MggToken />} />
             {/* Redirects */}
-            <Route path="/" element={<Navigate replace to='/homepage' />} />
+            {/* <Route path="/" element={<Navigate replace to='/homepage' />} /> */}
             {/* 404 */}
             <Route path="*" element={<NotFound />} />
           </Routes>
