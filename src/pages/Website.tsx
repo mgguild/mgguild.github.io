@@ -9,6 +9,7 @@ import Footer from "components/Footer";
 
 const Website: React.FC = () => {
   const Homepage = lazy(() => import("./Homepage"));
+  const Roadmap = lazy(() => import("./Roadmap"));
   const NotFound = lazy(() => import("./NotFound"));
   return (
     <HashRouter>
@@ -18,6 +19,7 @@ const Website: React.FC = () => {
         <SuspenseWithChunkError fallback={<PageLoader />}>
           <Routes>
             <Route path="/homepage" element={<Homepage />} />
+            <Route path="/roadmap" element={<Roadmap />} />
             {/* Redirects */}
             <Route path="/" element={<Navigate replace to='/homepage' />} />
             {/* 404 */}
