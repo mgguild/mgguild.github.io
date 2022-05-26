@@ -3,10 +3,13 @@ import MainBG from "assets/background/RevenueModelBG.png";
 import { Flex, Text } from '@metagg/mgg-uikit'
 import { breakpoints } from '../../../theme/Breakpoints';
 
-const SectionContainer = styled.div<{ height?: string }>`
+const SectionContainer = styled.div<{ height?: string; mobileHeight?: string}>`
   min-height: ${({ height }) => height ?? "100"}vh;
   display: flex;
   padding: 15px;
+  @media screen and (max-width: ${breakpoints.Mobile.tablet}px){
+    min-height: ${({mobileHeight, height}) => mobileHeight ?? height}vh;
+  }
 `;
 
 export const HeaderContainer = styled(SectionContainer)`

@@ -18,7 +18,7 @@ const Container = styled.div`
 
 const Section:React.FC = () => {
     return (
-        <HeaderContainer height='95'>
+        <HeaderContainer height='95' mobileHeight='70'>
             <Container>
                 <Text as='p' fontSize='3.5em' bold>
                     With the possibilities of blockchain technology, NFT, cryptocurrency, and our strong play-to-earn GameFi community, MetaGaming Guild uses diversified sources of income such as 
