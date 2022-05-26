@@ -72,9 +72,9 @@ const MggToken = () => {
             <img src={`${MGGLogo}`} style={{width: '17rem', margin: '1rem 0'}}></img>
             <div style={{width: '50rem', margin: '0 auto'}}>
               <Heading size='lg' style={{margin: '1rem 0', textAlign: 'justify', textAlignLast: 'center', lineHeight: '2rem'}}>
-                The $MGG token Holds many utilities that generally fuel the overall MGG ecosystem.
-                It is an ERC20 and BEP20 utilty token designed to synergistacally foster growth in
-                the crytpo space while distrubuting fair poaer and rewards among $MGG token holders.
+                The $MGG token holds many utilities that generally fuel the overall MGG ecosystem.
+                It is an ERC20 and BEP20 utility token designed to synergistically foster growth in
+                the crypto space while distributing fair power and rewards among $MGG token holders.
               </Heading>
             </div>
           </div>
@@ -128,35 +128,35 @@ const MggToken = () => {
               <Heading size='xl' color={theme.colors.primary}>MGG Contract Address</Heading>
               <Flex style={{flexDirection: 'column', rowGap: '2.5rem', margin: '2rem 0 0 0'}}>
                 <div>
-                  <a href='https://etherscan.io/address/0x7237c0b30b1355f1b76355582f182f6f04b08740'>
+                  <a target="_blank" href='https://etherscan.io/address/0x7237c0b30b1355f1b76355582f182f6f04b08740'>
                     <img src={`${EthLogo}`} style={{width: '12rem', margin: '1rem 0'}}></img>
                   </a>
-                  <a href='https://etherscan.io/address/0x7237c0b30b1355f1b76355582f182f6f04b08740'>
+                  <a target="_blank" href='https://etherscan.io/address/0x7237c0b30b1355f1b76355582f182f6f04b08740'>
                     <Text>https://etherscan.io/address/0x7237c0b30b1355f1b76355582f182f6f04b08740</Text>
                   </a>
-                  <a href='https://etherscan.io/address/0x7237c0b30b1355f1b76355582f182f6f04b08740'>
+                  <a target="_blank" href='https://etherscan.io/address/0x7237c0b30b1355f1b76355582f182f6f04b08740'>
                     <Text color='#00f4fd'>Ethereum (ERC-20)</Text>
                   </a>
                 </div>
                 <div>
-                  <a href='https://bscscan.com/address/0x6125adcab2f171bc70cfe2caecfec5509273a86a'>
+                  <a target="_blank" href='https://bscscan.com/address/0x6125adcab2f171bc70cfe2caecfec5509273a86a'>
                     <img src={`${BscLogo}`} style={{width: '12rem', margin: '1rem 0'}}></img>
                   </a>
-                  <a href='https://bscscan.com/address/0x6125adcab2f171bc70cfe2caecfec5509273a86a'>
+                  <a target="_blank" href='https://bscscan.com/address/0x6125adcab2f171bc70cfe2caecfec5509273a86a'>
                     <Text>https://bscscan.com/address/0x6125adcab2f171bc70cfe2caecfec5509273a86a</Text>
                   </a>
-                  <a href='https://bscscan.com/address/0x6125adcab2f171bc70cfe2caecfec5509273a86a'>
+                  <a target="_blank" href='https://bscscan.com/address/0x6125adcab2f171bc70cfe2caecfec5509273a86a'>
                     <Text color='#00f4fd'>Binance Smart Chain (BEP-20)</Text>
                   </a>
                 </div>
                 <div>
-                  <a href='https://ftmscan.com/address/0xfda8355e8ce22ac44f2d175f4acfec8fac7472d7'>
+                  <a target="_blank" href='https://ftmscan.com/address/0xfda8355e8ce22ac44f2d175f4acfec8fac7472d7'>
                     <img src={`${FantomLogo}`} style={{width: '12rem', margin: '1rem 0'}}></img>
                   </a>
-                  <a href='https://ftmscan.com/address/0xfda8355e8ce22ac44f2d175f4acfec8fac7472d7'>
+                  <a target="_blank" href='https://ftmscan.com/address/0xfda8355e8ce22ac44f2d175f4acfec8fac7472d7'>
                     <Text>https://ftmscan.com/address/0xfda8355e8ce22ac44f2d175f4acfec8fac7472d7</Text>
                   </a>
-                  <a href='https://ftmscan.com/address/0xfda8355e8ce22ac44f2d175f4acfec8fac7472d7'>
+                  <a target="_blank" href='https://ftmscan.com/address/0xfda8355e8ce22ac44f2d175f4acfec8fac7472d7'>
                     <Text color='#00f4fd'>Fantom</Text>
                   </a>
                 </div>
