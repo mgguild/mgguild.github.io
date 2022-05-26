@@ -5,7 +5,7 @@ import { Grid } from "@mui/material";
 
 import GrowthPNG from "assets/images/Growth.png";
 import { GrowthContainer, PageTitle } from "./styled";
-import { Figures } from "../config";
+import { Figures } from "../../../config/constants/homepageConfig";
 
 
 const Container = styled.div`
