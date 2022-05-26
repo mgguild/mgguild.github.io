@@ -27,7 +27,7 @@ export const names = {
         partners: 'Partners',
         whitePaper: 'White Paper',
         blog: 'Blog',
-        contact: 'Contactt Us'
+        contact: 'Contact Us'
     }
   };
   
