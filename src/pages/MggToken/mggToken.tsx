@@ -2,9 +2,17 @@ import React, { useContext } from 'react'
 import { Text, Flex, Heading, Button } from '@metagg/mgg-uikit'
 import styled, { ThemeContext } from 'styled-components'
 import Page from 'components/layout/Page'
-import { BgContainer } from '../../style/Global'
 import { SvgProps } from 'components/svgIcon/types'
 import SvgIcon from 'components/svgIcon/SvgIcon'
+import { BgContainer } from '../../style/Global'
+import {
+  Card,
+  HeadingGlow,
+  Btn,
+  Icons,
+  IconHolder,
+  Section,
+} from './styled'
 
 import bgImage from 'assets/background/revTokenBG.png'
 import GrowthBG from 'assets/background/GrowthBG.png'
@@ -19,46 +27,11 @@ import Launchpad from './icons/Launchpad.png'
 import DAOG from './icons/DAOG.png'
 
 
-
-const Card = styled.div`
-  background-color: #0c012c;
-  border: #008ffd 0.15rem solid;
-  border-radius: 0.5rem;
-  padding: 2rem;
-  -moz-box-shadow: inset 0 0 2rem #000000, 0 0.3rem 0.5rem #008ffd;
-  -webkit-box-shadow: inset 0 0 2rem #000000, 0 0.3rem 0.5rem #008ffd;
-  box-shadow: inset 0 0 2rem #000000, 0 0.3rem 0.5rem #008ffd;
-  z-index: 3;
-`
-
-const HeadingGlow = styled(Heading)<{ glow?: string }>`
-  text-shadow: 0 0 0.5rem ${({ glow }) => (glow ??'#00f4fd')};
-`
-
-const Btn = styled(Button)`
-  background-color: #00f4fd;
-  color: black;
-  border-radius: 0.3rem;
-`
-
-const Icons = styled(Flex)`
-  margin: 5rem auto 5rem auto;
-  width: 50rem;
-  flex-flow: row wrap;
-  column-gap: 1rem;
-  row-gap: 3rem;
-  justify-content: center;
-  align-items: baseline;
-  position: relative;
-`
-const IconHolder = styled.div`
-  min-width: 15rem;
-`
-
-const Icon: React.FC<SvgProps> = (props) => {
+export const Icon: React.FC<SvgProps> = (props) => {
   const { Img, width } = props
   return <SvgIcon width={width} Img={Img} />
 }
+
 
 const MggToken = () => {
   const theme = useContext(ThemeContext)
@@ -66,39 +39,41 @@ const MggToken = () => {
   return (
     <>
       <Page>
-        <BgContainer bgImage={bgImage} bgColor='#140937' size='100% 94%' style={{height: '100vh'}}>
-          <div style={{position: 'relative'}}>
+
+        <BgContainer bgImage={bgImage} bgColor='#140937' size='cover' style={{alignItems: 'center', justifyContent: 'center'}}>
+          <Section>
             <HeadingGlow size='xxl' color={theme.colors.primary} glow={theme.colors.primary}>$MGG Token</HeadingGlow>
-            <img src={`${MGGLogo}`} style={{width: '17rem', margin: '1rem 0'}}></img>
-            <div style={{width: '50rem', margin: '0 auto'}}>
+            <img src={`${MGGLogo}`} style={{maxWidth: '17rem', margin: '1rem auto'}}></img>
+            <div style={{maxWidth: '50rem', margin: '0 auto'}}>
               <Heading size='lg' style={{margin: '1rem 0', textAlign: 'justify', textAlignLast: 'center', lineHeight: '2rem'}}>
                 The $MGG token holds many utilities that generally fuel the overall MGG ecosystem.
                 It is an ERC20 and BEP20 utility token designed to synergistically foster growth in
                 the crypto space while distributing fair power and rewards among $MGG token holders.
               </Heading>
             </div>
-          </div>
+          </Section>
         </BgContainer>
 
-        <BgContainer bgImage={GrowthBG} bgColor='#140937' position='center bottom' style={{padding: '0 5rem 5rem 5rem'}}>
-          <div style={{position: 'relative'}}>
-            <Card>
-              <Flex style={{flexFlow: 'row', justifyContent: 'space-evenly'}}>
-                <div style={{flex: 1}}>
-                  <Heading size='xl' color={theme.colors.primary}>$MGG</Heading>
-                  <Text>Ticker</Text>
-                </div>
-                <div style={{flex: 1}}>
-                  <Heading size='xl' color={theme.colors.primary}>1 BILLION</Heading>
-                  <Text>Total Supply</Text>
-                </div>
-                <div style={{flex: 1}}>
-                  <Heading size='xl' color={theme.colors.primary}>$5,794,250</Heading>
-                  <Text>Initial Market Cap</Text>
-                </div>
-              </Flex>
-            </Card>
-            <div style={{margin: '5rem 0 10rem 0'}}>
+
+        <BgContainer bgImage={GrowthBG} bgColor='#140937' position='center bottom' style={{flexFlow: 'column'}}>
+          <Card>
+            <Flex style={{flexFlow: 'row wrap', columnGap: '2rem', justifyContent: 'space-evenly'}}>
+              <div>
+                <Heading size='xl' color={theme.colors.primary}>$MGG</Heading>
+                <Text>Ticker</Text>
+              </div>
+              <div style={{minWidth: '5rem'}}>
+                <Heading size='xl' color={theme.colors.primary}>1 BILLION</Heading>
+                <Text>Total Supply</Text>
+              </div>
+              <div>
+                <Heading size='xl' color={theme.colors.primary}>$5,794,250</Heading>
+                <Text>Initial Market Cap</Text>
+              </div>
+            </Flex>
+          </Card>
+          <div style={{position: 'relative', margin: '0 auto 3rem auto'}}>
+            <Section style={{padding: '4rem 0', rowGap: '3rem'}}>
               <Heading size='xl' color={theme.colors.primary}>What you can do with $MGG Token</Heading>
               <Icons>
                 <IconHolder>
@@ -123,45 +98,33 @@ const MggToken = () => {
                 </IconHolder>
               </Icons>
               <Btn>Go To Tokenomics Page</Btn>
-            </div>
-            <div>
+            </Section>
+            <Section style={{padding: '5rem 0 0 0'}}>
               <Heading size='xl' color={theme.colors.primary}>MGG Contract Address</Heading>
               <Flex style={{flexDirection: 'column', rowGap: '2.5rem', margin: '2rem 0 0 0'}}>
                 <div>
                   <a target="_blank" href='https://etherscan.io/address/0x7237c0b30b1355f1b76355582f182f6f04b08740'>
                     <img src={`${EthLogo}`} style={{width: '12rem', margin: '1rem 0'}}></img>
-                  </a>
-                  <a target="_blank" href='https://etherscan.io/address/0x7237c0b30b1355f1b76355582f182f6f04b08740'>
                     <Text>https://etherscan.io/address/0x7237c0b30b1355f1b76355582f182f6f04b08740</Text>
-                  </a>
-                  <a target="_blank" href='https://etherscan.io/address/0x7237c0b30b1355f1b76355582f182f6f04b08740'>
                     <Text color='#00f4fd'>Ethereum (ERC-20)</Text>
                   </a>
                 </div>
                 <div>
                   <a target="_blank" href='https://bscscan.com/address/0x6125adcab2f171bc70cfe2caecfec5509273a86a'>
                     <img src={`${BscLogo}`} style={{width: '12rem', margin: '1rem 0'}}></img>
-                  </a>
-                  <a target="_blank" href='https://bscscan.com/address/0x6125adcab2f171bc70cfe2caecfec5509273a86a'>
                     <Text>https://bscscan.com/address/0x6125adcab2f171bc70cfe2caecfec5509273a86a</Text>
-                  </a>
-                  <a target="_blank" href='https://bscscan.com/address/0x6125adcab2f171bc70cfe2caecfec5509273a86a'>
                     <Text color='#00f4fd'>Binance Smart Chain (BEP-20)</Text>
                   </a>
                 </div>
                 <div>
                   <a target="_blank" href='https://ftmscan.com/address/0xfda8355e8ce22ac44f2d175f4acfec8fac7472d7'>
                     <img src={`${FantomLogo}`} style={{width: '12rem', margin: '1rem 0'}}></img>
-                  </a>
-                  <a target="_blank" href='https://ftmscan.com/address/0xfda8355e8ce22ac44f2d175f4acfec8fac7472d7'>
                     <Text>https://ftmscan.com/address/0xfda8355e8ce22ac44f2d175f4acfec8fac7472d7</Text>
-                  </a>
-                  <a target="_blank" href='https://ftmscan.com/address/0xfda8355e8ce22ac44f2d175f4acfec8fac7472d7'>
                     <Text color='#00f4fd'>Fantom</Text>
                   </a>
                 </div>
               </Flex>
-            </div>
+            </Section>
           </div>
         </BgContainer>
       </Page>
