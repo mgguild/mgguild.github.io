@@ -22,6 +22,10 @@ export const getCustomMeta = (path: string, ): PageMeta => {
       return {
         title: 'MGG Token',
       }
+    case '/partners':
+      return {
+        title: 'Partners',
+      }
     default:
       return null
   }

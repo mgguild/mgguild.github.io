@@ -3,7 +3,7 @@ import MainBG from "assets/background/RevenueModelBG.png";
 import { Flex, Text } from '@metagg/mgg-uikit'
 import { breakpoints } from '../../../theme/Breakpoints';
 
-const SectionContainer = styled.div<{ height?: string; mobileHeight?: string}>`
+export const SectionContainer = styled.div<{ height?: string; mobileHeight?: string}>`
   min-height: ${({ height }) => height ?? "100"}vh;
   display: flex;
   padding: 15px;
