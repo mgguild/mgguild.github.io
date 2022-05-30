@@ -30,3 +30,12 @@ export interface IFigures {
 }
 
 export interface RevenueModelConfig extends DetailsConfig {}
+
+export interface Partners {
+  InvsBckrs: Partner;
+  Partners: Partner;
+}
+
+export interface Partner {
+  [key: string]: { name: string; logo: any; }
+}
