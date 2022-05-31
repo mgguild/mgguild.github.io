@@ -35,7 +35,7 @@ const MggToken = () => {
               <iframe onLoad={IframeOnLoad} src={PDF} width="100%" style={{position: 'relative', zIndex: 3, height: '100vh', maxHeight: '800px'}}/>
               {/* <img src={PDFImg} style={{position: 'absolute', top: 0, left: 0, zIndex: 1}}/> */}
 
-              <a href={PDF}>
+              <a target='_blank' href={PDF}>
                 <Btn style={{margin: '1rem 0 0 0 '}}>Download PDF</Btn>
               </a>
             </div>
