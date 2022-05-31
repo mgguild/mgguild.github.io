@@ -13,6 +13,7 @@ const Website: React.FC = () => {
   const Roadmap = lazy(() => import("./Roadmap"));
   const MggToken = lazy(() => import("./MggToken"));
   const Partners = lazy(() => import("./Partners"));
+  const Whitepaper = lazy(() => import("./Whitepaper"));
   const NotFound = lazy(() => import("./NotFound"));
   return (
     <HashRouter>
@@ -27,6 +28,7 @@ const Website: React.FC = () => {
             <Route path="/roadmap" element={<Roadmap />} />
             <Route path="/mgg-token" element={<MggToken />} />
             <Route path="/partners" element={<Partners />} />
+            <Route path="/whitepaper" element={<Whitepaper />} />
             {/* Redirects */}
             {/* <Route path="/" element={<Navigate replace to='/homepage' />} /> */}
             {/* 404 */}
