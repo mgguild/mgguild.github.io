@@ -51,12 +51,12 @@ export const List = styled.li`
   }
 `
 
-export const BgPage = styled.div`
+export const BgPage = styled.div<{height?: string}>`
   padding: 5rem;
   text-align: center;
   overflow: hidden;
   width: 100%;
-  height: 100%;
+  height: ${(({height}) => height ?? '100%')};
   position: relative;
   &:before {
     content: '';
