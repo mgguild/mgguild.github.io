@@ -1,5 +1,7 @@
 import React, { useContext, useState } from 'react'
 import { Text, Flex, Heading, Button } from '@metagg/mgg-uikit'
+import ImageGallery from 'react-image-gallery';
+import 'react-image-gallery/styles/css/image-gallery.css'
 import styled, { ThemeContext } from 'styled-components'
 import PageContainer from 'components/layout/Page'
 import { BgContainer } from '../../style/Global'
@@ -13,16 +15,11 @@ import {
 } from './styled'
 
 import bgImage from 'assets/background/revTokenBG.png'
-import PDFImg from './whitepaper/whitepaperImg.png'
-import PDF from './whitepaper/MetaGaming-Guild-White-Paper-02082022.pdf'
-
+import PDF from 'assets/whitepaper/MetaGaming-Guild-White-Paper-02082022.pdf'
+import whitepaper from '../../config/constants/whitepaper'
 
 const MggToken = () => {
   const theme = useContext(ThemeContext)
-
-  const IframeOnLoad = (e: any) => {
-    console.log(e)
-  }
 
   return (
     <>
@@ -32,10 +29,8 @@ const MggToken = () => {
           <Section>
             <HeadingGlow size='xxl' color={theme.colors.primary} glow={theme.colors.primary}>White Paper</HeadingGlow>
             <div style={{position: 'relative', zIndex: 1, width: '100%', maxWidth: '50rem'}}>
-              <iframe onLoad={IframeOnLoad} src={PDF} width="100%" style={{position: 'relative', zIndex: 3, height: '100vh', maxHeight: '800px'}}/>
-              {/* <img src={PDFImg} style={{position: 'absolute', top: 0, left: 0, zIndex: 1}}/> */}
-
-              <a target='_blank' href={PDF}>
+              <ImageGallery items={whitepaper} showPlayButton={false} thumbnailPosition='right' lazyLoad={true} />
+              <a target='_blank' href={PDF} download>
                 <Btn style={{margin: '1rem 0 0 0 '}}>Download PDF</Btn>
               </a>
             </div>
