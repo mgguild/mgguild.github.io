@@ -1,10 +1,10 @@
 import React from "react";
-import { NavOption } from "style/Global";
+import { NavOption } from "../../style/Global";
 import { Text, Flex } from "@metagg/mgg-uikit";
 import { Grid } from '@mui/material'
 import Page from "../../components/layout/Page";
 import { Teams } from "../../config/constants/team";
-import { BgPage } from "pages/Roadmap/styled";
+import { BgPage } from "./styled";
 import Team from './Team'
 import { ContentContainer, HeaderContainer, PageTitle } from "./styled";
 
@@ -64,7 +64,7 @@ const TeamsPage: React.FC = () => {
        {
          active !== 0 && (
            <>
-            <Grid container rowSpacing={{md: 4}}>
+            <Grid container rowSpacing={{md: 4}}  justifyContent="center" alignItems='center'>
             {
               teams.map((team) => (
                 <>

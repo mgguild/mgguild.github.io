@@ -1,7 +1,7 @@
 import styled from 'styled-components'
 import { Heading } from '@metagg/mgg-uikit'
 import { breakpoints } from '../../theme/Breakpoints'
-
+import BackgroundImage from 'assets/background/BGwlogo.png'
 
 const Container = styled.div`
   display: flex;
@@ -34,4 +34,26 @@ export const PageTitle = styled(Heading)`
 
 export const CardContainer = styled.div`
   font-size: 20px;
+`
+
+export const BgPage = styled.div`
+  padding: 5rem;
+  text-align: center;
+  overflow: hidden;
+  width: 100%;
+  height: 100%;
+  position: relative;
+  &:before {
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 0;
+    background-color: ${({theme}) => theme.addOnColors.background1};
+    background-image: url(${BackgroundImage});
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
 `
