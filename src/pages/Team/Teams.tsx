@@ -1,6 +1,6 @@
 import React from "react";
 import { NavOption } from "../../style/Global";
-import { Text, Flex } from "@metagg/mgg-uikit";
+import { Text, Flex, Heading } from "@metagg/mgg-uikit";
 import { Grid } from '@mui/material'
 import Page from "../../components/layout/Page";
 import { Teams } from "../../config/constants/team";
@@ -62,20 +62,37 @@ const TeamsPage: React.FC = () => {
           ))}
         </Flex>
        {
-         active !== 0 && (
+         active !== 0 ? (
            <>
-            <Grid container rowSpacing={{md: 4}}  justifyContent="center" alignItems='center'>
+            <Grid container rowSpacing={{md: 4}} columnSpacing={{md: 4}}  justifyContent="center" alignItems='center' style={{marginTop:'5rem', marginBottom: '5rem'}}>
             {
               teams.map((team) => (
                 <>
-                  <Grid key={team.name} item md={4}>
+                  <Grid key={team.name} item md={3}>
                     <Team {...team}/>
                   </Grid>
                 </>
               ))
             }
             </Grid>
-           </>
+            </>
+         ) : (
+           <div>
+             {Object.keys(Teams).map((category) => (
+               <div key={category} style={{margin: '2rem 0 2rem 0'}}>
+                 <Heading size="xl">{category}</Heading>
+                 <Grid container rowSpacing={{md: 4}} columnSpacing={{md: 4}} justifyContent="center" alignItems='center' style={{marginTop: '1rem', marginBottom: '5rem'}}>
+                     <>
+                      {Teams[category].map((member) => ( 
+                        <Grid key={member.name} item md={3} sm={6}>
+                          <Team {...member}/>
+                        </Grid>
+                      ))}
+                     </>
+                 </Grid>
+               </div>
+             ))}
+           </div>
          )
        }
       </ContentContainer>

@@ -34,6 +34,10 @@ export const PageTitle = styled(Heading)`
 
 export const CardContainer = styled.div`
   font-size: 20px;
+  @media screen and (max-width: 800px) {
+    font-size: 12px;
+    margin-top: 2rem;
+  }
 `
 
 export const BgPage = styled.div`
@@ -49,11 +53,12 @@ export const BgPage = styled.div`
     left: 0;
     top: 0;
     width: 100%;
-    height: 100%;
+    height: 120%;
     z-index: 0;
     background-color: ${({theme}) => theme.addOnColors.background1};
     background-image: url(${BackgroundImage});
     background-repeat: no-repeat;
+    background-position: center;
     background-size: cover;
   }
 `

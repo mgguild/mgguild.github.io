@@ -13,7 +13,7 @@ const Icons = IconModule as unknown as { [key: string]: React.FC<SvgProps> };
 const Team:React.FC<Props> = ({name, title}) => {
   const src = `${name.replace(/\s+/g, '')}Img`
   const Icon = Icons[src] ?? Icons['PlaceholderImg']
-  const iconElement: React.ReactElement = <Icon mr="8px" width={200}/>;
+  const iconElement: React.ReactElement = <Icon mr="8px" width={300}/>;
   return (
     <CardContainer>
       {iconElement}
