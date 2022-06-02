@@ -52,13 +52,13 @@ export const BgPage = styled.div`
     position: absolute;
     left: 0;
     top: 0;
-    width: 100%;
-    height: 120%;
+    width: 105%;
+    height: 105%;
     z-index: 0;
     background-color: ${({theme}) => theme.addOnColors.background1};
     background-image: url(${BackgroundImage});
     background-repeat: no-repeat;
-    background-position: center;
+    // background-position: center;
     background-size: cover;
   }
 `
