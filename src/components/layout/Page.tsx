@@ -1,7 +1,7 @@
 import React, { HTMLAttributes } from 'react'
 import styled from 'styled-components'
 import { useLocation } from 'react-router'
-import {DEFAULT_META, getCustomMeta } from 'config/constants/Seo'
+import {DEFAULT_META, getCustomMeta } from '../../config/constants/Seo'
 import Container from './Container'
 import SEO from './Head'
 

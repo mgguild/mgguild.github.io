@@ -1,4 +1,4 @@
-export { default as HomeSection } from './Home'
-export { default as EcoSection } from './Ecosystem'
-export { default as GrowthSection } from './Growth'
-export { default as ChainSection } from './Chain'
+export { default as Section_A_Home } from './Home'
+export { default as Section_B_Eco } from './Ecosystem'
+export { default as Section_C_Growth } from './Growth'
+export { default as Section_D_Chain } from './Chain'
