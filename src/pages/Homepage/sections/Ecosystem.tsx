@@ -24,11 +24,13 @@ const StyledCard = styled.div`
   height: 375px;
   display: flex;
   flex-direction: column;
-  justify-content: space-evenly;
+  // justify-content: space-around;
   @media screen and (max-width: ${breakpoints.Mobile.tablet}px) {
       font-size: 12px;
   }
-  
+  & > * {
+    margin: 5px 0px;
+  }  
 `;
 const CardSection = styled(Flex)`
   & > ${Text}.title {
@@ -54,12 +56,12 @@ const Card: React.FC<IEcosystems> = ({
 }) => {
   const theme = useContext(ThemeContext);
     const Icon = Icons[image]
-    const iconElement: React.ReactElement = <Icon width="24px" mr="8px" height="24" />
+    const iconElement: React.ReactElement = <Icon />
   return (
     <StyledCard>
         {iconElement}
       <CardSection flexDirection="column">
-      <Text className="title" fontSize="1.5em" marginTop="-7px">
+      <Text className="title" fontSize="1.5em" bold>
           ({name})
         </Text>
         <Text className="title" fontSize="1.2em" marginTop="-7px">

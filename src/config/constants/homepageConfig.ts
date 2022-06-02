@@ -50,6 +50,13 @@ export const Ecosystems: IEcosystems[] = [
     image: "Warriors",
     status: "coming soon",
   },
+  {
+    name: "MetaGaming NFTs",
+    subtitle: "Data Unit Assets",
+    description:
+      "MGG offers NFT to guild members",
+    image: "Warriors",
+  },
 ];
 
 
