@@ -18,9 +18,9 @@ const TeamsPage: React.FC = () => {
       <HeaderContainer>
         <PageTitle> MGG Team and Advisors </PageTitle>
         <Text as="p">
-          MGG is developed by tthe collective minds of people who believe that
+          MGG is developed by the collective minds of people who believe that
           the future of gaming will be a play-to-earn model powered by
-          Non-Fungible Tokens &#40; NFT &#44; and blockchain technology
+          Non-Fungible Tokens &#40; NFT &#41; and blockchain technology
         </Text>
       </HeaderContainer>
       <ContentContainer>
@@ -45,7 +45,7 @@ const TeamsPage: React.FC = () => {
             activeIndex={active === 0}
             style={{ borderRadius: "0.5rem", padding: "0 2rem" }}
           >
-            All
+            ALL
           </NavOption>
           {Object.keys(Teams).map((cat, index) => (
             <NavOption
@@ -68,7 +68,7 @@ const TeamsPage: React.FC = () => {
             {
               teams.map((team) => (
                 <>
-                  <Grid key={team.name} item md={3}>
+                  <Grid key={team.name} item md={4} sm={6} lg={3}>
                     <Team {...team}/>
                   </Grid>
                 </>
@@ -84,7 +84,7 @@ const TeamsPage: React.FC = () => {
                  <Grid container rowSpacing={{md: 4}} columnSpacing={{md: 4}} justifyContent="center" alignItems='center' style={{marginTop: '1rem', marginBottom: '5rem'}}>
                      <>
                       {Teams[category].map((member) => ( 
-                        <Grid key={member.name} item md={3} sm={6}>
+                        <Grid key={member.name} item md={4} sm={6} lg={3}>
                           <Team {...member}/>
                         </Grid>
                       ))}

@@ -33,7 +33,7 @@ export const PageTitle = styled(Heading)`
 `
 
 export const CardContainer = styled.div`
-  font-size: 20px;
+  font-size: 14px;
   @media screen and (max-width: 800px) {
     font-size: 12px;
     margin-top: 2rem;
