@@ -31,7 +31,7 @@ const links: MenuEntry[] = [
   },
 ]
 
-export const MENU_HEIGHT = 60;
+export const MENU_HEIGHT = 70;
 export const MENU_ENTRY_HEIGHT = 48;
 export const SIDEBAR_WIDTH_FULL = 175;
 export const SIDEBAR_WIDTH_REDUCED = 0;
