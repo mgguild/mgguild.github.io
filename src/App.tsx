@@ -5,8 +5,7 @@ import GlobalStyle from "./style/Global";
 import Menu from "components/Menu";
 import SuspenseWithChunkError from "components/SuspenseWithChunkError";
 import PageLoader from "components/PageLoader";
-// import GlobalStyle from "../style/Global";
-// import Footer from "../components/Footer";
+import Footer from "components/Footer";
 
 const Website: React.FC = () => {
   const Homepage = lazy(() => import("./Pages/Homepage"));
@@ -38,7 +37,7 @@ const Website: React.FC = () => {
             {/* 404 */}
             {/* <Route path="*" element={<NotFound />} /> */}
           </Routes>
-          {/* <Footer /> */}
+          <Footer />
         </SuspenseWithChunkError>
            ** Test here ** 
       </Menu>
