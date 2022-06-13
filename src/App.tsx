@@ -14,7 +14,7 @@ const Website: React.FC = () => {
   const Roadmap = lazy(() => import("./Pages/Roadmap"));
   const MggToken = lazy(() => import("./Pages/MggToken"));
   const Partners = lazy(() => import("./Pages/Partners"));
-  // const Whitepaper = lazy(() => import("./Whitepaper"));
+  const Whitepaper = lazy(() => import("./Pages/Whitepaper"));
   // const NotFound = lazy(() => import("./NotFound"));
   
   return (
@@ -31,7 +31,7 @@ const Website: React.FC = () => {
             <Route path="/roadmap" element={<Roadmap />} />
             <Route path="/mgg-token" element={<MggToken />} />
             <Route path="/partners" element={<Partners />} />
-            {/* <Route path="/whitepaper" element={<Whitepaper />} />  */}
+            <Route path="/whitepaper" element={<Whitepaper />} /> 
             {/* Redirects
             {/* <Route path="/" element={<Navigate replace to='/homepage' />} /> */}
             {/* 404 */}
