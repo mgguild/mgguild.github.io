@@ -10,7 +10,7 @@ import PageLoader from "components/PageLoader";
 
 const Website: React.FC = () => {
   const Homepage = lazy(() => import("./Pages/Homepage"));
-  // const RevenueModel = lazy(() => import('./Revenue-Model'));
+  const RevenueModel = lazy(() => import('./Pages/Revenue-Model'));
   // const Team = lazy(() => import('./Team'))
   // const Roadmap = lazy(() => import("./Roadmap"));
   // const MggToken = lazy(() => import("./MggToken"));
@@ -26,8 +26,8 @@ const Website: React.FC = () => {
        <SuspenseWithChunkError fallback={<PageLoader />}>
           <Routes>
             <Route path="/" element={<Homepage />} />
-            {/* <Route path='/revenue-model' element={<RevenueModel /> } />
-            <Route path="/team" element={<Team />} />
+            <Route path='/revenue-model' element={<RevenueModel /> } />
+            {/* <Route path="/team" element={<Team />} />
             <Route path="/homepage" element={<Homepage />} />
             <Route path="/roadmap" element={<Roadmap />} />
             <Route path="/mgg-token" element={<MggToken />} />
