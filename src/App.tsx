@@ -11,7 +11,7 @@ const Website: React.FC = () => {
   const Homepage = lazy(() => import("./Pages/Homepage"));
   const RevenueModel = lazy(() => import('./Pages/Revenue-Model'));
   const Team = lazy(() => import('./Pages/Team'))
-  // const Roadmap = lazy(() => import("./Roadmap"));
+  const Roadmap = lazy(() => import("./Pages/Roadmap"));
   // const MggToken = lazy(() => import("./MggToken"));
   // const Partners = lazy(() => import("./Partners"));
   // const Whitepaper = lazy(() => import("./Whitepaper"));
@@ -27,11 +27,11 @@ const Website: React.FC = () => {
             <Route path="/" element={<Homepage />} />
             <Route path='/revenue-model' element={<RevenueModel /> } />
             <Route path="/team" element={<Team />} />
-            {/* <Route path="/homepage" element={<Homepage />} />
+            {/* <Route path="/homepage" element={<Homepage />} /> */}
             <Route path="/roadmap" element={<Roadmap />} />
-            <Route path="/mgg-token" element={<MggToken />} />
-            <Route path="/partners" element={<Partners />} />
-            <Route path="/whitepaper" element={<Whitepaper />} />  */}
+            {/* <Route path="/mgg-token" element={<MggToken />} /> */}
+            {/* <Route path="/partners" element={<Partners />} /> */}
+            {/* <Route path="/whitepaper" element={<Whitepaper />} />  */}
             {/* Redirects
             {/* <Route path="/" element={<Navigate replace to='/homepage' />} /> */}
             {/* 404 */}
