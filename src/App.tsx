@@ -1,5 +1,5 @@
 import React, { lazy } from "react";
-import { HashRouter, Navigate, Route, Routes } from "react-router-dom";
+import { HashRouter, Route, Routes } from "react-router-dom";
 import { ResetCSS } from "@metagg/mgg-uikit";
 import GlobalStyle from "./style/Global";
 import Menu from "components/Menu";
@@ -10,7 +10,7 @@ import Footer from "components/Footer";
 const Website: React.FC = () => {
   const Homepage = lazy(() => import("./Pages/Homepage"));
   const RevenueModel = lazy(() => import('./Pages/Revenue-Model'));
-  // const Team = lazy(() => import('./Team'))
+  const Team = lazy(() => import('./Pages/Team'))
   // const Roadmap = lazy(() => import("./Roadmap"));
   // const MggToken = lazy(() => import("./MggToken"));
   // const Partners = lazy(() => import("./Partners"));
@@ -26,8 +26,8 @@ const Website: React.FC = () => {
           <Routes>
             <Route path="/" element={<Homepage />} />
             <Route path='/revenue-model' element={<RevenueModel /> } />
-            {/* <Route path="/team" element={<Team />} />
-            <Route path="/homepage" element={<Homepage />} />
+            <Route path="/team" element={<Team />} />
+            {/* <Route path="/homepage" element={<Homepage />} />
             <Route path="/roadmap" element={<Roadmap />} />
             <Route path="/mgg-token" element={<MggToken />} />
             <Route path="/partners" element={<Partners />} />

@@ -1,0 +1,15 @@
+export { default as AndyAgnasImg } from "./AndyAgnas";
+export { default as HatuSheikhImg } from "./HatuSheikh";
+export { default as RicoZuñigaImg } from "./RicoZuniga";
+export { default as MorrisPericoImg } from "./MorrisPerico";
+export { default as AnneRamosImg } from "./AnneRamos";
+export { default as DianaApongolImg } from "./DianaApongol";
+export { default as KaranSharmaImg } from "./KaranSharma";
+export { default as LyrafeAriolaImg } from "./LyrafeAriola";
+export { default as DianaGeeDelasAlasImg } from "./DianaGeeDelasAlas";
+export { default as RalphBalantaImg } from "./RalphBalanta";
+export { default as AldrickBonaobraImg } from "./AldrickBonaobra";
+export { default as MedardMandaneImg } from "./MedardMandane";
+export { default as HarvinCadagImg } from "./HarvinCadag";
+export { default as JohnCarloAriolaImg } from "./JohnCarloAriola";
+export { default as PlaceholderImg } from "./Placeholder";

@@ -1,4 +1,4 @@
-import React, { useState } from 'react'
+import React from 'react'
 import { ThemeProvider as SCThemeProvider } from 'styled-components'
 import { dark } from '@metagg/mgg-uikit'
 import { Colors as addOnColors } from 'theme/Base'
