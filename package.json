@@ -3,7 +3,10 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "@emotion/react": "^11.9.3",
+    "@emotion/styled": "^11.9.3",
     "@metagg/mgg-uikit": "^1.1.3",
+    "@mui/material": "^5.8.3",
     "@testing-library/jest-dom": "^5.14.1",
     "@testing-library/react": "^13.0.0",
     "@testing-library/user-event": "^13.2.1",
@@ -14,6 +17,8 @@
     "react": "^18.1.0",
     "react-dom": "^18.1.0",
     "react-feather": "^2.0.10",
+    "react-helmet": "^6.1.0",
+    "react-helmet-async": "^1.3.0",
     "react-icons": "^4.4.0",
     "react-image-gallery": "^1.2.8",
     "react-router-dom": "^6.3.0",
@@ -47,6 +52,7 @@
     ]
   },
   "devDependencies": {
+    "@types/react-helmet": "^6.1.5",
     "@types/styled-components": "^5.1.25"
   }
 }

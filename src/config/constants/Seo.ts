@@ -10,7 +10,7 @@ export const DEFAULT_META: PageMeta = {
 
 export const getCustomMeta = (path: string, ): PageMeta => {
   switch (path) {
-    case '/homepage':
+    case '/':
       return {
         title: 'Homepage',
       }
