@@ -13,7 +13,7 @@ const Website: React.FC = () => {
   const Team = lazy(() => import('./Pages/Team'))
   const Roadmap = lazy(() => import("./Pages/Roadmap"));
   const MggToken = lazy(() => import("./Pages/MggToken"));
-  // const Partners = lazy(() => import("./Partners"));
+  const Partners = lazy(() => import("./Pages/Partners"));
   // const Whitepaper = lazy(() => import("./Whitepaper"));
   // const NotFound = lazy(() => import("./NotFound"));
   
@@ -30,7 +30,7 @@ const Website: React.FC = () => {
             {/* <Route path="/homepage" element={<Homepage />} /> */}
             <Route path="/roadmap" element={<Roadmap />} />
             <Route path="/mgg-token" element={<MggToken />} />
-            {/* <Route path="/partners" element={<Partners />} /> */}
+            <Route path="/partners" element={<Partners />} />
             {/* <Route path="/whitepaper" element={<Whitepaper />} />  */}
             {/* Redirects
             {/* <Route path="/" element={<Navigate replace to='/homepage' />} /> */}
