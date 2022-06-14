@@ -1,6 +1,7 @@
 {
-  "name": "back-up-website",
+  "name": "MGG-Website",
   "version": "0.1.0",
+  "homepage": "https://kojiadrianojr.github.io/test-website/",
   "private": true,
   "dependencies": {
     "@emotion/react": "^11.9.3",
@@ -28,6 +29,8 @@
     "web-vitals": "^2.1.0"
   },
   "scripts": {
+    "predeploy": "yarn build",
+    "deploy": "gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
@@ -54,6 +57,7 @@
   "devDependencies": {
     "@types/react-helmet": "^6.1.5",
     "@types/react-image-gallery": "^1.0.5",
-    "@types/styled-components": "^5.1.25"
+    "@types/styled-components": "^5.1.25",
+    "gh-pages": "^4.0.0"
   }
 }
