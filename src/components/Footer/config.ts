@@ -23,16 +23,8 @@ const Config: Props = {
       href: "/teams",
     },
     {
-        name: names.links.blog,
-        href: "/blog",
-      },
-    {
       name: names.links.roadmap,
       href: "/roadmap",
-    },
-    {
-      name: names.links.contact,
-      href: "/contact-us",
     },
     {
         name: names.links.token,

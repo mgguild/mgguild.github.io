@@ -63,7 +63,7 @@ const Partners = () => {
                   onClick={() => {setActive(2); setPartners(partners.Partners)}}
                   activeIndex={active === 2}
                 >
-                partners
+                Partners
               </NavOption>
             </Flex>
 
