@@ -2,8 +2,7 @@ import React, { useState, useContext, useCallback } from 'react'
 import { Text, Flex, Heading, Button } from '@metagg/mgg-uikit'
 import styled, { ThemeContext } from 'styled-components'
 import Page from 'components/layout/Page'
-import { NavOption } from '../../style/Global'
-import roadmaps from '../../config/constants/roadmaps'
+import Nfts from '../../assets/Nft/0.png'
 import {
   BgPage,
   HeadingGlow,
@@ -11,6 +10,22 @@ import {
   Btn,
 } from './styled'
 
+
+const BadgesContainer = styled(Flex)`
+  flex-flow: row;
+  gap: 1rem;
+  justify-content: center;
+  @media screen and (max-width: 1000px) {
+    flex-flow: column;
+  }
+`
+
+const BadgesDesc = styled.div`
+  max-width: 35rem;
+  @media screen and (max-width: 1000px) {
+    max-width: 100%;
+  }
+`
 
 const NFTpage = () => {
   const theme = useContext(ThemeContext)
@@ -20,8 +35,8 @@ const NFTpage = () => {
       <Page>
         <BgPage>
           <div style={{position: 'relative', zIndex: 2}}>
-            <div style={{display: 'grid', gridTemplateColumns: '3fr 5fr'}}>
-              <div>
+            <BadgesContainer>
+              <BadgesDesc>
                 <div style={{textAlign: 'left'}}>
                   <HeadingGlow size='xl' color='#fdda00' glow="#fdda00">Limited Edition MGG NFT Badge</HeadingGlow>
                   <br />
@@ -33,11 +48,13 @@ const NFTpage = () => {
                 </div>
 
                 <Btn style={{margin: '3rem 0 0 0'}}>BUY A LIMITED EDITION MGG NFT</Btn>
-              </div>
-              <div>
-                <Text>IMG here</Text>
-              </div>
-            </div>
+              </BadgesDesc>
+              <Flex>
+                <div>
+                <img style={{display: 'block', width: 'auto', height: 'auto', maxHeight: '35rem', minHeight: '21.5rem', minWidth: '29rem'}} src={Nfts}/>
+                </div>
+              </Flex>
+            </BadgesContainer>
             <div style={{margin: '5rem 0 0 0'}}>
               <HeadingGlow size='xl' color='#fdda00' glow="#fdda00">Flex and Show Off Your MGG NFTs!</HeadingGlow>
               <br />
@@ -72,7 +89,7 @@ const NFTpage = () => {
 
               <Card>
                 <div style={{padding: '1rem'}}>
-                  <div style={{display: 'grid', gridTemplateColumns: '1fr 5fr', rowGap: '2rem', textAlign: 'left'}}>
+                  <div style={{display: 'grid', gridTemplateColumns: '1fr 5fr', gap: '2rem', textAlign: 'left'}}>
                     <Heading size='l' color={theme.colors.MGG_accent2}>Contact Address</Heading>
                     <Text>To be added</Text>
 
