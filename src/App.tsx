@@ -41,7 +41,6 @@ const Website: React.FC = () => {
           </Routes>
           <Footer />
         </SuspenseWithChunkError>
-           ** Test here **
       </Menu>
 
     </HashRouter>
