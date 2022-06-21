@@ -47,7 +47,7 @@ const NFTpage = () => {
                   <Text>MGG NFT is an exclusive user identification on MetaGaming Guild ecosystem. A total of 5,000 individually designed NFTs will be up for grabs soon to eligible MGG token holders.</Text>
                 </div>
 
-                <Btn style={{margin: '3rem 0 0 0'}}>BUY A LIMITED EDITION MGG NFT</Btn>
+                <Btn disabled style={{margin: '3rem 0 0 0'}}>BUY A LIMITED EDITION MGG NFT</Btn>
               </BadgesDesc>
               <Flex>
                 <div>
@@ -85,7 +85,7 @@ const NFTpage = () => {
               <br />
               <Heading>Hurry! Don't miss your chance to own a LIMITED EDITION MGG NFT Badge!</Heading>
 
-              <Btn style={{margin: '3rem 0 5rem 0', padding: '2rem 5rem'}}>GO GET ONE! <Text style={{padding: '0 0 0.5rem 0'}}>&nbsp;👉</Text></Btn>
+              <Btn disabled style={{margin: '3rem 0 5rem 0', padding: '2rem 5rem'}}>GO GET ONE! <Text style={{padding: '0 0 0.5rem 0'}}>&nbsp;👉</Text></Btn>
 
               <Card>
                 <div style={{padding: '1rem'}}>
