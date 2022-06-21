@@ -9,7 +9,7 @@ const StyledLogo = styled.span`
     & > * {
         color: ${(({theme}) => theme.colors.primary)};
         font-size: 30px;
-        margin-right: 10px;
+        margin: 0 5px;
         width: 30px;
         height: 30px;
     }
