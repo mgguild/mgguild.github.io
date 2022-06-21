@@ -15,8 +15,9 @@ const Website: React.FC = () => {
   const MggToken = lazy(() => import("./Pages/MggToken"));
   const Partners = lazy(() => import("./Pages/Partners"));
   const Whitepaper = lazy(() => import("./Pages/Whitepaper"));
+  const NFT = lazy(() => import("./Pages/NFTpage"));
   // const NotFound = lazy(() => import("./NotFound"));
-  
+
   return (
     <HashRouter>
       <ResetCSS />
@@ -31,7 +32,8 @@ const Website: React.FC = () => {
             <Route path="/roadmap" element={<Roadmap />} />
             <Route path="/mgg-token" element={<MggToken />} />
             <Route path="/partners" element={<Partners />} />
-            <Route path="/whitepaper" element={<Whitepaper />} /> 
+            <Route path="/whitepaper" element={<Whitepaper />} />
+            <Route path="/mgg-NFT" element={<NFT />} />
             {/* Redirects
             {/* <Route path="/" element={<Navigate replace to='/homepage' />} /> */}
             {/* 404 */}
@@ -39,9 +41,8 @@ const Website: React.FC = () => {
           </Routes>
           <Footer />
         </SuspenseWithChunkError>
-           ** Test here ** 
       </Menu>
-   
+
     </HashRouter>
   );
 };

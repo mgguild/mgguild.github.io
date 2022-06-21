@@ -24,10 +24,10 @@ export const names = {
         teams: 'Teams',
         roadmap: 'Roadmap',
         token: 'MGG Token',
+        NFT: 'NFT',
         partners: 'Partners',
         whitePaper: 'White Paper',
         blog: 'Blog',
         contact: 'Contact Us'
     }
   };
-  
