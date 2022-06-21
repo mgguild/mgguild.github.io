@@ -44,7 +44,7 @@ const NFTpage = () => {
                   <Text>The opportunity to own the first NFTs in MetaGaming Guild has arrived!</Text>
                   <br />
                   <br />
-                  <Text>MGG NFT is an exclusive user identification on MetaGaming Guild ecosystem. A total of 5,000 individually designed NFTs will be up for grabs to eligible MGG token holders beginning (date?) 2022.</Text>
+                  <Text>MGG NFT is an exclusive user identification on MetaGaming Guild ecosystem. A total of 5,000 individually designed NFTs will be up for grabs to eligible MGG token holders coming soon.</Text>
                 </div>
 
                 <Btn style={{margin: '3rem 0 0 0'}}>BUY A LIMITED EDITION MGG NFT</Btn>
