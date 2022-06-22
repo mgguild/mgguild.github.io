@@ -55,7 +55,7 @@ const roadmaps: RoadmapConfig = {
       {txt: "Exchange Listing and Partnerships", check: false},
       {txt: "Team Expansion", check: false},
       {txt: "Continue onboarding of scholars (7,500 to 10,000)", check: false},
-      {txt: "4tth buyback and burn program", check: false},
+      {txt: "4th buyback and burn program", check: false},
     ]
   }
 }
