@@ -8,7 +8,7 @@ export const Teams:TeamsConfig = {
     },
     {
       name: 'Hatu Sheikh',
-      title: 'Lead Advisors',
+      title: 'Lead Advisor',
     },
     {
       name: 'Rico Zuñiga',

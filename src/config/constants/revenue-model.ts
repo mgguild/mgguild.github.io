@@ -6,13 +6,13 @@ export const RevenueModel:RevenueModelConfig[] = [{
  image: 'ScholarshipIcon',
 },
 {
- name: 'IDO/INO Launchpad',
- description: 'Our gaming launchpad seamlessly hosts a wide collection of exciting and incredible incoming play-to-earn NFT games for IDOs/INOs',
+ name: 'IGO/INO Launchpad',
+ description: 'Our gaming launchpad seamlessly hosts a wide collection of exciting and incredible incoming play-to-earn NFT games for IGOs/INOs',
  image: 'LaunchpadIcon',
 },
 {
  name: 'NFT Sales',
- description: 'We have an ever-growing collection of NFT games in our Gamefi Vaults - the first form of yield farming for blockchain games',
+ description: 'We have an ever-growing collection of NFT games in our GameFi Vaults - the first form of yield farming for blockchain games',
  image: 'SalesIcon',
 },
 {

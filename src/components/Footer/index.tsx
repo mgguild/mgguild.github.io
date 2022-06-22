@@ -35,7 +35,7 @@ const Footer: React.FC = () => {
           </Description>
           <Flex paddingTop="10px">
             {socials.map((social) => (
-              <a key={social.name} href={social.href}>
+              <a key={social.name} href={social.href} target='_blank'>
                 <SocialIcon name={social.name} />
               </a>
             ))}

@@ -9,7 +9,7 @@ export const Ecosystems: IEcosystems[] = [
     image: "MetaGamers",
   },
   {
-    name: "MetaGamingPad",
+    name: "MetaGaming Pad",
     subtitle: "INO/IGO Launchpad",
     description:
       "MGG is the very FIRST gaming guild to become a launchpad for gamers!",
@@ -23,7 +23,7 @@ export const Ecosystems: IEcosystems[] = [
     image: "Vault",
   },
   {
-    name: "MetaGamingYield",
+    name: "MetaGaming Yield",
     subtitle: "Yield Farming",
     description:
       "MGG offers the FIRST form of automated NFT yield to guild members",
