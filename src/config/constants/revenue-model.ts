@@ -6,8 +6,8 @@ export const RevenueModel:RevenueModelConfig[] = [{
  image: 'ScholarshipIcon',
 },
 {
- name: 'IDO/INO Launchpad',
- description: 'Our gaming launchpad seamlessly hosts a wide collection of exciting and incredible incoming play-to-earn NFT games for IDOs/INOs',
+ name: 'IGO/INO Launchpad',
+ description: 'Our gaming launchpad seamlessly hosts a wide collection of exciting and incredible incoming play-to-earn NFT games for IGOs/INOs',
  image: 'LaunchpadIcon',
 },
 {
