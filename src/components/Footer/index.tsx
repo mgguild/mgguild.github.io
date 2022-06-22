@@ -15,7 +15,7 @@ import config from "./config";
 
 const Logo = () => {
   return (
-    <Flex alignItems="center">
+    <Flex alignItems="center" style={{width: '100%', justifyContent: 'center'}}>
       <img alt="mgg-logo" src={MGGLogo} width="60px" height="60px" />
       &nbsp; 
       <Heading size="lg">MetaGaming Guild</Heading>
@@ -28,7 +28,7 @@ const Footer: React.FC = () => {
   return (
     <WrapperContainer>
       <StyledLogoWrapper>
-        <Flex flexDirection="column" alignItems='flex-end' justifyContent='center'>
+        <Flex flexDirection="column" alignItems='flex-center' justifyContent='center'>
           <Logo />
           <Description size="sm">
             "A community of tactical gamers"
