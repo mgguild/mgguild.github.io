@@ -14,6 +14,14 @@ export const getCustomMeta = (path: string, ): PageMeta => {
       return {
         title: 'Homepage',
       }
+    case '/revenue-model':
+      return {
+        title: 'Revenue Model',
+      }
+    case '/team':
+      return {
+        title: 'Teams',
+      }
     case '/roadmap':
       return {
         title: 'Roadmap',
