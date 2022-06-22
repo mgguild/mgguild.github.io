@@ -26,11 +26,11 @@ const MggToken = () => {
 
         <BgContainer bgImage={bgImage} bgColor='#140937' size='cover' style={{alignItems: 'center', justifyContent: 'center'}}>
           <Section>
-            <HeadingGlow size='xxl' color={theme.colors.primary} glow={theme.colors.primary}>White Paper</HeadingGlow>
+            <HeadingGlow style={{margin: '0 4rem 0 0'}} size='xxl' color={theme.colors.primary} glow={theme.colors.primary}>White Paper</HeadingGlow>
             <div style={{position: 'relative', zIndex: 1, width: '100%', maxWidth: '50rem'}}>
               <ImageGallery items={whitepaper} showPlayButton={false} thumbnailPosition='right' lazyLoad={true} />
               <a target='_blank' href={PDF} download>
-                <Btn style={{margin: '1rem 0 0 0 '}}>Download PDF</Btn>
+                <Btn style={{margin: '1rem 4.5rem 0 0'}}>Download PDF</Btn>
               </a>
             </div>
           </Section>
