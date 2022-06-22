@@ -12,7 +12,7 @@ export const RevenueModel:RevenueModelConfig[] = [{
 },
 {
  name: 'NFT Sales',
- description: 'We have an ever-growing collection of NFT games in our Gamefi Vaults - the first form of yield farming for blockchain games',
+ description: 'We have an ever-growing collection of NFT games in our GameFi Vaults - the first form of yield farming for blockchain games',
  image: 'SalesIcon',
 },
 {
