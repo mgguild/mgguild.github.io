@@ -33,7 +33,7 @@ export const Ecosystems: IEcosystems[] = [
     name: "MetaGaming Labs",
     subtitle: "Incubator",
     description:
-      "MGG is a project incubator that supports promising Gamefi starttups to excel in tthe global gaming arena",
+      "MGG is a project incubator that supports promising Gamefi startups to excel in the global gaming arena",
     image: "Labs",
   },
   {
