@@ -39,6 +39,7 @@ const CardSection = styled(Flex)`
   }
   & > ${Text}.status {
     color: ${({ theme }) => theme.colors.MGG_accent1};
+    margin: 0.5rem 0rem;
   }
   & > ${Text}.desc {
     color: ${({ theme }) => theme.colors.text};
@@ -91,7 +92,7 @@ const Cards: React.FC = () => {
       {Ecosystems.map((Ecosystem) => {
         const { name, subtitle, description, status, image } = Ecosystem;
         return (
-          <Grid key={name} item xs={12} sm={4} md={4} lg={3}>
+          <Grid key={name} item xs={12} sm={6} md={4} lg={3}>
             <Card
               name={name}
               subtitle={subtitle}
