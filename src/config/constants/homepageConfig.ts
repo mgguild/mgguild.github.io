@@ -70,7 +70,7 @@ export const Figures:IFigures[] = [
     subtitle: 'Monthly Revenue',
   },
   {
-    amount: '1,000+',
+    amount: '1,500+',
     subtitle: 'Active Scholars',
   },
   {
@@ -82,7 +82,7 @@ export const Figures:IFigures[] = [
     subtitle: 'SLP Farmed per Month'
   },
   {
-    amount: '30+',
+    amount: '60+',
     subtitle: 'Renowned Gaming Partners'
   },
   {
