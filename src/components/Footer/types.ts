@@ -17,6 +17,7 @@ export const names = {
       linkedIn: "LINKED-IN",
       ig: "INSTAGRAM",
       medium: "MEDIUM",
+      youtube: 'YOUTUBE'
     },
     links: {
         home: 'Home',

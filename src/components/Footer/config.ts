@@ -60,6 +60,10 @@ const Config: Props = {
       name: names.socials.medium,
       href: "https://medium.com/metagamingguild",
     },
+    {
+      name: names.socials.youtube,
+      href: 'https://www.youtube.com/channel/UCdVjfmKv-Qi3z2SXyB1f2gA'
+    }
   ],
 };
 
