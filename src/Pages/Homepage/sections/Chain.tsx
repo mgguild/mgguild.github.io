@@ -67,8 +67,8 @@ const Section: React.FC = () => {
           flexWrap="wrap"
         >
           {chains.map((src) => (
-            <MenuLink href={src.link}>
-              <StyledImg key={src.icon} src={src.icon} alt="chain-icon" />
+            <MenuLink href={src.link} key={src.icon}>
+              <StyledImg src={src.icon} alt="chain-icon" />
             </MenuLink>
           ))}
         </Flex>

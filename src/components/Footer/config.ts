@@ -7,29 +7,36 @@ const Config: Props = {
       href: "/home",
     },
     {
-        name: names.links.partners,
-        href: "/partners",
-      },
+      name: names.links.token,
+      href: "/mgg-token",
+    },
+
     {
       name: names.links.revModel,
       href: "/revenue-model",
     },
     {
-        name: names.links.whitePaper,
-        href: "/whitepaper",
-      },
+      name: names.links.NFT,
+      href: '/mgg-NFT'
+    },
     {
       name: names.links.teams,
       href: "/teams",
     },
     {
+      name: names.links.partners,
+      href: "/partners",
+    },
+    {
       name: names.links.roadmap,
       href: "/roadmap",
     },
+
     {
-        name: names.links.token,
-        href: "/mgg-token",
-      },
+      name: names.links.whitePaper,
+      href: "/whitepaper",
+    },
+  
   ],
   socials: [
     {
