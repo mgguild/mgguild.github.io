@@ -14,6 +14,7 @@ export const Ecosystems: IEcosystems[] = [
     description:
       "MGG is the very FIRST gaming guild to become a launchpad for gamers!",
     image: "MetaGamingPad",
+    link: 'https://app.metagg.com/#/launchpad'
   },
   {
     name: "MetaGameFi Vault",
@@ -21,6 +22,7 @@ export const Ecosystems: IEcosystems[] = [
     description:
       "MGG acquires the best gaming assets and puts them in a vault where MGG holders can earn through staking",
     image: "Vault",
+    link: 'https://app.metagg.com/#/gamefi'
   },
   {
     name: "MetaGaming Yield",
@@ -33,7 +35,7 @@ export const Ecosystems: IEcosystems[] = [
     name: "MetaGaming Labs",
     subtitle: "Incubator",
     description:
-      "MGG is a project incubator that supports promising Gamefi startups to excel in the global gaming arena",
+      "MGG is a project incubator that supports promising GameFi startups to excel in the global gaming arena",
     image: "Labs",
   },
   {
@@ -44,17 +46,19 @@ export const Ecosystems: IEcosystems[] = [
   },
   {
     name: "MetaSaga Warriors",
-    subtitle: "P2E Game",
+    subtitle: "NFT Game",
     description:
-      "MGG is crafting a futuristic P2E game for tactical gamers in the metaverse!",
+      "MGG is crafting an action-packed roguelike play-and-earn NFT game with highly addictive gameplays & highly individualized NFTs. LAUNCHING SOON!",
     image: "Warriors",
+    link: 'https://metasagawarriors.com',
     status: "coming soon",
   },
   {
     name: "MetaGaming NFTs",
     subtitle: "Data Unit Assets",
     description:
-      "MGG offers NFT to guild members",
+      "MGG offers exclusive NFTs to eligible guild members",
+    link: '/mgg-NFT',
     image: "Nft",
   },
 ];

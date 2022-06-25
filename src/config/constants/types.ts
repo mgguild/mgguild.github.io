@@ -22,6 +22,7 @@ export interface IEcosystems extends DetailsConfig{
   subtitle: string;
   status?: string;
   image: string;
+  link?: string;
 }
 
 export interface IFigures {
