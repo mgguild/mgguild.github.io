@@ -57,12 +57,12 @@ const Section:React.FC = () => {
                 <DescriptionContainer flexDirection='column' alignItems='space-around' padding='10px 0px'>
                     <PageTitle size='lg'> About MetaGaming Guild </PageTitle>
                     <Text as='p' fontSize='1.2em'>
-                        MetaGaming Guild is a unified DAO-based ecosystem of Gaming Guild, INO/IGO Launchpad, Gamefi Vaults, Game Yield Farming
+                        MetaGaming Guild is a unified DAO-based ecosystem of Gaming Guild, INO/IGO Launchpad, GameFi Vaults, Game Yield Farming
                         and Play-to-Earn Game aimed at democratizing game finance.
                     </Text>
                     <Text fontSize='1.2em'>
                         MetaGaming Guild envisions to become the primary and most
-                        community-centric DAO in the Gamefi metaverse!
+                        community-centric DAO in the GameFi metaverse!
                     </Text>
                 </DescriptionContainer>
             </Container>
