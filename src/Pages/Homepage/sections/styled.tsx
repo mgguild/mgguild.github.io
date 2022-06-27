@@ -33,7 +33,6 @@ export const GrowthContainer = styled(SectionContainer)`
 `;
 
 export const ChainContainer = styled(SectionContainer)`
-    
     background-color ${({theme}) => theme.addOnColors.background2};
 `
 // Components

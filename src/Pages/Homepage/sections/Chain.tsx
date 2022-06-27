@@ -5,7 +5,9 @@ import { ChainContainer, PageTitle } from "./styled";
 import BSC from "assets/logo/BSC.png";
 import ETH from "assets/logo/ETH.png";
 import FANTOM from "assets/logo/Fantom.png";
+import MGGLogo from "assets/background/MGGLogo.png";
 import MenuLink from "components/Menu/MenuLink";
+import { Grid } from "@mui/material";
 
 const Container = styled.div`
   font-size: 12px;
@@ -30,6 +32,11 @@ const StyledImg = styled.img`
   }
 `;
 
+const Content = styled(Flex)`
+  width: 100%;
+  text-align: center;
+`;
+
 const chains = [
   {
     icon: BSC,
@@ -47,19 +54,18 @@ const chains = [
 
 const Section: React.FC = () => {
   return (
-    <ChainContainer height="60">
+    <ChainContainer>
       <Container>
-        <Flex
+        <Content
           flexDirection="column"
           alignItems="center"
           justifyContent="flex-start"
-          style={{ width: "100%", textAlign: "center" }}
         >
           <PageTitle size="xl">Game Finance. Democratized.</PageTitle>
           <Text fontSize="1.8em">
             Users Get Real-time Cross-Chain Interoperability
           </Text>
-        </Flex>
+        </Content>
         <Flex
           justifyContent="space-evenly"
           alignItems="center"
@@ -72,6 +78,23 @@ const Section: React.FC = () => {
             </MenuLink>
           ))}
         </Flex>
+        <Content flexDirection="column">
+          <PageTitle size="xl">MGG is MORE Than just a GAME!</PageTitle>
+          <Flex alignItems='center' justifyContent='center'>
+            <img alt="mgg-icon" src={MGGLogo} width="200px" />
+            <Text fontSize="2.5em">MGG creates opportunities beyond scholarships!</Text>
+          </Flex>
+        </Content>
+        <Content flexDirection='column'>
+          <PageTitle size='xl'>A Global GameFi Guild</PageTitle>
+          <Flex>
+          <Text as='p' fontSize="1.5em">
+            Our gaming community is expanding to Asia, Europe, Africa and the rest of the world.
+            With our proven tactics, MGG has won the support of premier gaming partners and active global gamers making us very well-positioned to go dominate the GameFi industry!
+            What are you waiting for? Build strong allies with the tactical gamers at MGG today!
+          </Text>
+          </Flex>
+        </Content>
       </Container>
     </ChainContainer>
   );
