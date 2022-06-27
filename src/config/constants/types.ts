@@ -38,9 +38,9 @@ export interface Partners {
 }
 
 export interface TeamsConfig {
-  [key: string]: { name: string; title: string;}[];
+  [key: string]: { name: string; title: string; link?: string}[];
 }
 
 export interface Partner {
-  [key: string]: { name: string; logo: any; }
+  [key: string]: { name: string; logo: any; link?: string }
 }
