@@ -44,3 +44,10 @@ export interface TeamsConfig {
 export interface Partner {
   [key: string]: { name: string; logo: any; link?: string }
 }
+
+
+export interface ExchangesConfig {
+  name: string;
+  image: string;
+  link: string;
+}

@@ -3,9 +3,9 @@ import { Flex, Heading } from '@metagg/mgg-uikit'
 import GridGradient from '../../assets/background/gridwgradient.png'
 import GridGradientFlipped from '../../assets/background/gridwgradientFlipped.png'
 
-export const Card = styled.div`
+export const Card = styled.div<{border?: string}>`
   background-color: #0c012c;
-  border: #00f4fd 0.15rem solid;
+  border: ${({border}) => border? border : '#00f4fd 0.15rem solid'};
   border-radius: 0.5rem;
   padding: 2rem;
   -moz-box-shadow: inset 0 0 2rem #000000;

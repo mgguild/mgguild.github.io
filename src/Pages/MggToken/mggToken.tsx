@@ -4,6 +4,8 @@ import styled, { ThemeContext } from 'styled-components'
 import Page from 'components/layout/Page'
 import { SvgProps } from 'components/SvgIcon/types'
 import SvgIcon from 'components/SvgIcon/SvgIcon'
+import Exchanges from 'config/constants/Exchanges'
+import { Grid } from '@mui/material'
 import { BgContainer } from '../../style/Global'
 import {
   Card,
@@ -13,7 +15,7 @@ import {
   IconHolder,
   Section,
 } from './styled'
-
+import { CardContainer, Card as BoxCard } from 'Pages/Partners/styled'
 import bgImage from 'assets/background/revTokenBG.png'
 import GrowthBG from 'assets/background/GrowthBG.png'
 import MGGLogo from 'assets/background/MGGLogo.png'
@@ -25,6 +27,7 @@ import GameFiVault from './icons/GameFiVault.png'
 import LiquidityRewards from './icons/LiquidityRewards.png'
 import Launchpad from './icons/Launchpad.png'
 import DAOG from './icons/DAOG.png'
+
 
 interface IconProps extends SvgProps {
   Img?: string
@@ -129,6 +132,22 @@ const MggToken = () => {
               </Flex>
             </Section>
           </div>
+          <div style={{padding: '4rem 0', rowGap: '3rem', textAlign: 'center'}}>
+            <Heading size='xl' color={theme.colors.primary}>BUY $MGG Token</Heading>
+            <Grid container alignItems='center' justifyContent='center' columnSpacing={{xs: 1, sm: 2, md:4, lg: 1}} margin='2rem 0' padding='4rem'>
+              { 
+                Exchanges.map((exchange) => (
+                  <Grid item xs={6} sm={4} md={5} lg={2}>
+                  <a href={exchange.link} target='_blank'>
+                    <BoxCard border='#008ffd 0.15rem solid'>
+                      <img width='120px' src={exchange.image} alt='icon-exchange'/>
+                    </BoxCard>
+                  </a>
+                  </Grid>
+                ))
+              }
+            </Grid>
+            </div>
         </BgContainer>
       </Page>
     </>
