@@ -68,11 +68,13 @@ import Ookeenga from '../../assets/logo/Partners/ookeenga.png'
 import MetaPopIt from '../../assets/logo/Partners/metapopit.png'
 import AOTLogo from '../../assets/logo/Partners/AOT_logo_Plain.png'
 import PlayZap from '../../assets/logo/Partners/PlayZap.png'
-import ElfinKingdom from '../../assets/logo/Partners/ElfinKingdom.svg'
+import ElfinKingdom from '../../assets/logo/Partners/elfin_kingdom.png'
 import SupraOracles from '../../assets/logo/Partners/SupraOracles-White-Red-Horz.svg'
 import ArkRivals from '../../assets/logo/Partners/ArkRivals.png'
 import WonderHero from '../../assets/logo/Partners/WonderHero.png'
 import Metaoasis from '../../assets/logo/Partners/MetaOasis.png'
+import AVStarCapital from '../../assets/logo/Partners/av_star_capital.png'
+import Basketballverse from '../../assets/logo/Partners/basketballverse.png'
 
 
 const partners: Partners = {
@@ -416,7 +418,7 @@ const partners: Partners = {
     },
     Basketballverse: {
       name: 'Basketballverse',
-      logo: 'https://uploads-ssl.webflow.com/62628ac3e59684158df473aa/6266edfcbb923f2af5c194b3_logo%201.svg',
+      logo: Basketballverse,
       link: 'https://basketballverse.gg/'
     },
     ArkRivals: {
@@ -446,7 +448,7 @@ const partners: Partners = {
     },
     AvstarCapital: {
       name: 'Avstar Capital',
-      logo: 'https://avstarcapital.co/wp-content/uploads/2021/11/image-5.png',
+      logo: AVStarCapital,
       link: 'https://avstarcapital.co'
     }
   }
