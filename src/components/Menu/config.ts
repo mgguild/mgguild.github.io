@@ -10,7 +10,7 @@ const links: MenuEntry[] = [
     href: "/revenue-model"
   },
   {
-    label: 'Teams',
+    label: 'Team',
     href: "/team"
   },
   {
