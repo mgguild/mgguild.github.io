@@ -1,35 +1,42 @@
 import { ExchangesConfig } from "./types";
 
+import GateIo from '../../assets/logo/Exchanges/gateIo.png'
+import Huobi from '../../assets/logo/Exchanges/huobi.png'
+import Mexc from '../../assets/logo/Exchanges/mexc.png'
+import Pancakeswap from '../../assets/logo/Exchanges/pancakeswap.png'
+import Uniswap from '../../assets/logo/Exchanges/uniswap.png'
+import Spookyswap from '../../assets/logo/Exchanges/spookyswap.png'
+
 const Exchanges:ExchangesConfig[] = [
   {
     name: 'Huobi',
-    image: 'https://file.hbfile.net/global/en-us/static/img/be67df6.svg',
-    link: 'https://www.huobi.com/en-us/'
+    image: Huobi,
+    link: 'https://www.huobi.com/en-us/exchange/mgg_usdt/'
   },
   {
     name: 'Gate.io',
-    image: 'https://www.gate.io/images/logo/open_sesame_light.png?v=1',
-    link: 'https://www.gate.io/'
+    image: GateIo,
+    link: 'https://www.gate.io/trade/MGG_USDT'
   },
   {
     name: 'MEXC',
-    image: 'https://www.mexc.com/images/full-logo-normal-mexc.svg?v=10002',
-    link: 'https://www.mexc.com/register?inviteCode=1Ne3J'
+    image: Mexc,
+    link: 'https://www.mexc.com/exchange/MGG_USDT'
   },
   {
     name: 'PancakeSwap',
-    image: 'https://cryptologos.cc/logos/pancakeswap-cake-logo.png?v=022',
-    link: 'https://pancakeswap.finance/'
+    image: Pancakeswap,
+    link: 'https://pancakeswap.finance/swap'
   },
   {
     name: 'UniSwap',
-    image: 'https://cryptologos.cc/logos/uniswap-uni-logo.png?v=022',
-    link: 'https://uniswap.org/'
+    image: Uniswap,
+    link: 'https://app.uniswap.org/#/swap?chain=mainnet'
   },
   {
     name: 'SpookySwap',
-    image: 'https://info.spooky.fi/static/media/logo_with_text.b47ba151.svg',
-    link: 'https://spooky.fi/'
+    image: Spookyswap,
+    link: 'https://spooky.fi/#/swap'
   },
 ]
 

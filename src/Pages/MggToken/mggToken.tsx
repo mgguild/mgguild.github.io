@@ -14,6 +14,7 @@ import {
   Icons,
   IconHolder,
   Section,
+  LogoHighlightLink
 } from './styled'
 import { CardContainer, Card as BoxCard } from 'Pages/Partners/styled'
 import bgImage from 'assets/background/revTokenBG.png'
@@ -131,23 +132,19 @@ const MggToken = () => {
                 </div>
               </Flex>
             </Section>
+            <Section style={{padding: '5rem 0 0 0'}}>
+              <Heading size='xl' color={theme.colors.primary}>BUY $MGG Token</Heading>
+              <Flex>
+                {
+                  Exchanges.map((exchange) => (
+                    <LogoHighlightLink href={exchange.link} target='_blank'>
+                        <img width='120px' src={exchange.image} alt='icon-exchange'/>
+                    </LogoHighlightLink>
+                  ))
+                }
+              </Flex>
+            </Section>
           </div>
-          <div style={{padding: '4rem 0', rowGap: '3rem', textAlign: 'center'}}>
-            <Heading size='xl' color={theme.colors.primary}>BUY $MGG Token</Heading>
-            <Grid container alignItems='center' justifyContent='center' columnSpacing={{xs: 1, sm: 2, md:4, lg: 1}} margin='2rem 0' padding='4rem'>
-              { 
-                Exchanges.map((exchange) => (
-                  <Grid item xs={6} sm={4} md={5} lg={2}>
-                  <a href={exchange.link} target='_blank'>
-                    <BoxCard border='#008ffd 0.15rem solid'>
-                      <img width='120px' src={exchange.image} alt='icon-exchange'/>
-                    </BoxCard>
-                  </a>
-                  </Grid>
-                ))
-              }
-            </Grid>
-            </div>
         </BgContainer>
       </Page>
     </>
