@@ -8,6 +8,7 @@ import FANTOM from "assets/logo/Fantom.png";
 import MGGLogo from "assets/background/MGGLogo.png";
 import MenuLink from "components/Menu/MenuLink";
 import { Grid } from "@mui/material";
+import { Card, CardContainer } from "Pages/Partners/styled";
 
 const Container = styled.div`
   font-size: 12px;
@@ -71,6 +72,7 @@ const Section: React.FC = () => {
           alignItems="center"
           style={{ width: "100%" }}
           flexWrap="wrap"
+          margin="2em 0"
         >
           {chains.map((src) => (
             <MenuLink href={src.link} key={src.icon}>
@@ -78,22 +80,69 @@ const Section: React.FC = () => {
             </MenuLink>
           ))}
         </Flex>
-        <Content flexDirection="column">
+        <Content flexDirection="column" margin="1em 0">
           <PageTitle size="xl">MGG is MORE Than just a GAME!</PageTitle>
-          <Flex alignItems='center' justifyContent='center'>
+          <Flex alignItems="center" justifyContent="center">
             <img alt="mgg-icon" src={MGGLogo} width="200px" />
-            <Text fontSize="2.5em">MGG creates opportunities beyond scholarships!</Text>
+            <Text fontSize="2.5em">
+              MGG creates opportunities beyond scholarships!
+            </Text>
           </Flex>
         </Content>
         <Content flexDirection='column'>
-          <PageTitle size='xl'>A Global GameFi Guild</PageTitle>
-          <Flex>
-          <Text as='p' fontSize="1.5em">
-            Our gaming community is expanding to Asia, Europe, Africa and the rest of the world.
-            With our proven tactics, MGG has won the support of premier gaming partners and active global gamers making us very well-positioned to go dominate the GameFi industry!
-            What are you waiting for? Build strong allies with the tactical gamers at MGG today!
+          <Grid container margin='1em 0'>
+            <Grid item md={3}>
+            <Card>
+              <Text fontSize="1.2em">MGG creates opportunities beyond scholarships!</Text>
+            </Card>
+            </Grid>
+            <Grid item md={3}>
+            <Card>
+              <Text fontSize="1.2em">
+                MGG reinvents P2E gaming by introducing player-centric
+                protocols.
+              </Text>
+            </Card>
+            </Grid>
+            <Grid item md={3}>
+            <Card>
+              <Text fontSize='1.2em'>
+                MGG introduced the first form of game yield farming for
+                blockchain games!
+              </Text>
+            </Card>
+            </Grid>
+            <Grid item md={3}>
+            <Card>
+              <Text fontSize='1.2em'>
+                MGG is on a mission to formalize NFT gaming and build an
+                inclusive community of tactical gamers who actively
+                play-to-earn.
+              </Text>
+            </Card>
+            </Grid>
+            </Grid>
+            <Text fontSize='1.5em'>
+              Enjoy P2E gaming, P2E training, yield farming and more with
+              MetaGaming Guild! We’d love for you to join us! 🎮
+            </Text>
+            
+          </Content>
+        <Content flexDirection="column" margin="1em 0">
+          <PageTitle size="xl">A Global GameFi Guild</PageTitle>
+          <Text
+            as="p"
+            fontSize="1.5em"
+            style={{ textAlign: "justify" }}
+            margin="1em 0"
+          >
+            Our gaming community is expanding to Asia, Europe, Africa and the
+            rest of the world. With our proven tactics, MGG has won the support
+            of premier gaming partners and active global gamers making us very
+            well-positioned to go dominate the GameFi industry!What are you
+            waiting for? Build strong allies with the tactical gamers at MGG
+            today!
           </Text>
-          </Flex>
         </Content>
       </Container>
     </ChainContainer>
