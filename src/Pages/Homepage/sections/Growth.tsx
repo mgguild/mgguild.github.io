@@ -3,7 +3,7 @@ import styled from "styled-components";
 import { Text, Heading, Flex } from "@metagg/mgg-uikit";
 import { Grid } from "@mui/material";
 
-import GrowthPNG from "assets/images/Growth.png";
+import GrowthPNG from "assets/images/Growth.svg";
 import { GrowthContainer, PageTitle } from "./styled";
 import { Figures } from "../../../config/constants/homepageConfig";
 
