@@ -3,7 +3,7 @@ import { Flex, Heading } from '@metagg/mgg-uikit'
 import GridGradient from '../../assets/background/gridwgradient.png'
 import GridGradientFlipped from '../../assets/background/gridwgradientFlipped.png'
 
-export const Card = styled.div<{border?: string}>`
+export const Card = styled.div<{border?: string; fontSize?: string}>`
   background-color: #0c012c;
   border: ${({border}) => border? border : '#00f4fd 0.15rem solid'};
   border-radius: 0.5rem;
@@ -17,6 +17,9 @@ export const Card = styled.div<{border?: string}>`
   align-items: center;
   justify-content: center;
   height: 10rem;
+  ${({fontSize}) => fontSize && `
+  font-size: ${fontSize}px;
+  `}
 `
 
 export const Logo = styled.img`
