@@ -22,12 +22,12 @@ export const names = {
     links: {
         home: 'Home',
         revModel: 'Revenue Model',
-        teams: 'Teams',
+        teams: 'Team',
         roadmap: 'Roadmap',
         token: 'MGG Token',
-        NFT: 'NFT',
+        NFT: 'NFTs',
         partners: 'Partners',
-        whitePaper: 'White paper',
+        whitePaper: 'White Paper',
         blog: 'Blog',
         contact: 'Contact Us'
     }

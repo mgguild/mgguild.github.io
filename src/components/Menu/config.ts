@@ -22,16 +22,16 @@ const links: MenuEntry[] = [
     href: "/mgg-token"
   },
   {
-    label: 'NFT',
-    href: "/mgg-NFT"
+    label: 'NFTs',
+    href: "/mgg-NFTs"
   },
   {
     label: 'Partners',
     href: "/partners"
   },
   {
-    label: 'White paper',
-    href: "/whitepaper"
+    label: 'White Paper',
+    href: "/White-Paper"
   },
 ]
 

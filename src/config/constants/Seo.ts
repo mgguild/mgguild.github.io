@@ -22,8 +22,8 @@ export const getCustomMeta = (path: string, ): PageMeta => {
       return {
         title: 'Teams',
       }
-    case '/mgg-NFT':
-      return { title: 'NFT'}
+    case '/mgg-NFTs':
+      return { title: 'NFTs'}
     case '/roadmap':
       return {
         title: 'Roadmap',
@@ -38,7 +38,7 @@ export const getCustomMeta = (path: string, ): PageMeta => {
       }
     case '/whitepaper':
       return {
-        title: 'White paper',
+        title: 'White Paper',
       }
     default:
       return {
