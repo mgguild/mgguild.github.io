@@ -30,7 +30,7 @@ const links: MenuEntry[] = [
     href: "/partners"
   },
   {
-    label: 'Whitepaper',
+    label: 'White paper',
     href: "/whitepaper"
   },
 ]

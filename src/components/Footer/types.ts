@@ -27,7 +27,7 @@ export const names = {
         token: 'MGG Token',
         NFT: 'NFT',
         partners: 'Partners',
-        whitePaper: 'Whitepaper',
+        whitePaper: 'White paper',
         blog: 'Blog',
         contact: 'Contact Us'
     }
