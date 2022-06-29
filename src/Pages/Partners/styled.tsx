@@ -3,9 +3,9 @@ import { Flex, Heading } from '@metagg/mgg-uikit'
 import GridGradient from '../../assets/background/gridwgradient.png'
 import GridGradientFlipped from '../../assets/background/gridwgradientFlipped.png'
 
-export const Card = styled.div`
+export const Card = styled.div<{border?: string; fontSize?: string}>`
   background-color: #0c012c;
-  border: #00f4fd 0.15rem solid;
+  border: ${({border}) => border? border : '#00f4fd 0.15rem solid'};
   border-radius: 0.5rem;
   padding: 2rem;
   -moz-box-shadow: inset 0 0 2rem #000000;
@@ -17,6 +17,9 @@ export const Card = styled.div`
   align-items: center;
   justify-content: center;
   height: 10rem;
+  ${({fontSize}) => fontSize && `
+  font-size: ${fontSize}px;
+  `}
 `
 
 export const Logo = styled.img`
@@ -79,6 +82,10 @@ export const BgPage = styled.div`
     background-repeat: no-repeat;
     background-position: center bottom;
     background-size: contain;
+  }
+
+  @media screen and (max-width: 500px) {
+    padding: 0.5rem;
   }
 `
 

@@ -66,271 +66,390 @@ import SL2 from '../../assets/logo/Partners/sl2.png'
 import Wizardia from '../../assets/logo/Partners/Wizardia.png'
 import Ookeenga from '../../assets/logo/Partners/ookeenga.png'
 import MetaPopIt from '../../assets/logo/Partners/metapopit.png'
+import AOTLogo from '../../assets/logo/Partners/AOT_logo_Plain.png'
+import PlayZap from '../../assets/logo/Partners/PlayZap.png'
+import ElfinKingdom from '../../assets/logo/Partners/elfin_kingdom.png'
+import SupraOracles from '../../assets/logo/Partners/SupraOracles-White-Red-Horz.svg'
+import ArkRivals from '../../assets/logo/Partners/ArkRivals.png'
+import WonderHero from '../../assets/logo/Partners/WonderHero.png'
+import Metaoasis from '../../assets/logo/Partners/MetaOasis.png'
+import AVStarCapital from '../../assets/logo/Partners/av_star_capital.png'
+import Basketballverse from '../../assets/logo/Partners/basketballverse.png'
+
 
 const partners: Partners = {
   InvsBckrs:{
     DaoMaker: {
       name: 'Dao Maker',
-      logo: DaoMaker
+      logo: DaoMaker,
+      link: 'https://daomaker.com/'
     },
     IceteaLabs: {
       name: 'Icetea Labs',
-      logo: IceteaLabs
+      logo: IceteaLabs,
+      link: 'https://icetea.io/#/'
     },
     LdCapital: {
       name: 'LD Capital',
-      logo: LdCapital
+      logo: LdCapital,
+      link: 'http://ldcap.com/'
     },
     CinchBlock: {
       name: 'Cinch Block',
-      logo: CinchBlock
+      logo: CinchBlock,
+      link: 'https://www.cinchblock.com/'
     },
     SGV: {
       name: 'SparkPoint Global Ventures',
-      logo: SGV
+      logo: SGV,
+      link: 'https://sparkpoint.global/'
     },
     DoublePeak: {
       name: 'Double Peak',
-      logo: DoublePeak
+      logo: DoublePeak,
+      link: 'https://doublepeak.io/'
     },
     Megala: {
       name: 'Megala',
-      logo: Megala
+      logo: Megala,
+      link: 'https://megala.ventures/'
     },
     ACCapital: {
       name: 'AC Capital',
-      logo: ACCapital
+      logo: ACCapital,
+      link: 'https://accapital.io/'
     },
     Origin: {
       name: 'Origin',
-      logo: Origin
+      logo: Origin,
+      link: 'https://originventures.co/'
     },
     Metrix: {
       name: 'Metrix',
-      logo: Metrix
+      logo: Metrix,
+      link: 'https://metrix.capital/'
     },
     Raptor: {
       name: 'Raptor',
-      logo: Raptor
+      logo: Raptor,
+      link: 'https://www.raptorcapital.io/'
     },
     TKVentures: {
       name: 'TK Ventures',
-      logo: TKVentures
+      logo: TKVentures,
+      link: 'https://tk.ventures/'
     },
     Ghaf: {
       name: 'GHAF Capital Partners',
-      logo: Ghaf
+      logo: Ghaf,
+      link: 'https://ghafcapital.ae/'
     },
     Halvings: {
       name: 'Halvings Capital',
-      logo: Halvings
+      logo: Halvings,
+      link: 'https://halvingscapital.com/'
     },
-    GateIO: {
-      name: 'Gate.io',
-      logo: GateIO
-    }
+    // GateIO: {
+    //   name: 'Gate.io',
+    //   logo: GateIO
+    // }
   },
 
   Partners:{
     GameFi:{
       name: 'GameFi',
-      logo: GameFi
+      logo: GameFi,
+      link: 'https://gamefi.org/'
     },
     RedKite:{
       name: 'RedKite',
-      logo: RedKite
+      logo: RedKite,
+      link: 'https://redkite.polkafoundry.com/#/'
     },
-    Kudasai: {
-      name: 'Kudasai',
-      logo: Kudasai
-    },
+    // Kudasai: {
+    //   name: 'Kudasai',
+    //   logo: Kudasai,
+    //   link: ''
+    // },
     Placewar: {
       name: 'Placewar',
-      logo: Placewar
+      logo: Placewar,
+      link: 'https://placewar.io/#/'
     },
     GameStarter: {
       name: 'Game Starter',
-      logo: GameStarter
+      logo: GameStarter,
+      link: 'https://igo.gamestarter.com/'
     },
     MetaSoccer: {
       name: 'MetaSoccer',
-      logo: MetaSoccer
+      logo: MetaSoccer,
+      link: 'https://metasoccer.com/'
     },
     Demole: {
       name: 'Demole',
-      logo: Demole
+      logo: Demole,
+      link: 'https://demole.io/'
     },
     TheKillBox: {
       name: 'The Kill Box',
-      logo: TheKillBox
+      logo: TheKillBox,
+      link: 'https://www.thekillboxgame.com/index.html'
     },
     ChaosOf12Legions: {
       name: 'Chaos Of 12 Legions',
-      logo: ChaosOf12Legions
+      logo: ChaosOf12Legions,
+      link: 'https://www.12legions.io/'
     },
     GoldFever: {
       name: 'Gold Fever',
-      logo: GoldFever
+      logo: GoldFever,
+      link: 'https://goldfever.io/'
     },
     Kingdomx: {
       name: 'Kingdomx',
-      logo: Kingdomx
+      logo: Kingdomx,
+      link: 'https://kingdomx.co/'
     },
     NitroLeague: {
       name: 'Nitro League',
-      logo: NitroLeague
+      logo: NitroLeague,
+      link: 'https://www.nitroleague.com/index.html'
     },
     Polinate: {
       name: 'Polinate',
-      logo: Polinate
+      logo: Polinate,
+      link: 'https://www.polinate.io/'
     },
     Warm: {
       name: 'Warm',
-      logo: Warm
+      logo: Warm,
+      link: 'https://wam.app/'
     },
     MetaGods: {
       name: 'MetaGods',
-      logo: MetaGods
+      logo: MetaGods,
+      link: 'https://metagods.gg/'
     },
     DarkFrontiers: {
       name: 'Dark Frontiers',
-      logo: DarkFrontiers
+      logo: DarkFrontiers,
+      link: 'https://www.darkfrontiers.com/'
+    },
+    AgeOfTanks: {
+      name: 'Age of tanks',
+      logo: AOTLogo,
+      link: 'https://ageoftanks.io/'
     },
     BlockTides: {
       name: 'Block Tides',
-      logo: BlockTides
+      logo: BlockTides,
+      link: 'https://blocktides.com/'
     },
     GunStar: {
       name: 'Gunstar',
-      logo: GunStar
+      logo: GunStar,
+      link: 'https://gunstar.io/'
     },
     Kitsumon: {
       name: 'Kitsumon',
-      logo: Kitsumon
+      logo: Kitsumon,
+      link: 'https://kitsumon.com/'
     },
     TankWarsZone: {
       name: 'TankWarsZone',
-      logo: TankWarsZone
+      logo: TankWarsZone,
+      link: 'https://tankwars.zone/'
     },
     EnginesOfFury: {
       name: 'Engines Of Fury',
-      logo: EnginesOfFury
+      logo: EnginesOfFury,
+      link: 'https://www.eof.gg/'
     },
     InfinityForce: {
       name: 'Infinity Force',
-      logo: InfinityForce
+      logo: InfinityForce,
+      link: 'https://infinityforce.com/'
     },
     MetaFi: {
       name: 'MetaFi',
-      logo: MetaFi
+      logo: MetaFi,
+      link: 'https://metafi.org/'
     },
     CodyFight: {
       name: 'CodyFight',
-      logo: CodyFight
+      logo: CodyFight,
+      link: 'https://codyfight.com/'
     },
     Wastelands: {
       name: 'Wastelands',
-      logo: Wastelands
+      logo: Wastelands,
+      link: 'https://thewastedlands.io/'
     },
     StepHero: {
       name: 'Step Hero',
-      logo: StepHero
+      logo: StepHero,
+      link: 'https://www.stephero.io/'
     },
     FaraLand: {
       name: 'Fara Land',
-      logo: FaraLand
+      logo: FaraLand,
+      link: 'https://faraland.io/'
     },
     NFTb: {
       name: 'NFTb',
-      logo: NFTb
+      logo: NFTb,
+      link: 'https://nftb.io/'
     },
     BulliVerse: {
       name: 'BulliVerse',
-      logo: BulliVerse
+      logo: BulliVerse,
+      link: 'https://bullieverse.com/'
     },
     Monsterra: {
       name: 'Monsterra',
-      logo: Monsterra
+      logo: Monsterra,
+      link: 'https://monsterra.io/'
     },
     AngelsCreed: {
       name: `Angels Creed`,
-      logo: AngelsCreed
+      logo: AngelsCreed,
+      link: 'https://www.angelscreed.com/'
     },
     Dehorizon: {
       name: 'Dehorizon',
-      logo: Dehorizon
+      logo: Dehorizon,
+      link: 'https://www.dehorizon.fun/'
     },
     Dinox: {
       name: 'Dinox',
-      logo: Dinox
+      logo: Dinox,
+      link: 'https://dinox.io/'
     },
     KingdomRaids: {
       name: 'Kingdom Raids',
-      logo: KingdomRaids
+      logo: KingdomRaids,
+      link: 'https://kingdomraids.io/'
     },
     Breach: {
       name: 'Breach',
-      logo: Breach
+      logo: Breach,
+      link: 'https://breach.gg/'
     },
     PirateExpirate: {
       name: 'Pirate Expirate',
-      logo: PirateExpirate
+      logo: PirateExpirate,
+      link: 'https://piratexpirate.io/'
     },
     Acknoledger: {
       name: 'Acknoledger',
-      logo: Acknoledger
+      logo: Acknoledger,
+      link: 'https://acknoledger.com/'
     },
     LibertyGamingGuild: {
       name: 'Liberty Gaming Guild',
-      logo: LibertyGamingGuild
+      logo: LibertyGamingGuild,
+      link: 'https://libertygaming.io/'
     },
     DragonWar: {
       name: 'Dragon War',
-      logo: DragonWar
+      logo: DragonWar,
+      link: 'https://dragonwar.io/'
     },
     Chainport: {
       name: 'Chainport',
-      logo: Chainport
+      logo: Chainport,
+      link: 'https://www.chainport.io/'
     },
     ChibiClash: {
       name: 'Chibi Clash',
-      logo: ChibiClash
+      logo: ChibiClash,
+      link: 'https://chibi.gg/'
     },
     NyanHeroes: {
       name: 'Nyan Heroes',
-      logo: NyanHeroes
+      logo: NyanHeroes,
+      link: 'https://nyanheroes.com/'
     },
     MetaDerby: {
       name: 'MetaDerby',
-      logo: MetaDerby
+      logo: MetaDerby,
+      link: 'https://www.metaderby.com/'
     },
     DragonEvolution: {
       name: 'Dragon Evolution',
-      logo: DragonEvolution
+      logo: DragonEvolution,
+      link: 'https://dragonevolution.gg/'
     },
-    GateIo: {
-      name: 'GateIo',
-      logo: GateIo
-    },
-    WebcoinCapital: {
-      name: 'Webcoin Capital',
-      logo: WebcoinCapital
-    },
+    // GateIo: {
+    //   name: 'GateIo',
+    //   logo: GateIo,
+    //   link: ''
+    // },
     SL2: {
       name: 'SL2 Capital',
-      logo: SL2
-    },
-    Wizardia: {
-      name: 'Wizardia',
-      logo: Wizardia
-    },
-    Ookeenga: {
-      name: 'Ookeenga',
-      logo: Ookeenga
+      logo: SL2,
+      link: 'https://sl2.capital/'
     },
     MetaPopIt: {
       name: 'MetaPopit',
-      logo: MetaPopIt
+      logo: MetaPopIt,
+      link: 'https://www.metapopit.com/'
+    },
+    WebcoinCapital: {
+      name: 'Webcoin Capital',
+      logo: WebcoinCapital,
+      link: 'https://www.webcoin.capital/'
+    },
+    Wizardia: {
+      name: 'Wizardia',
+      logo: Wizardia,
+      link: 'https://wizardia.io/'
+    },
+    Ookeenga: {
+      name: 'Ookeenga',
+      logo: Ookeenga,
+      link: 'https://ookeenga.com/'
+    },
+    SupraOracles: {
+      name: 'Supra Oracles',
+      logo: SupraOracles,
+      link: 'https://supraoracles.com/'
+    },
+    Basketballverse: {
+      name: 'Basketballverse',
+      logo: Basketballverse,
+      link: 'https://basketballverse.gg/'
+    },
+    ArkRivals: {
+      name: 'Ark Rivals',
+      logo: ArkRivals,
+      link: 'https://arkrivals.com/',
+    },
+    MetaOasis: {
+      name: 'Meta Oasis',
+      logo: Metaoasis,
+      link: 'https://www.metaoasis.cc/'
+    },
+    PlayZap: {
+      name: 'PlayZap',
+      logo: PlayZap,
+      link: 'https://www.playzap.games/'
+    },
+    WonderHero: {
+      name: 'WonderHero',
+      logo: WonderHero,
+      link: 'https://wonderhero.io/'
+    },
+    ElfinKingdom: {
+      name: 'Elfin Kingdom',
+      logo: ElfinKingdom,
+      link: 'https://elfinkingdom.com/'
+    },
+    AvstarCapital: {
+      name: 'Avstar Capital',
+      logo: AVStarCapital,
+      link: 'https://avstarcapital.co'
     }
   }
 }

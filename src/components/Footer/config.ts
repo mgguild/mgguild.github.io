@@ -7,29 +7,36 @@ const Config: Props = {
       href: "/home",
     },
     {
-        name: names.links.partners,
-        href: "/partners",
-      },
+      name: names.links.token,
+      href: "/mgg-token",
+    },
+
     {
       name: names.links.revModel,
       href: "/revenue-model",
     },
     {
-        name: names.links.whitePaper,
-        href: "/whitepaper",
-      },
+      name: names.links.NFT,
+      href: '/mgg-NFTs'
+    },
     {
       name: names.links.teams,
       href: "/teams",
     },
     {
+      name: names.links.partners,
+      href: "/partners",
+    },
+    {
       name: names.links.roadmap,
       href: "/roadmap",
     },
+
     {
-        name: names.links.token,
-        href: "/mgg-token",
-      },
+      name: names.links.whitePaper,
+      href: "/White-Paper",
+    },
+
   ],
   socials: [
     {
@@ -60,6 +67,10 @@ const Config: Props = {
       name: names.socials.medium,
       href: "https://medium.com/metagamingguild",
     },
+    {
+      name: names.socials.youtube,
+      href: 'https://www.youtube.com/channel/UCdVjfmKv-Qi3z2SXyB1f2gA'
+    }
   ],
 };
 

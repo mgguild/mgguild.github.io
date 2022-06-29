@@ -72,6 +72,10 @@ export const BgPage = styled.div`
     background-position: center;
     background-size: cover;
   }
+
+  @media screen and (max-width: 500px) {
+    padding: 1rem;
+  }
 `
 
 export const RdmapCards = styled(Flex)`

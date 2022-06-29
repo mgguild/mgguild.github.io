@@ -4,6 +4,7 @@ import styled, { ThemeContext } from 'styled-components'
 import Page from 'components/layout/Page'
 import { NavOption } from '../../style/Global'
 import roadmaps from '../../config/constants/roadmaps'
+import { NavOptionContainer } from "style/Global"
 import {
   BgPage,
   HeadingGlow,
@@ -27,18 +28,11 @@ const Roadmap = () => {
         <BgPage>
           <div style={{position: 'relative', zIndex: 2}}>
             <HeadingGlow size='xxl' color='#fdda00' glow="#fdda00">Roadmap</HeadingGlow>
-            <Flex
+            <NavOptionContainer
               alignItems="center"
               margin="2.5rem 0px 2rem 0px"
               padding="0 0 1rem 0"
-              style={{
-                justifyContent: 'center',
-                borderBottom: `0.5px solid #00f4fd`,
-                width: '100%',
-                flexFlow: 'wrap row',
-                rowGap: '1rem',
-                columnGap: '1.5rem'
-              }}
+              maxScreen="423px"
             >
               <NavOption
                   key='all'
@@ -58,7 +52,7 @@ const Roadmap = () => {
                 {year}
               </NavOption>
               ))}
-            </Flex>
+            </NavOptionContainer>
 
 
             {active !== 0 ?

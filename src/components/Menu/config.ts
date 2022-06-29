@@ -2,7 +2,7 @@ import { MenuEntry } from './types'
 
 const links: MenuEntry[] = [
   {
-    label: 'Homepage',
+    label: 'Home',
     href: "/"
   },
   {
@@ -22,16 +22,16 @@ const links: MenuEntry[] = [
     href: "/mgg-token"
   },
   {
-    label: 'NFT',
-    href: "/mgg-NFT"
+    label: 'NFTs',
+    href: "/mgg-NFTs"
   },
   {
     label: 'Partners',
     href: "/partners"
   },
   {
-    label: 'Whitepaper',
-    href: "/whitepaper"
+    label: 'White Paper',
+    href: "/White-Paper"
   },
 ]
 

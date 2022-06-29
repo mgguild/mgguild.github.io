@@ -44,7 +44,7 @@ const NFTpage = () => {
                   <Text>The opportunity to own the first NFTs in MetaGaming Guild has arrived!</Text>
                   <br />
                   <br />
-                  <Text>MGG NFT is an exclusive user identification on MetaGaming Guild ecosystem. A total of 5,000 individually designed NFTs will be up for grabs soon to eligible MGG token holders.</Text>
+                  <Text>MGG NFT is an exclusive user identification on MetaGaming Guild ecosystem. A total of 5,000 individually designed NFTs will be up for grabs soon.</Text>
                 </div>
 
                 {/* <Btn disabled style={{margin: '3rem 0 0 0'}}>BUY A LIMITED EDITION MGG NFT</Btn> */}
@@ -52,7 +52,7 @@ const NFTpage = () => {
               </BadgesDesc>
               <Flex>
                 <div>
-                <img style={{display: 'block', width: 'auto', height: 'auto', maxHeight: '35rem', minHeight: '21.5rem', minWidth: '29rem'}} src={Nfts}/>
+                <img style={{display: 'block', width: 'auto', height: 'auto', maxHeight: '35rem'}} src={Nfts}/>
                 </div>
               </Flex>
             </BadgesContainer>
@@ -89,7 +89,7 @@ const NFTpage = () => {
               {/* <Btn disabled style={{margin: '3rem 0 5rem 0', padding: '2rem 5rem'}}>GO GET ONE! <Text style={{padding: '0 0 0.5rem 0'}}>&nbsp;👉</Text></Btn> */}
               <Btn disabled style={{margin: '3rem 0 5rem 0', padding: '2rem 5rem'}}>MINTING SOON!</Btn>
 
-              <Card>
+              {/* <Card>
                 <div style={{padding: '1rem'}}>
                   <div style={{display: 'grid', gridTemplateColumns: '1fr 5fr', gap: '2rem', textAlign: 'left'}}>
                     <Heading size='l' color={theme.colors.MGG_accent2}>Contact Address</Heading>
@@ -102,7 +102,7 @@ const NFTpage = () => {
                     <Text>To be added</Text>
                   </div>
                 </div>
-              </Card>
+              </Card> */}
             </div>
           </div>
         </BgPage>

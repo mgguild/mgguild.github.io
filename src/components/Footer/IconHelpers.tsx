@@ -1,6 +1,6 @@
 import React from 'react'
 import styled from 'styled-components'
-import { Facebook, Send, Twitter, Linkedin, Instagram, HelpCircle} from "react-feather"
+import { Facebook, Send, Twitter, Linkedin, Instagram, HelpCircle, Youtube} from "react-feather"
 import { SiDiscord } from 'react-icons/si' 
 import { FaMediumM } from 'react-icons/fa'
 import { names } from "components/Footer/types"
@@ -33,6 +33,8 @@ export const SocialIcon:React.FC<{name: string}> = ({ name }) => {
                 return <Instagram />
             case socials.medium:
                 return <FaMediumM />
+            case socials.youtube:
+                return <Youtube />
             default: 
                 return (
                     <HelpCircle />

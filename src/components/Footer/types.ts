@@ -17,14 +17,15 @@ export const names = {
       linkedIn: "LINKED-IN",
       ig: "INSTAGRAM",
       medium: "MEDIUM",
+      youtube: 'YOUTUBE'
     },
     links: {
         home: 'Home',
         revModel: 'Revenue Model',
-        teams: 'Teams',
+        teams: 'Team',
         roadmap: 'Roadmap',
         token: 'MGG Token',
-        NFT: 'NFT',
+        NFT: 'NFTs',
         partners: 'Partners',
         whitePaper: 'White Paper',
         blog: 'Blog',

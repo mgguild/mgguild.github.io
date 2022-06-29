@@ -22,6 +22,7 @@ export interface IEcosystems extends DetailsConfig{
   subtitle: string;
   status?: string;
   image: string;
+  link?: string;
 }
 
 export interface IFigures {
@@ -37,9 +38,16 @@ export interface Partners {
 }
 
 export interface TeamsConfig {
-  [key: string]: { name: string; title: string;}[];
+  [key: string]: { name: string; title: string; link?: string}[];
 }
 
 export interface Partner {
-  [key: string]: { name: string; logo: any; }
+  [key: string]: { name: string; logo: any; link?: string }
+}
+
+
+export interface ExchangesConfig {
+  name: string;
+  image: string;
+  link: string;
 }
