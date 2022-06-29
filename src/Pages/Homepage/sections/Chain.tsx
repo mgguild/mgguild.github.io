@@ -84,47 +84,52 @@ const Section: React.FC = () => {
           ))}
         </Flex>
         <Content flexDirection="column" margin="1em 0">
-          <PageTitle size="xl">MGG is MORE Than just a GAME!</PageTitle>
+          {/* <PageTitle size="xl">MGG is MORE Than just a GAME!</PageTitle> */}
           <Flex alignItems="center" justifyContent="center">
             <img alt="mgg-icon" src={MGGLogo} width={isMobile ? "150px" : "200px"} />
-            <Text fontSize="2.5em">
-              MGG creates opportunities beyond scholarships!
-            </Text>
+            <PageTitle size="xl">
+              MGG is MORE Than just a GAME!
+            </PageTitle>
           </Flex>
         </Content>
         <Content flexDirection='column'>
-          <Grid container margin='1em 0'>
-            <Grid item md={3} style={{width: '100%'}}>
-            <Card>
-              <Text fontSize="1.2em">MGG reinvents P2E gaming by introducing player-centric protocols.</Text>
-            </Card>
+          <Grid container margin='1em 0' style={{justifyContent: 'center'}}>
+            <Grid item md={3} style={{width: '100%', margin: '1rem'}}>
+              <Card>
+                <Text fontSize="1.2em">MGG creates opportunities beyond scholarships.</Text>
+              </Card>
             </Grid>
-            <Grid item md={3} style={{width: '100%'}}>
-            <Card>
-              <Text fontSize="1.2em">
-                MGG introduced the first form of game yield farming for
-                blockchain games!
-              </Text>
-            </Card>
+            <Grid item md={3} style={{width: '100%', margin: '1rem'}}>
+              <Card>
+                <Text fontSize="1.2em">MGG reinvents P2E gaming by introducing player-centric protocols.</Text>
+              </Card>
             </Grid>
-            <Grid item md={3} style={{width: '100%'}}>
-            <Card>
-              <Text fontSize='1.2em'>
-                MGG is on a mission to formalize NFT gaming and build an
-                inclusive community of tactical gamers who actively
-                play-to-earn.
-              </Text>
-            </Card>
+            <Grid item md={3} style={{width: '100%', margin: '1rem'}}>
+              <Card>
+                <Text fontSize="1.2em">
+                  MGG introduced the first form of game yield farming for
+                  blockchain games!
+                </Text>
+              </Card>
             </Grid>
-            <Grid item md={3} style={{width: '100%'}}>
-            <Card>
-              <Text fontSize='1.2em'>
-                Enjoy P2E gaming, P2E training, yield farming and more with
-                MetaGaming Guild! We’d love for you to join us! 🎮
-              </Text>
-            </Card>
+            <Grid item md={3} style={{width: '100%', margin: '1rem'}}>
+              <Card>
+                <Text fontSize='1.2em'>
+                  MGG is on a mission to formalize NFT gaming and build an
+                  inclusive community of tactical gamers who actively
+                  play-to-earn.
+                </Text>
+              </Card>
             </Grid>
+            <Grid item md={3} style={{width: '100%', margin: '1rem'}}>
+              <Card>
+                <Text fontSize='1.2em'>
+                  Enjoy P2E gaming, P2E training, yield farming and more with
+                  MetaGaming Guild! We’d love for you to join us! 🎮
+                </Text>
+              </Card>
             </Grid>
+          </Grid>
 
           </Content>
         <Content flexDirection="column" margin="1em 0">
