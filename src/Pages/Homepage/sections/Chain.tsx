@@ -96,20 +96,12 @@ const Section: React.FC = () => {
           <Grid container margin='1em 0'>
             <Grid item md={3} style={{width: '100%'}}>
             <Card>
-              <Text fontSize="1.2em">MGG creates opportunities beyond scholarships!</Text>
+              <Text fontSize="1.2em">MGG reinvents P2E gaming by introducing player-centric protocols.</Text>
             </Card>
             </Grid>
             <Grid item md={3} style={{width: '100%'}}>
             <Card>
               <Text fontSize="1.2em">
-                MGG reinvents P2E gaming by introducing player-centric
-                protocols.
-              </Text>
-            </Card>
-            </Grid>
-            <Grid item md={3} style={{width: '100%'}}>
-            <Card>
-              <Text fontSize='1.2em'>
                 MGG introduced the first form of game yield farming for
                 blockchain games!
               </Text>
@@ -124,19 +116,23 @@ const Section: React.FC = () => {
               </Text>
             </Card>
             </Grid>
+            <Grid item md={3} style={{width: '100%'}}>
+            <Card>
+              <Text fontSize='1.2em'>
+                Enjoy P2E gaming, P2E training, yield farming and more with
+                MetaGaming Guild! We’d love for you to join us! 🎮
+              </Text>
+            </Card>
             </Grid>
-            <Text fontSize='1.5em'>
-              Enjoy P2E gaming, P2E training, yield farming and more with
-              MetaGaming Guild! We’d love for you to join us! 🎮
-            </Text>
-            
+            </Grid>
+
           </Content>
         <Content flexDirection="column" margin="1em 0">
           <PageTitle size="xl">A Global GameFi Guild</PageTitle>
           <Text
             as="p"
             fontSize="1.5em"
-            style={{ textAlign: "justify" }}
+            style={{ textAlign: "center" }}
             margin="1em 0"
           >
             Our gaming community is expanding to Asia, Europe, Africa and the

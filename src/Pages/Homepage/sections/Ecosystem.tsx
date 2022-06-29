@@ -9,15 +9,20 @@ import { IEcosystems } from "config/constants/types";
 import { Ecosystems } from "config/constants/homepageConfig";
 import * as IconModule from "./icons";
 import MenuLink from "components/Menu/MenuLink";
+import TeaserVideo from "../../../assets/video/MGG_teaser_video.mp4"
 
 const Container = styled(Flex)`
-  padding: 50px;
+  padding: 2rem 50px 50px 50px;
   flex-direction: column;
   text-align: center;
   margin: 0px auto;
   max-width: 1400px;
   align-items: space-between;
   justify-content: space-evenly;
+
+  @media screen and (max-width: 500px) {
+    padding: 0;
+  }
 `;
 const StyledCard = styled.div<{ link?: boolean }>`
   padding: 24px;
@@ -138,6 +143,10 @@ const Section: React.FC = () => {
   return (
     <EcoContainer height="100">
       <Container>
+        <video width="500" style={{width: '100%' ,height: 'auto'}} controls autoPlay={true} muted loop>
+          <source src={TeaserVideo} type="video/mp4" />
+          Your browser does not support the video tag.
+        </video>
         <PageTitle size="xl">MetaGaming Guild Ecosystem</PageTitle>
         <Cards />
       </Container>
