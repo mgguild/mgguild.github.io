@@ -17,7 +17,7 @@ const Config: Props = {
     },
     {
       name: names.links.NFT,
-      href: '/mgg-NFT'
+      href: '/mgg-NFTs'
     },
     {
       name: names.links.teams,
@@ -34,9 +34,9 @@ const Config: Props = {
 
     {
       name: names.links.whitePaper,
-      href: "/whitepaper",
+      href: "/White-Paper",
     },
-  
+
   ],
   socials: [
     {

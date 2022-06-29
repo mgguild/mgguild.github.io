@@ -5,6 +5,7 @@ import Page from "components/layout/Page";
 
 import { NavOption } from "../../style/Global";
 import partners from "../../config/constants/partners";
+import { NavOptionContainer } from "../../style/Global";
 import {
   BgPage,
   HeadingGlow,
@@ -29,18 +30,11 @@ const Partners = () => {
             <HeadingGlow size="xxl" color="#fdda00" glow="#fdda00">
               Partners
             </HeadingGlow>
-            <Flex
+            <NavOptionContainer
               alignItems="center"
               margin="2.5rem 0px 2rem 0px"
               padding="0 0 1rem 0"
-              style={{
-                justifyContent: "center",
-                borderBottom: `0.5px solid #00f4fd`,
-                width: "100%",
-                flexFlow: "wrap row",
-                rowGap: "1rem",
-                columnGap: "1.5rem",
-              }}
+              maxScreen="650px"
             >
               <NavOption
                 key="all"
@@ -74,7 +68,7 @@ const Partners = () => {
               >
                 Partners
               </NavOption>
-            </Flex>
+            </NavOptionContainer>
 
             {active !== 0 ? (
               <Logos>

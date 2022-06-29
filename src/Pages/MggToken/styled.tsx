@@ -1,4 +1,4 @@
-import styled, { ThemeContext } from 'styled-components'
+import styled, { ThemeContext, keyframes } from 'styled-components'
 import { Flex, Heading, Button } from '@metagg/mgg-uikit'
 
 export const Card = styled.div`
@@ -45,4 +45,34 @@ export const Section = styled.div`
   justify-content: center;
   text-align: center;
   row-gap: 2rem;
+`
+
+export const LogoHighlightLink = styled.a`
+  cursor: pointer;
+  position: relative;
+  box-shadow: 0 0 2px rgba(0, 234, 255, 0.1);
+  transition: all 0.6s cubic-bezier(0.165, 0.84, 0.44, 1);
+  margin: 0.5rem;
+  z-index: 0;
+
+  &::after {
+    content: "";
+    position: absolute;
+    z-index: -1;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    box-shadow: 0 0 20px rgba(0, 251, 255, 0.5);
+    opacity: 0;
+    transition: all 0.6s cubic-bezier(0.165, 0.84, 0.44, 1);
+  }
+
+  &:hover {
+    z-index: 3;
+    transform: scale(1.2, 1.2);
+    &::after {
+      opacity: 1;
+    }
+  }
 `

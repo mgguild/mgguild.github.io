@@ -32,8 +32,8 @@ const Website: React.FC = () => {
             <Route path="/roadmap" element={<Roadmap />} />
             <Route path="/mgg-token" element={<MggToken />} />
             <Route path="/partners" element={<Partners />} />
-            <Route path="/whitepaper" element={<Whitepaper />} />
-            <Route path="/mgg-NFT" element={<NFT />} />
+            <Route path="/White-Paper" element={<Whitepaper />} />
+            <Route path="/mgg-NFTs" element={<NFT />} />
             {/* Redirects
             {/* <Route path="/" element={<Navigate replace to='/homepage' />} /> */}
             {/* 404 */}

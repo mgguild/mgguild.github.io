@@ -83,6 +83,10 @@ export const BgPage = styled.div`
     background-position: center bottom;
     background-size: contain;
   }
+
+  @media screen and (max-width: 500px) {
+    padding: 0.5rem;
+  }
 `
 
 export const Logos = styled(Flex)`
