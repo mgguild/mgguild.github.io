@@ -65,10 +65,10 @@ export const Ecosystems: IEcosystems[] = [
 
 
 export const Figures:IFigures[] = [
-  {
-    amount: '$100,000+',
-    subtitle: 'Monthly Revenue',
-  },
+  // {
+  //   amount: '$100,000+',
+  //   subtitle: 'Monthly Revenue',
+  // },
   {
     amount: '1,500+',
     subtitle: 'Active Scholars',
@@ -77,10 +77,10 @@ export const Figures:IFigures[] = [
     amount: '30+',
     subtitle: 'Acquired Early-game Assets'
   },
-  {
-    amount: '1,000,000+',
-    subtitle: 'SLP Farmed per Month'
-  },
+  // {
+  //   amount: '1,000,000+',
+  //   subtitle: 'SLP Farmed per Month'
+  // },
   {
     amount: '60+',
     subtitle: 'Renowned Gaming Partners'

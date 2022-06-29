@@ -7,6 +7,7 @@ import { Teams } from "../../config/constants/team";
 import { BgPage } from "./styled";
 import Team from "./Team";
 import { ContentContainer, HeaderContainer, PageTitle } from "./styled";
+import { NavOptionContainer } from "style/Global"
 
 const TeamsPage: React.FC = () => {
   const [active, setActive] = React.useState(0);
@@ -24,18 +25,10 @@ const TeamsPage: React.FC = () => {
             </Text>
           </HeaderContainer>
           <ContentContainer>
-            <Flex
+            <NavOptionContainer
               alignItems="center"
               margin="2.5rem 0px 2rem 0px"
               padding="0 0 1rem 0"
-              style={{
-                justifyContent: "center",
-                borderBottom: `0.5px solid #00f4fd`,
-                width: "100%",
-                flexFlow: "wrap row",
-                rowGap: "1rem",
-                columnGap: "1.5rem",
-              }}
             >
               <NavOption
                 key="all"
@@ -60,7 +53,7 @@ const TeamsPage: React.FC = () => {
                   {cat}
                 </NavOption>
               ))}
-            </Flex>
+            </NavOptionContainer>
             {active !== 0 ? (
               <>
                 <Grid

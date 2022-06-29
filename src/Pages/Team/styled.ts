@@ -1,5 +1,5 @@
 import styled from 'styled-components'
-import { Heading } from '@metagg/mgg-uikit'
+import { Heading, Flex } from '@metagg/mgg-uikit'
 import { breakpoints } from '../../theme/Breakpoints'
 import BackgroundImage from 'assets/background/BGwlogo.png'
 
@@ -60,5 +60,9 @@ export const BgPage = styled.div`
     background-repeat: no-repeat;
     // background-position: center;
     background-size: cover;
+  }
+
+  @media screen and (max-width: 500px) {
+    padding: 1rem;
   }
 `

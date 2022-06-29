@@ -1,5 +1,5 @@
 import styled, { createGlobalStyle } from 'styled-components'
-import { Button } from '@metagg/mgg-uikit'
+import { Button, Flex } from '@metagg/mgg-uikit'
 import { Fonts } from 'theme/Base';
 // import defaultBG from "../assets/background/MainBG.png";
 import { breakpoints } from '../theme/Breakpoints';
@@ -50,5 +50,17 @@ export const BgContainer = styled.div<{
 
 `
 
+export const NavOptionContainer = styled(Flex)<{ maxScreen?: string }>`
+  justify-content: center;
+  border-bottom: 0.5px solid #00f4fd;
+  width: 100%;
+  flex-flow: wrap row;
+  row-gap: 1rem;
+  column-gap: 1.5rem;
+
+  @media screen and (max-width: ${({maxScreen}) => maxScreen ?? `1163px`}){
+    flex-flow: wrap column;
+  }
+`
 
 export default GlobalStyle
