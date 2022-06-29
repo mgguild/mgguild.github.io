@@ -8,6 +8,7 @@ import FANTOM from "assets/logo/Fantom.png";
 import MGGLogo from "assets/background/MGGLogo.png";
 import MenuLink from "components/Menu/MenuLink";
 import { Grid } from "@mui/material";
+import useMedia from 'use-media'
 import { Card, CardContainer } from "Pages/Partners/styled";
 
 const Container = styled.div`
@@ -54,6 +55,8 @@ const chains = [
 ];
 
 const Section: React.FC = () => {
+  const isMobile = useMedia({ maxWidth: 550 })
+
   return (
     <ChainContainer>
       <Container>
@@ -83,7 +86,7 @@ const Section: React.FC = () => {
         <Content flexDirection="column" margin="1em 0">
           <PageTitle size="xl">MGG is MORE Than just a GAME!</PageTitle>
           <Flex alignItems="center" justifyContent="center">
-            <img alt="mgg-icon" src={MGGLogo} width="200px" />
+            <img alt="mgg-icon" src={MGGLogo} width={isMobile ? "150px" : "200px"} />
             <Text fontSize="2.5em">
               MGG creates opportunities beyond scholarships!
             </Text>
@@ -91,12 +94,12 @@ const Section: React.FC = () => {
         </Content>
         <Content flexDirection='column'>
           <Grid container margin='1em 0'>
-            <Grid item md={3}>
+            <Grid item md={3} style={{width: '100%'}}>
             <Card>
               <Text fontSize="1.2em">MGG creates opportunities beyond scholarships!</Text>
             </Card>
             </Grid>
-            <Grid item md={3}>
+            <Grid item md={3} style={{width: '100%'}}>
             <Card>
               <Text fontSize="1.2em">
                 MGG reinvents P2E gaming by introducing player-centric
@@ -104,7 +107,7 @@ const Section: React.FC = () => {
               </Text>
             </Card>
             </Grid>
-            <Grid item md={3}>
+            <Grid item md={3} style={{width: '100%'}}>
             <Card>
               <Text fontSize='1.2em'>
                 MGG introduced the first form of game yield farming for
@@ -112,7 +115,7 @@ const Section: React.FC = () => {
               </Text>
             </Card>
             </Grid>
-            <Grid item md={3}>
+            <Grid item md={3} style={{width: '100%'}}>
             <Card>
               <Text fontSize='1.2em'>
                 MGG is on a mission to formalize NFT gaming and build an
