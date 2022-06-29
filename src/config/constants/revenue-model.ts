@@ -11,13 +11,13 @@ export const RevenueModel:RevenueModelConfig[] = [{
  image: 'LaunchpadIcon',
 },
 {
- name: 'NFT Sales',
- description: 'We have an ever-growing collection of NFT games in our GameFi Vaults - the first form of yield farming for blockchain games',
- image: 'SalesIcon',
-},
-{
  name: 'Investments and others',
  description: 'Along with our high-profile backers and partners, MGG invests in promising GameFi projects',
  image: 'InvestmentsIcon',
-}
+},
+{
+  name: 'NFT Sales',
+  description: 'We have an ever-growing collection of NFT games in our GameFi Vaults - the first form of yield farming for blockchain games',
+  image: 'SalesIcon',
+ },
 ]
