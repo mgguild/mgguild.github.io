@@ -138,7 +138,7 @@ const Section: React.FC = () => {
             Our gaming community is expanding to Asia, Europe, Africa and the
             rest of the world. With our proven tactics, MGG has won the support
             of premier gaming partners and active global gamers making us very
-            well-positioned to go dominate the GameFi industry!What are you
+            well-positioned to go dominate the GameFi industry! What are you
             waiting for? Build strong allies with the tactical gamers at MGG
             today!
           </Text>
