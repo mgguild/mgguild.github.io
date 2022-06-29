@@ -36,11 +36,7 @@ const StyledCard = styled.div<{ link?: boolean }>`
   ${({ link }) =>
     link &&
     `
-  transition: all 0.2s ease-in-out;
-  &:hover {
-    cursor: pointer;
-    transform: scale(1.1);
-  }
+  cursor: pointer;
   `}
   @media screen and (max-width: ${breakpoints.Mobile.tablet}px) {
     font-size: 12px;
