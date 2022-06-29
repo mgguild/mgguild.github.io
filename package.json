@@ -1,7 +1,6 @@
 {
   "name": "MGG-Website",
   "version": "0.1.0",
-  "homepage": "https://kojiadrianojr.github.io/test-website/",
   "private": true,
   "dependencies": {
     "@emotion/react": "^11.9.3",
