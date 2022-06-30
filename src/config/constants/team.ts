@@ -43,7 +43,7 @@ export const Teams:TeamsConfig = {
       title: 'Full Stack Developer'
     },
     {
-      name: 'Koji Adriane',
+      name: 'Koji Adriano Jr.',
       title: 'Full Stack Developer'
     },
     {
@@ -59,7 +59,7 @@ export const Teams:TeamsConfig = {
       title: 'Lead Back-end Developer'
     },
     {
-      name: 'Jambs',
+      name: 'Salvador Amba Jr.',
       title: 'Back-end Developer'
     },
     {

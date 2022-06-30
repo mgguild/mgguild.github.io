@@ -36,7 +36,7 @@ export const getCustomMeta = (path: string, ): PageMeta => {
       return {
         title: 'Partners',
       }
-    case '/whitepaper':
+    case '/White-Paper':
       return {
         title: 'White Paper',
       }
