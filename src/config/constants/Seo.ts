@@ -12,7 +12,7 @@ export const getCustomMeta = (path: string, ): PageMeta => {
   switch (path) {
     case '/':
       return {
-        title: 'Homepage',
+        title: 'Home',
       }
     case '/revenue-model':
       return {
@@ -20,7 +20,7 @@ export const getCustomMeta = (path: string, ): PageMeta => {
       }
     case '/team':
       return {
-        title: 'Teams',
+        title: 'Team',
       }
     case '/mgg-NFTs':
       return { title: 'NFTs'}
