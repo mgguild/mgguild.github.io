@@ -63,7 +63,7 @@ export const Teams:TeamsConfig = {
       title: 'Back-end Developer'
     },
     {
-      name: 'John Anthony Balbin.',
+      name: 'John Anthony Balbin',
       title: 'Lead QA Specialist'
     },
     {
