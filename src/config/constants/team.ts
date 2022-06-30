@@ -19,18 +19,18 @@ export const Teams:TeamsConfig = {
     {
       name: 'Morris Perico',
       title: 'COO'
-    }, 
-    {
-      name: 'Anne Ramos',
-      title: 'Partner - KOL'
     },
     {
-      name: 'Diana Apongol',
+      name: 'Leslie Diana Apongol',
       title: 'CMO'
     },
     {
+      name: 'Myrtle Anne Ramos',
+      title: 'Partner - KOL'
+    },
+    {
       name: 'Karan Sharma',
-      title: "Scholars' Manager - India" 
+      title: "Community Manager - India"
     }
   ],
   'TECHNOLOGY & DEVELOPMENT': [
@@ -40,6 +40,10 @@ export const Teams:TeamsConfig = {
     },
     {
       name: 'Diana Gee Delas Alas',
+      title: 'Full Stack Developer'
+    },
+    {
+      name: 'Koji Adriano Jr.',
       title: 'Full Stack Developer'
     },
     {
@@ -55,12 +59,20 @@ export const Teams:TeamsConfig = {
       title: 'Lead Back-end Developer'
     },
     {
+      name: 'Salvador Amba Jr.',
+      title: 'Back-end Developer'
+    },
+    {
+      name: 'John Anthony Balbin',
+      title: 'Lead QA Specialist'
+    },
+    {
+      name: 'Emman Adornado',
+      title: 'QA Specialist'
+    },
+    {
       name: 'Harvin Cadag',
       title: 'Game Developer'
     },
-    {
-      name: 'John Carlo Ariola',
-      title: 'Game Developer'
-    }
   ]
 }

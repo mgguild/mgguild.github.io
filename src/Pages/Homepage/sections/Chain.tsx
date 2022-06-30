@@ -134,11 +134,32 @@ const Section: React.FC = () => {
           </Content>
         <Content flexDirection="column" margin="1em 0">
           <PageTitle size="xl">A Global GameFi Guild</PageTitle>
-          <Text
+          <div style={{ textAlign: "center", margin: '1em 0' }}>
+            <Text
+              as="p"
+              fontSize="1.5em"
+            >
+              Our gaming community is expanding to Asia, Europe, Africa and the rest of the world!
+            </Text>
+            <br />
+            <Text
+              as="p"
+              fontSize="1.5em"
+            >
+              With our proven tactics, MGG has won the support of premier gaming partners and active global gamers making us very well-positioned to go dominate the GameFi industry!
+            </Text>
+            <br />
+            <Text
+              as="p"
+              fontSize="1.5em"
+            >
+              What are you waiting for? Build strong allies with the tactical gamers at MGG today!
+            </Text>
+
+          </div>
+          {/* <Text
             as="p"
             fontSize="1.5em"
-            style={{ textAlign: "center" }}
-            margin="1em 0"
           >
             Our gaming community is expanding to Asia, Europe, Africa and the
             rest of the world. With our proven tactics, MGG has won the support
@@ -146,7 +167,7 @@ const Section: React.FC = () => {
             well-positioned to go dominate the GameFi industry! What are you
             waiting for? Build strong allies with the tactical gamers at MGG
             today!
-          </Text>
+          </Text> */}
         </Content>
       </Container>
     </ChainContainer>

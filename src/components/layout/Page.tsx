@@ -21,7 +21,7 @@ const StyledPage = styled(Container)`
 const Seo = ({ title, description }: {title?: string; description?: string}) => {
     return (
       <Helmet>
-        <title>{title} | MGG Website</title>
+        <title>{title} | MetaGaming Guild (MGG)</title>
         <meta name='description' content={description} />
       </Helmet>
     )
