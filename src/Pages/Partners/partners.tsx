@@ -55,7 +55,7 @@ const Partners = () => {
                 }}
                 activeIndex={active === 1}
               >
-                Investors and Backers
+                Investors
               </NavOption>
               <NavOption
                 key="all"
@@ -85,7 +85,7 @@ const Partners = () => {
             ) : (
               <div>
                 <div style={{ margin: "0 0 2rem 0" }}>
-                  <Heading size="xl">Investors and Backers</Heading>
+                  <Heading size="xl">Investors</Heading>
                   <Logos>
                     {Object.keys(partners.InvsBckrs).map((partner) => (
                       <CardContainer>
