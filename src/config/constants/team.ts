@@ -63,11 +63,15 @@ export const Teams:TeamsConfig = {
       title: 'Back-end Developer'
     },
     {
-      name: 'Harvin Cadag',
-      title: 'Game Developer'
+      name: 'John Anthony Balbin.',
+      title: 'Lead QA Specialist'
     },
     {
-      name: 'John Carlo Ariola',
+      name: 'Emman Adornado',
+      title: 'QA Specialist'
+    },
+    {
+      name: 'Harvin Cadag',
       title: 'Game Developer'
     },
   ]
