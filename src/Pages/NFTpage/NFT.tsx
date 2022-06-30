@@ -27,6 +27,13 @@ const BadgesDesc = styled.div`
   }
 `
 
+const DescText = styled.div`
+ text-align: left;
+ @media screen and (max-width: 1000px) {
+    text-align: center;
+  }
+`
+
 const NFTpage = () => {
   const theme = useContext(ThemeContext)
 
@@ -37,7 +44,7 @@ const NFTpage = () => {
           <div style={{position: 'relative', zIndex: 2}}>
             <BadgesContainer>
               <BadgesDesc>
-                <div style={{textAlign: 'left'}}>
+                <DescText>
                   <HeadingGlow size='xl' color='#fdda00' glow="#fdda00">Limited Edition MGG NFT Badge</HeadingGlow>
                   <br />
                   <br />
@@ -45,7 +52,7 @@ const NFTpage = () => {
                   <br />
                   <br />
                   <Text>MGG NFT is an exclusive user identification on MetaGaming Guild ecosystem. A total of 5,000 individually designed NFTs will be up for grabs soon.</Text>
-                </div>
+                </DescText>
 
                 {/* <Btn disabled style={{margin: '3rem 0 0 0'}}>BUY A LIMITED EDITION MGG NFT</Btn> */}
                 <Btn disabled style={{margin: '3rem 0 0 0'}}>MINTING SOON!</Btn>
