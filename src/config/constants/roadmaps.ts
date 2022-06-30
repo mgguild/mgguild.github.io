@@ -37,7 +37,7 @@ const roadmaps: RoadmapConfig = {
       {txt: "Onboarding of more scholars (1,500 to 5,000)", check: false},
       {txt: "Updated MGG Website: UI/UX Refresh", check: false},
       {txt: "Exchange Listing and Partnerships", check: false},
-      {txt: "2nd buyback and burn program", check: false}
+      // {txt: "2nd buyback and burn program", check: false}
     ],
     Q3 : [
       {txt: "Earning Dashboard Launch", check: false},
@@ -47,7 +47,7 @@ const roadmaps: RoadmapConfig = {
       {txt: "ChainPort Bridge Integration", check: false},
       {txt: "Continue onboarding of scholars (5,000 to 7,500)", check: false},
       {txt: "Team Expansion", check: false},
-      {txt: "3rd buyback and burn program", check: false},
+      // {txt: "3rd buyback and burn program", check: false},
     ],
     Q4 : [
       {txt: "NFT Game: Alpha version release", check: false},
@@ -55,7 +55,7 @@ const roadmaps: RoadmapConfig = {
       {txt: "Exchange Listing and Partnerships", check: false},
       {txt: "Team Expansion", check: false},
       {txt: "Continue onboarding of scholars (7,500 to 10,000)", check: false},
-      {txt: "4th buyback and burn program", check: false},
+      // {txt: "4th buyback and burn program", check: false},
     ]
   }
 }
