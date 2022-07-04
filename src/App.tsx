@@ -1,5 +1,5 @@
 import React, { lazy } from "react";
-import { HashRouter, Route, Routes } from "react-router-dom";
+import { HashRouter, Navigate, Route, Routes, useLocation} from "react-router-dom";
 import { ResetCSS } from "@metagg/mgg-uikit";
 import GlobalStyle from "./style/Global";
 import Menu from "components/Menu";
@@ -8,6 +8,7 @@ import PageLoader from "components/PageLoader";
 import Footer from "components/Footer";
 
 const Website: React.FC = () => {
+  const loc = document.location;
   const Homepage = lazy(() => import("./Pages/Homepage"));
   const RevenueModel = lazy(() => import('./Pages/Revenue-Model'));
   const Team = lazy(() => import('./Pages/Team'))
@@ -16,8 +17,9 @@ const Website: React.FC = () => {
   const Partners = lazy(() => import("./Pages/Partners"));
   const Whitepaper = lazy(() => import("./Pages/Whitepaper"));
   const NFT = lazy(() => import("./Pages/NFTpage"));
-  // const NotFound = lazy(() => import("./NotFound"));
+  // const NotFound = lazy(() => import("./Pages/"));
 
+  
   return (
     <HashRouter>
       <ResetCSS />
@@ -34,10 +36,8 @@ const Website: React.FC = () => {
             <Route path="/partners" element={<Partners />} />
             <Route path="/White-Paper" element={<Whitepaper />} />
             <Route path="/mgg-NFTs" element={<NFT />} />
-            {/* Redirects
             {/* <Route path="/" element={<Navigate replace to='/homepage' />} /> */}
-            {/* 404 */}
-            {/* <Route path="*" element={<NotFound />} /> */}
+            <Route path='*' element={<Navigate replace to='/'/>} />
           </Routes>
           <Footer />
         </SuspenseWithChunkError>
