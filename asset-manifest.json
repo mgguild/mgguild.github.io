@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.js": "/static/js/main.d835f905.js",
+    "main.js": "/static/js/main.c07d3e2f.js",
     "static/js/455.ca2a1108.chunk.js": "/static/js/455.ca2a1108.chunk.js",
     "static/js/260.594afe4b.chunk.js": "/static/js/260.594afe4b.chunk.js",
     "static/js/135.bde9802d.chunk.js": "/static/js/135.bde9802d.chunk.js",
@@ -130,7 +130,7 @@
     "static/media/Infinity_Force.png": "/static/media/Infinity_Force.719ebb28e1aa8898872b.png",
     "static/media/SupraOracles-White-Red-Horz.svg": "/static/media/SupraOracles-White-Red-Horz.30acc385d6133492f1afb135ca0b23c5.svg",
     "index.html": "/index.html",
-    "main.d835f905.js.map": "/static/js/main.d835f905.js.map",
+    "main.c07d3e2f.js.map": "/static/js/main.c07d3e2f.js.map",
     "455.ca2a1108.chunk.js.map": "/static/js/455.ca2a1108.chunk.js.map",
     "260.594afe4b.chunk.js.map": "/static/js/260.594afe4b.chunk.js.map",
     "135.bde9802d.chunk.js.map": "/static/js/135.bde9802d.chunk.js.map",
@@ -144,6 +144,6 @@
     "521.b652ae5e.chunk.js.map": "/static/js/521.b652ae5e.chunk.js.map"
   },
   "entrypoints": [
-    "static/js/main.d835f905.js"
+    "static/js/main.c07d3e2f.js"
   ]
 }
