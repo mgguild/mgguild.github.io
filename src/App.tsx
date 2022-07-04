@@ -7,8 +7,18 @@ import SuspenseWithChunkError from "components/SuspenseWithChunkError";
 import PageLoader from "components/PageLoader";
 import Footer from "components/Footer";
 
+
+const Redirects = ({...rest}) => {
+  const location = useLocation()
+
+  console.log(location.pathname)
+  // If the last character of the url is '/'
+  if (location.pathname.length > 0) {
+      return <Navigate replace {...rest} to='/' />
+  } else return null;
+}
+
 const Website: React.FC = () => {
-  const loc = document.location;
   const Homepage = lazy(() => import("./Pages/Homepage"));
   const RevenueModel = lazy(() => import('./Pages/Revenue-Model'));
   const Team = lazy(() => import('./Pages/Team'))
@@ -18,16 +28,16 @@ const Website: React.FC = () => {
   const Whitepaper = lazy(() => import("./Pages/Whitepaper"));
   const NFT = lazy(() => import("./Pages/NFTpage"));
   // const NotFound = lazy(() => import("./Pages/"));
-
-  
+    
   return (
     <HashRouter>
+      {/* <RemoveTrailingSlash /> */}
       <ResetCSS />
       <GlobalStyle />
       <Menu>
        <SuspenseWithChunkError fallback={<PageLoader />}>
           <Routes>
-            <Route path="/" element={<Homepage />} />
+            <Route path="/home" element={<Homepage />} />
             <Route path='/revenue-model' element={<RevenueModel /> } />
             <Route path="/team" element={<Team />} />
             {/* <Route path="/homepage" element={<Homepage />} /> */}
@@ -36,8 +46,7 @@ const Website: React.FC = () => {
             <Route path="/partners" element={<Partners />} />
             <Route path="/White-Paper" element={<Whitepaper />} />
             <Route path="/mgg-NFTs" element={<NFT />} />
-            {/* <Route path="/" element={<Navigate replace to='/homepage' />} /> */}
-            <Route path='*' element={<Navigate replace to='/'/>} />
+            <Route path="*" element={<Navigate replace to='/home' />} />
           </Routes>
           <Footer />
         </SuspenseWithChunkError>

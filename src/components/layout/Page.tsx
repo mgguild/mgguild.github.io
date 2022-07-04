@@ -19,10 +19,14 @@ const StyledPage = styled(Container)`
   }
 `
 const Seo = ({ title, description }: {title?: string; description?: string}) => {
+
     return (
       <Helmet>
         <title>{title} | MetaGaming Guild (MGG)</title>
         <meta name='description' content={description} />
+        { window.location.hash.length <= 0 && 
+        <meta http-equiv="refresh" content="2; url=https://www.metagg.com"/>
+        }
       </Helmet>
     )
 }
