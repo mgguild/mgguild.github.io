@@ -21,11 +21,11 @@ export const CardContainer = styled.div`
 `
 
 export const RdmapList = styled.ul`
-  text-align: left;
-  color: white;
-  list-style-type: none;
-  line-height: 1.5;
-  font-weight: 400;
+text-align: left;
+color: white;
+list-style-type: none;
+line-height: 1.5;
+font-weight: 400;
 `
 
 export const CheckList = styled.li`

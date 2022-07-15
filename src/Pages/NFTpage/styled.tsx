@@ -62,12 +62,15 @@ export const List = styled.li`
 `
 
 export const BgPage = styled.div`
-  padding: 5rem;
+  padding: 5rem 0;
   text-align: center;
   overflow: hidden;
   width: 100%;
   height: 100%;
   position: relative;
+  & .pad-5rem {
+    padding: 5rem;
+  }
   &:before {
     content: '';
     position: absolute;

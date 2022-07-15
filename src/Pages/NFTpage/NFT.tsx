@@ -2,6 +2,7 @@ import React, { useState, useContext, useCallback } from 'react'
 import { Text, Flex, Heading, Button } from '@metagg/mgg-uikit'
 import styled, { ThemeContext } from 'styled-components'
 import Page from 'components/layout/Page'
+import Utilities from './Utilities'
 import Nfts from '../../assets/Nft/0.png'
 import {
   BgPage,
@@ -42,7 +43,7 @@ const NFTpage = () => {
       <Page>
         <BgPage>
           <div style={{position: 'relative', zIndex: 2}}>
-            <BadgesContainer>
+            <BadgesContainer className='pad-5rem'>
               <BadgesDesc>
                 <DescText>
                   <HeadingGlow size='xl' color='#fdda00' glow="#fdda00">Limited Edition MGG NFT Badge</HeadingGlow>
@@ -63,7 +64,8 @@ const NFTpage = () => {
                 </div>
               </Flex>
             </BadgesContainer>
-            <div style={{margin: '5rem 0 0 0'}}>
+            <Utilities />
+            <div style={{margin: '5rem 0 0 0'}} className='pad-5rem'>
               <HeadingGlow size='xl' color='#fdda00' glow="#fdda00">Flex and Show Off Your MGG NFTs!</HeadingGlow>
               <br />
               <br />
@@ -96,7 +98,7 @@ const NFTpage = () => {
               {/* <Btn disabled style={{margin: '3rem 0 5rem 0', padding: '2rem 5rem'}}>GO GET ONE! <Text style={{padding: '0 0 0.5rem 0'}}>&nbsp;👉</Text></Btn> */}
               <Btn disabled style={{margin: '3rem 0 5rem 0', padding: '2rem 5rem'}}>MINTING SOON!</Btn>
 
-              {/* <Card>
+              <Card>
                 <div style={{padding: '1rem'}}>
                   <div style={{display: 'grid', gridTemplateColumns: '1fr 5fr', gap: '2rem', textAlign: 'left'}}>
                     <Heading size='l' color={theme.colors.MGG_accent2}>Contact Address</Heading>
@@ -109,7 +111,7 @@ const NFTpage = () => {
                     <Text>To be added</Text>
                   </div>
                 </div>
-              </Card> */}
+              </Card>
             </div>
           </div>
         </BgPage>
