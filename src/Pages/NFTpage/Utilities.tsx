@@ -1,12 +1,12 @@
 import React from 'react'
-import { Heading, Text} from '@metagg/mgg-uikit'
+import { Flex, Heading, Text} from '@metagg/mgg-uikit'
 import { nftUtilities } from 'config/constants/NFts';
 import styled from 'styled-components'
 
 const Section:React.FC = () => {
   return (
     <Container>
-      <Text fontSize='3.5em' bold color='primary' style={{letterSpacing: '5px'}}>10 Utilities of MetaGaming NFTs</Text>
+      <Text className='center' fontSize='3.5em' bold color='primary' style={{letterSpacing: '5px'}}>10 Utilities of MetaGaming NFTs</Text>
       <Ol>
         { nftUtilities.map((text) => (
           <Li key={text}>
@@ -30,7 +30,7 @@ const Ol = styled.ol`
 const Li = styled.li`
 padding: 1rem 0 0 1rem;
 &:before{
-  content: counter(item)" ";
+  content: counter(item);
   counter-increment: item;
   font-weight: bold;
   color: #00B6FF;
@@ -45,16 +45,22 @@ const Container = styled.div`
   align-items: flex-start;
   text-align: left;
   margin: 5rem 0px;
-  padding: 3rem;
+  padding: 2.5rem;
   background-color: rgba(12,1,44,1);
   background-image: url('/nft/groupdna.png');
   background-repeat: no-repeat;
   background-position: right;
   background-size: 50%;
   font-size: 12px;
+  & .center {
+    text-align: center;
+    ${({theme}) => theme.mediaQueries.md} {
+      text-align: left;
+    }
+  }
   ${({theme}) => theme.mediaQueries.md} {
     font-size: 17px;
-    padding: 6rem;
+    padding: 5rem;
     min-height: 50vh;
     background-size: contain;
   }
