@@ -28,3 +28,17 @@ const nfts = [
 ]
 
 export default nfts
+
+
+export const nftUtilities: string[] = [
+  'Staking',
+  'Priority entry to early-bird events & pre-sale spots',
+  'Priviledge access on Genesis Sale, IGOs, INOs & more',
+  'Discounts on Mystery Boxes',
+  "MetaSaga Warriors' Guess The Diggler promo x2 raffle entry",
+  'Exclusive offers, bonuses & rewards',
+  'Access to a variety of future unlocks',
+  'MErchandise redemption & giveaways',
+  'Voting power for in-person events',
+  'Holders get a physical card as a "proof-of-mint" token to be used as a ticket in future IRL events'
+]
