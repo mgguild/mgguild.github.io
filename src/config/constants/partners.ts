@@ -75,7 +75,7 @@ import WonderHero from '../../assets/logo/Partners/WonderHero.png'
 import Metaoasis from '../../assets/logo/Partners/MetaOasis.png'
 import AVStarCapital from '../../assets/logo/Partners/av_star_capital.png'
 import Basketballverse from '../../assets/logo/Partners/basketballverse.png'
-
+import SLETI from '../../assets/logo/Partners/Black_wTagline.png'
 
 const partners: Partners = {
   InvsBckrs:{
@@ -160,6 +160,11 @@ const partners: Partners = {
       name: 'GameFi',
       logo: GameFi,
       link: 'https://gamefi.org/'
+    },
+     Sleti:{
+      name: 'SparkLearn EdTech',
+      logo: SLETI,
+      link: 'https://sparklearn-edtech.com/'
     },
     RedKite:{
       name: 'RedKite',
