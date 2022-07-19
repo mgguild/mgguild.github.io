@@ -42,3 +42,5 @@ export const nftUtilities: string[] = [
   'Voting power for in-person events',
   'Holders get a physical card as a "proof-of-mint" token to be used as a ticket in future IRL events'
 ]
+
+export const LaunchDateEpoch = 1660521600000;

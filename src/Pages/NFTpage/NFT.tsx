@@ -3,7 +3,9 @@ import { Text, Flex, Heading, Button } from '@metagg/mgg-uikit'
 import styled, { ThemeContext } from 'styled-components'
 import Page from 'components/layout/Page'
 import Utilities from './Utilities'
+import Timer from './Timer'
 import Nfts from '../../assets/Nft/0.png'
+import NftsGif from '../../assets/Nft/NFT.gif'
 import {
   BgPage,
   HeadingGlow,
@@ -46,17 +48,17 @@ const NFTpage = () => {
             <BadgesContainer className='pad-5rem'>
               <BadgesDesc>
                 <DescText>
-                  <HeadingGlow size='xl' color='#fdda00' glow="#fdda00">Limited Edition MGG NFT Badge</HeadingGlow>
+                  <HeadingGlow size='xl' color='#fdda00' glow="#fdda00">Limited Edition MetaGaming NFTs</HeadingGlow>
                   <br />
                   <br />
-                  <Text>The opportunity to own the first NFTs in MetaGaming Guild has arrived!</Text>
+                  <Text>The opportunity to own the first PFP NFTs in MetaGaming Guild has arrived!</Text>
                   <br />
                   <br />
-                  <Text>MGG NFT is an exclusive user identification on MetaGaming Guild ecosystem. A total of 5,000 individually designed NFTs will be up for grabs soon.</Text>
+                  <Text>MetaGaming NFTs are rare collectible PFP NFTs in the MetaGaming Guild ecosystem. A total of 5,000 individually designed NFTs will be up for grabs on August 2022.</Text>
                 </DescText>
 
                 {/* <Btn disabled style={{margin: '3rem 0 0 0'}}>BUY A LIMITED EDITION MGG NFT</Btn> */}
-                <Btn disabled style={{margin: '3rem 0 0 0'}}>MINTING SOON!</Btn>
+                <Btn disabled style={{margin: '3rem 0 0 0'}}><Timer /></Btn>
               </BadgesDesc>
               <Flex>
                 <div>
@@ -69,16 +71,21 @@ const NFTpage = () => {
               <HeadingGlow size='xl' color='#fdda00' glow="#fdda00">Flex and Show Off Your MGG NFTs!</HeadingGlow>
               <br />
               <br />
-              <Heading size='l'>Each of These MGG NFTs holds digital rarity, exclusive privileges and special utilities that can maximize your benefits in the MetaGaming Guild ecosystem.</Heading>
+              <Heading size='l'>Each of these MetaGaming NFTs holds digital rarity, exclusive privileges and special utilities that can maximize your benefits in the MetaGaming Guild ecosystem.</Heading>
               <br />
               <br />
-              <Text>What's in it for you: special ranks; exclusive offers & discounts; privileged access; bonus unlocks; redemption values and MORE!</Text>
+              {/* <Text>What's in it for you: special ranks; exclusive offers & discounts; privileged access; bonus unlocks; redemption values and MORE!</Text> */}
+              <Flex style={{justifyContent: 'center'}}>
+                <div>
+                  <img style={{display: 'block', width: 'auto', height: 'auto', maxHeight: '20rem'}} src={NftsGif}/>
+                </div>
+              </Flex>
 
               <Card>
                 <Flex style={{flexFlow: 'row wrap', columnGap: '2rem', justifyContent: 'space-evenly'}}>
                   <div>
                     <HeadingGlow size='xl' glow="#fdda00" color={theme.colors.primary}>5,000</HeadingGlow>
-                    <Text>Total NFT Supply</Text>
+                    <Text>Total Supply</Text>
                   </div>
                   <div style={{minWidth: '5rem'}}>
                     <HeadingGlow size='xl' glow="#fdda00" color={theme.colors.primary}>TBA</HeadingGlow>
@@ -91,12 +98,12 @@ const NFTpage = () => {
                 </Flex>
               </Card>
               <br />
-              <Text>The number of NFTs is fixed at 5,000 and purchase will only be available in 2022</Text>
+              <Text>The number of PFP NFTs is fixed at 5,000 and purchase will only be available in 2022</Text>
               <br />
-              <Heading>Hurry! Don't miss your chance to own a LIMITED EDITION MGG NFT Badge!</Heading>
+              <Heading>Hurry! Don't miss your chance to own a LIMITED EDITION MetaGaming NFT!</Heading>
 
               {/* <Btn disabled style={{margin: '3rem 0 5rem 0', padding: '2rem 5rem'}}>GO GET ONE! <Text style={{padding: '0 0 0.5rem 0'}}>&nbsp;👉</Text></Btn> */}
-              <Btn disabled style={{margin: '3rem 0 5rem 0', padding: '2rem 5rem'}}>MINTING SOON!</Btn>
+              <Btn disabled style={{margin: '3rem 0 5rem 0', padding: '2rem 5rem'}}><Timer /></Btn>
 
               <Card>
                 <div style={{padding: '1rem'}}>
