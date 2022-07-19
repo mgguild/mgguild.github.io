@@ -51,7 +51,7 @@ const NFTpage = () => {
                   <HeadingGlow size='xl' color='#fdda00' glow="#fdda00">Limited Edition MetaGaming NFTs</HeadingGlow>
                   <br />
                   <br />
-                  <Text>The opportunity to own the first PFP in MetaGaming Guild has arrived!</Text>
+                  <Text>The opportunity to own the first PFP NFTs in MetaGaming Guild has arrived!</Text>
                   <br />
                   <br />
                   <Text>MetaGaming NFTs are rare collectible PFP NFTs in the MetaGaming Guild ecosystem. A total of 5,000 individually designed NFTs will be up for grabs on August 2022.</Text>
@@ -98,7 +98,7 @@ const NFTpage = () => {
                 </Flex>
               </Card>
               <br />
-              <Text>The number of PFP is fixed at 5,000 and purchase will only be available in 2022</Text>
+              <Text>The number of PFP NFTs is fixed at 5,000 and purchase will only be available in 2022</Text>
               <br />
               <Heading>Hurry! Don't miss your chance to own a LIMITED EDITION MetaGaming NFT!</Heading>
 
