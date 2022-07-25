@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.js": "/static/js/main.668511d0.js",
+    "main.js": "/static/js/main.60d5fca8.js",
     "static/js/455.ca2a1108.chunk.js": "/static/js/455.ca2a1108.chunk.js",
     "static/js/260.594afe4b.chunk.js": "/static/js/260.594afe4b.chunk.js",
     "static/js/135.bde9802d.chunk.js": "/static/js/135.bde9802d.chunk.js",
@@ -9,12 +9,12 @@
     "static/js/619.7901fe70.chunk.js": "/static/js/619.7901fe70.chunk.js",
     "static/css/747.d2931d57.chunk.css": "/static/css/747.d2931d57.chunk.css",
     "static/js/747.d50c494b.chunk.js": "/static/js/747.d50c494b.chunk.js",
-    "static/js/909.e8833dc4.chunk.js": "/static/js/909.e8833dc4.chunk.js",
+    "static/js/909.5a07318e.chunk.js": "/static/js/909.5a07318e.chunk.js",
     "static/js/787.60fff1db.chunk.js": "/static/js/787.60fff1db.chunk.js",
     "static/js/521.b652ae5e.chunk.js": "/static/js/521.b652ae5e.chunk.js",
+    "static/media/NFT.gif": "/static/media/NFT.aaeeaa3f963721d1145b.gif",
     "static/media/MetaGaming-Guild-White-Paper-02082022.pdf": "/static/media/MetaGaming-Guild-White-Paper-02082022.4d508e1d3bb8623f9301.pdf",
     "static/media/MGG_teaser_video.mp4": "/static/media/MGG_teaser_video.d8dd1dc36aea352d00e8.mp4",
-    "static/media/NFT.gif": "/static/media/NFT.ab28587ae718ad5c3958.gif",
     "static/media/MainBG.png": "/static/media/MainBG.137e608d6f0f5e898249.png",
     "static/media/20.png": "/static/media/20.5cbe265028f29744c98c.png",
     "static/media/7.png": "/static/media/7.c26f95dcf449dc53de30.png",
@@ -132,7 +132,7 @@
     "static/media/Infinity_Force.png": "/static/media/Infinity_Force.719ebb28e1aa8898872b.png",
     "static/media/SupraOracles-White-Red-Horz.svg": "/static/media/SupraOracles-White-Red-Horz.30acc385d6133492f1afb135ca0b23c5.svg",
     "index.html": "/index.html",
-    "main.668511d0.js.map": "/static/js/main.668511d0.js.map",
+    "main.60d5fca8.js.map": "/static/js/main.60d5fca8.js.map",
     "455.ca2a1108.chunk.js.map": "/static/js/455.ca2a1108.chunk.js.map",
     "260.594afe4b.chunk.js.map": "/static/js/260.594afe4b.chunk.js.map",
     "135.bde9802d.chunk.js.map": "/static/js/135.bde9802d.chunk.js.map",
@@ -141,11 +141,11 @@
     "619.7901fe70.chunk.js.map": "/static/js/619.7901fe70.chunk.js.map",
     "747.d2931d57.chunk.css.map": "/static/css/747.d2931d57.chunk.css.map",
     "747.d50c494b.chunk.js.map": "/static/js/747.d50c494b.chunk.js.map",
-    "909.e8833dc4.chunk.js.map": "/static/js/909.e8833dc4.chunk.js.map",
+    "909.5a07318e.chunk.js.map": "/static/js/909.5a07318e.chunk.js.map",
     "787.60fff1db.chunk.js.map": "/static/js/787.60fff1db.chunk.js.map",
     "521.b652ae5e.chunk.js.map": "/static/js/521.b652ae5e.chunk.js.map"
   },
   "entrypoints": [
-    "static/js/main.668511d0.js"
+    "static/js/main.60d5fca8.js"
   ]
 }
