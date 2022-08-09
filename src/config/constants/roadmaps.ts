@@ -29,7 +29,7 @@ const roadmaps: RoadmapConfig = {
       {txt: "1st buyback and burn program", check: true},
     ],
     Q2 : [
-      {txt: "GameFi Vault Official Launch", check: false},
+      {txt: "GameFi Vault Official Launch", check: true},
       {txt: "MGG PFP NFTs Launch", check: false},
       {txt: "MGG NFT Game Production", check: false},
       {txt: "PVE Mode and Combat Mechanics", check: false},
