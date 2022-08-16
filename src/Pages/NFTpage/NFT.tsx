@@ -58,7 +58,7 @@ const NFTpage = () => {
                 </DescText>
 
                 {/* <Btn disabled style={{margin: '3rem 0 0 0'}}>BUY A LIMITED EDITION MGG NFT</Btn> */}
-                <Btn disabled style={{margin: '3rem 0 0 0'}}><Timer /></Btn>
+                <Btn style={{margin: '3rem 0 0 0'}}>August 22, 2022 1:00 PM UTC</Btn>
               </BadgesDesc>
               <Flex>
                 <div>
