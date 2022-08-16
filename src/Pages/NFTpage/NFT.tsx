@@ -115,7 +115,7 @@ const NFTpage = () => {
                     <Text>To be added</Text>
 
                     <Heading size='l' color={theme.colors.MGG_accent2}>Blockchain</Heading>
-                    <Text>To be added</Text>
+                    <Text>Ethereum</Text>
                   </div>
                 </div>
               </Card>
