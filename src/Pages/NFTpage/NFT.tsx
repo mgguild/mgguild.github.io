@@ -103,7 +103,7 @@ const NFTpage = () => {
               <Heading>Hurry! Don't miss your chance to own a LIMITED EDITION MetaGaming NFT!</Heading>
 
               {/* <Btn disabled style={{margin: '3rem 0 5rem 0', padding: '2rem 5rem'}}>GO GET ONE! <Text style={{padding: '0 0 0.5rem 0'}}>&nbsp;👉</Text></Btn> */}
-              <Btn disabled style={{margin: '3rem 0 5rem 0', padding: '2rem 5rem'}}><Timer /></Btn>
+              <Btn style={{margin: '3rem 0 5rem 0', padding: '2rem 5rem'}}>August 22, 2022 1:00 PM UTC</Btn>
 
               <Card>
                 <div style={{padding: '1rem'}}>
