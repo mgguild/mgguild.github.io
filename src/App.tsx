@@ -6,6 +6,7 @@ import Menu from "components/Menu";
 import SuspenseWithChunkError from "components/SuspenseWithChunkError";
 import PageLoader from "components/PageLoader";
 import Footer from "components/Footer";
+import UnlockButton from 'components/UnlockButton'
 
 const Website: React.FC = () => {
   const Homepage = lazy(() => import("./Pages/Homepage"));
@@ -17,13 +18,13 @@ const Website: React.FC = () => {
   const Whitepaper = lazy(() => import("./Pages/Whitepaper"));
   const NFT = lazy(() => import("./Pages/NFTpage"));
   // const NotFound = lazy(() => import("./NotFound"));
-
   return (
     <HashRouter>
       <ResetCSS />
       <GlobalStyle />
       <Menu>
        <SuspenseWithChunkError fallback={<PageLoader />}>
+        <UnlockButton />
           <Routes>
             <Route path="/" element={<Homepage />} />
             <Route path='/revenue-model' element={<RevenueModel /> } />
