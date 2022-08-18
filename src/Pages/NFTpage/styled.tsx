@@ -17,9 +17,23 @@ export const Card = styled.div`
 
 export const Btn = styled(Button)`
   border-radius: 2rem;
+  width: 250px;
   background-color: rgb(0, 196, 204);
   color: black;
   box-shadow: 0px 5px 8px #a5630057;
+`
+
+export const InformativeButton = styled.button<{background?:string; borderColor?:string}>`
+  width: 250px;
+  height: 45px;
+  margin: 0 0.5rem;
+  ${({background, borderColor}) => `
+    border: 1px solid ${borderColor};
+    background-color: ${background};
+  `} 
+  color: ${({theme}) => theme.colors.text};
+  font-weight: bold;
+
 `
 
 export const CardContainer = styled.div`
@@ -61,8 +75,8 @@ export const List = styled.li`
   }
 `
 
-export const BgPage = styled.div`
-  padding: 5rem 0;
+export const BgPage = styled.div<{padding?: string}>`
+  padding: ${({padding}) => padding ? padding: '5rem 0'};
   text-align: center;
   overflow: hidden;
   width: 100%;
