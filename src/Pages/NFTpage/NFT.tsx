@@ -71,7 +71,7 @@ const NFTpage = () => {
                   <HeadingGlow size='xl' color='#fdda00' glow="#fdda00">MINT IS LIVE!</HeadingGlow>
                   <br />
                   <br />
-                  <Heading size='lg' color={theme.colors.MGG_accent2}>Limited edition MetaGaming Guild PFP Nfts</Heading>
+                  <Heading size='lg' color={theme.colors.MGG_accent2}>Limited edition MetaGaming Guild PFP NFTs</Heading>
                   <br />
                   <br />
                   <Text>The opportunity to own the first PFP NFTs in MetaGaming Guild has arrived!</Text>
@@ -83,8 +83,8 @@ const NFTpage = () => {
               
               </BadgesDesc>
               <InfoSection   alignItems='center' justifyContent='center' margin='1rem 0 0 0'>
-                    <InformativeButton background='#012c07' borderColor='#054824'>AllowList - 0.07E</InformativeButton>
-                    <InformativeButton background='#2d2b02' borderColor='#515022'>WaitList - 0.09E</InformativeButton>
+                    <InformativeButton background='#012c07' borderColor='#054824'>Allowlist - 0.07E</InformativeButton>
+                    <InformativeButton background='#2d2b02' borderColor='#515022'>Waitlist - 0.09E</InformativeButton>
                     <InformativeButton background='#2d0102' borderColor='#73102f'>General Public - 0.09E</InformativeButton>
                 </InfoSection>
 
