@@ -90,7 +90,7 @@ export const BgPage = styled.div<{padding?: string}>`
     padding: 10rem;
 
     @media screen and (max-width: 500px) {
-      padding: 5rem;
+      padding: 5rem 0;
     }
   }
 
