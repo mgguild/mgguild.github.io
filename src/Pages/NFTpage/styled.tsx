@@ -26,13 +26,17 @@ export const Btn = styled(Button)`
 export const InformativeButton = styled.button<{background?:string; borderColor?:string}>`
   width: 250px;
   height: 45px;
-  margin: 0 0.5rem;
+  margin: 0.5rem 0;
   ${({background, borderColor}) => `
     border: 1px solid ${borderColor};
     background-color: ${background};
   `} 
   color: ${({theme}) => theme.colors.text};
   font-weight: bold;
+
+  ${({theme}) => theme.mediaQueries.md} {
+    margin: 0 0.5rem;
+  }
 
 `
 
