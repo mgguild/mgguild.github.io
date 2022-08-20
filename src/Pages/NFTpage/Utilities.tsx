@@ -52,7 +52,7 @@ const Container = styled.div`
   flex-direction: column;
   align-items: flex-start;
   text-align: left;
-  margin: 5rem 0px;
+  margin: 0rem 0px 5rem 0px;
   padding: 2.5rem;
   background-color: rgba(12, 1, 44, 1);
   background-image: url("/nft/groupdna.png");
