@@ -10,7 +10,7 @@ const UnlockButton = (props) => {
   const { onPresentConnectModal } = useWalletModal(login, logout)
 
   return !account? (
-    <Button onClick={(onPresentConnectModal)} {...props} fullWidth>
+    <Button onClick={(onPresentConnectModal)} {...props}>
       {!customTitle ? 'Connect Wallet' : customTitle}
     </Button>
   ) : (

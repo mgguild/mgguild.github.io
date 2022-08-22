@@ -109,6 +109,34 @@
   },
   {
     "inputs": [],
+    "name": "currentPhase",
+    "outputs": [
+      {
+        "internalType": "uint256",
+        "name": "currentPhase",
+        "type": "uint256"
+      },
+      {
+        "internalType": "uint256",
+        "name": "price",
+        "type": "uint256"
+      },
+      {
+        "internalType": "uint256",
+        "name": "startTime",
+        "type": "uint256"
+      },
+      {
+        "internalType": "uint256",
+        "name": "endTime",
+        "type": "uint256"
+      }
+    ],
+    "stateMutability": "view",
+    "type": "function"
+  },
+  {
+    "inputs": [],
     "name": "getAllowlistPrice",
     "outputs": [
       {

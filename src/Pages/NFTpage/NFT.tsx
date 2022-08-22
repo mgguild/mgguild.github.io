@@ -1,4 +1,4 @@
-import React, {useCallback, useContext, useState} from 'react'
+import React, {useCallback, useContext, useEffect, useState} from 'react'
 import {Flex, Heading, Text} from '@metagg/mgg-uikit'
 import styled, {ThemeContext} from 'styled-components'
 import Page from 'components/layout/Page'
@@ -6,7 +6,9 @@ import Utilities from './Utilities'
 import nftbg from '../../assets/Nft/nftbg.png'
 import NftsGif from '../../assets/Nft/NFT.gif'
 import {BgPage, Btn, Card, HeadingGlow, InformativeButton} from './styled'
-import {useGetUserInfo, useMint} from "../../hooks/usePFPNft";
+import {useGetPublicInfo, useGetUserInfo, useMint} from "../../hooks/usePFPNft";
+import {useWeb3React} from "@web3-react/core";
+import UnlockButton from "../../components/UnlockButton";
 
 
 const BadgesContainer = styled(Flex)`
@@ -57,11 +59,29 @@ const InfoSection = styled(Flex)`
   }
 `
 
-const NFTpage = () => {
+const NFTpage: React.FC = () => {
     const theme = useContext(ThemeContext)
+    const {account} = useWeb3React()
     const [requestedApproval, setRequestedApproval] = useState(false)
-    const {buyEnabled, currentPhase, price} = useGetUserInfo()
+    const {buyEnabled} = useGetUserInfo()
+
+    const {
+        currentPhase,
+        price,
+        startTime,
+        endTime,
+    } = useGetPublicInfo()
+
     const {onMint} = useMint(price)
+    const {
+        phase1Enabled,
+        phase2Enabled,
+        phase3Enabled
+    } = {
+        phase1Enabled: currentPhase === '1',
+        phase2Enabled: currentPhase === '2',
+        phase3Enabled: currentPhase === '3'
+    }
 
     const handleMint = useCallback(async () => {
         try {
@@ -99,17 +119,30 @@ const NFTpage = () => {
 
 
                             </BadgesDesc>
+                            {/*#037b14*/}
+                            {/*#958e03*/}
+                            {/*#9e0205*/}
                             <InfoSection alignItems='center' justifyContent='center' margin='1rem 0 0 0'>
-                                <InformativeButton disabled={currentPhase !== '1'} background='#012c07' borderColor='#054824'>Allowlist -
+                                <InformativeButton disabled={phase1Enabled}
+                                                   background={phase1Enabled ? '#037b14' : '#012c07'}
+                                                   borderColor='#054824'>Allowlist -
                                     0.07E</InformativeButton>
-                                <InformativeButton disabled={currentPhase !== '2'} background='#2d2b02' borderColor='#515022'>Waitlist -
+                                <InformativeButton disabled={phase2Enabled}
+                                                   background={phase2Enabled ? '#958e03' : '#2d2b02'}
+                                                   borderColor='#515022'>Waitlist -
                                     0.09E</InformativeButton>
-                                <InformativeButton disabled={currentPhase !== '3'} background='#2d0102' borderColor='#73102f'>General Public -
+                                <InformativeButton disabled={phase3Enabled}
+                                                   background={phase3Enabled ? '#9e0205' : '#2d0102'}
+                                                   borderColor='#73102f'>General Public -
                                     0.09E</InformativeButton>
                             </InfoSection>
 
                             {/* <Btn disabled style={{margin: '3rem 0 0 0'}}>BUY A LIMITED EDITION MGG NFT</Btn> */}
-                            <Btn disabled={requestedApproval || !buyEnabled} onClick={handleMint} style={{margin: '3rem 0 0 0'}}>MINT</Btn>
+                            {account ?
+                                <Btn disabled={requestedApproval || !buyEnabled} onClick={handleMint}
+                                     style={{margin: '3rem 0 0 0'}}>MINT</Btn>
+                                : <UnlockButton style={{margin: '3rem 0 0 0'}}/>
+                            }
                             {/* <Flex>
                 <div>
                 <img style={{display: 'block', width: 'auto', height: 'auto', maxHeight: '35rem'}} src={Nfts}/>
