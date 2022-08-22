@@ -40,7 +40,7 @@ const useAuth = () => {
               error instanceof NoEthereumProviderError ||
               error instanceof NoBscProviderError
             ) {
-              console.log("Provider Error", "No provider was found");
+              console.info("Provider Error", "No provider was found");
             } else if (
               error instanceof UserRejectedRequestErrorInjected ||
               error instanceof UserRejectedRequestErrorWalletConnect
@@ -49,17 +49,17 @@ const useAuth = () => {
                 const walletConnector = connector as WalletConnectConnector;
                 walletConnector.walletConnectProvider = undefined;
               }
-              console.log(
+              console.info(
                 "Authorization Error",
                 "Please authorize to access your account"
               );
             } else {
-              console.log(error.name, error.message);
+              console.error(error.name, error.message);
             }
           }
         });
       } else {
-        console.log(
+        console.info(
           "Unable to find connector",
           "The connector config is wrong"
         );
