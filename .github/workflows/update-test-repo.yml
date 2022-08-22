@@ -1,0 +1,37 @@
+name: update-test-repo
+on:
+  push:
+    branches: [ develop ]
+
+  workflow_dispatch:
+
+jobs:
+  merge-repo:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+        with:
+          token: ${{ secrets.REMOTE_MERGE_ACCESS_TOKEN }}
+          fetch-depth: 0
+      - name: Git-version
+        run: git version
+
+      - name: Git-user
+        run: |
+          git config user.name "$(git log -n 1 --pretty=format:%an)"
+          git config user.email "$(git log -n 1 --pretty=format:%ae)"
+
+      - name: Git-remote-add
+        run: git remote add testrepo https://github.com/mgguild/test-mgg-site.git
+
+      - name: Git-fetch-all
+        run: git fetch --all
+
+      - name: Git-checkout-test
+        run: git checkout -b main testrepo/main
+
+      - name: Git-merge
+        run: git merge origin/develop
+
+      - name: Git-push
+        run: git push testrepo main
