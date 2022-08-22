@@ -62,7 +62,7 @@ const InfoSection = styled(Flex)`
 const NFTpage: React.FC = () => {
     const theme = useContext(ThemeContext)
     const {account} = useWeb3React()
-    const [requestedApproval, setRequestedApproval] = useState(false)
+    const [requestedMint, setRequestMint] = useState(false)
     const {buyEnabled} = useGetUserInfo()
 
     const {
@@ -85,11 +85,11 @@ const NFTpage: React.FC = () => {
 
     const handleMint = useCallback(async () => {
         try {
-            setRequestedApproval(true)
+            setRequestMint(true)
             const txHash = await onMint()
-            setRequestedApproval(false)
+            setRequestMint(false)
         } catch (e) {
-            setRequestedApproval(false)
+            setRequestMint(false)
             console.error(e)
         }
     }, [onMint])
@@ -139,7 +139,7 @@ const NFTpage: React.FC = () => {
 
                             {/* <Btn disabled style={{margin: '3rem 0 0 0'}}>BUY A LIMITED EDITION MGG NFT</Btn> */}
                             {account ?
-                                <Btn disabled={requestedApproval || !buyEnabled} onClick={handleMint}
+                                <Btn disabled={requestedMint || !buyEnabled} onClick={handleMint}
                                      style={{margin: '3rem 0 0 0'}}>MINT</Btn>
                                 : <UnlockButton style={{margin: '3rem 0 0 0'}}/>
                             }
