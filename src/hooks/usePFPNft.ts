@@ -4,6 +4,7 @@ import {mint} from 'utils/callHelpers'
 import {getPFPNftContract} from "../utils/contractHelpers";
 import useWeb3 from "./useWeb3";
 import useRefresh from "./useRefresh";
+import {getPFPNftAddress} from "../utils/addressHelpers";
 
 export const useMint = (amount) => {
     const {account, chainId} = useWeb3React()
@@ -13,7 +14,6 @@ export const useMint = (amount) => {
     const handleMint = useCallback(async () => {
         try {
             const txHash = await mint(contract, account, amount);
-            console.log(web3.utils.hexToNumber(txHash.events[0].raw.topics[3]))
             return txHash
         } catch (e) {
             console.error(e)
@@ -66,11 +66,13 @@ export const useGetUserInfo = (address = undefined) => {
 }
 export const useGetPublicInfo = () => {
     const [{
+        nftAddress,
         currentPhase,
         price,
         startTime,
         endTime
     }, setPFPInfo] = useState({
+        nftAddress: '',
         currentPhase: '',
         price: '',
         startTime: '',
@@ -89,6 +91,7 @@ export const useGetPublicInfo = () => {
         } = await contract.methods.currentPhase().call()
 
         setPFPInfo({
+            nftAddress: getPFPNftAddress(chainId?.toString()),
             currentPhase,
             price,
             startTime,
@@ -96,10 +99,11 @@ export const useGetPublicInfo = () => {
         })
     }, [])
     useEffect(() => {
-        fetchUserInfo();
+        fetchUserInfo().then(console.info);
     }, [fetchUserInfo, account])
 
     return {
+        nftAddress,
         currentPhase,
         price,
         startTime,

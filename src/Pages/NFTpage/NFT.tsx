@@ -1,4 +1,4 @@
-import React, {useCallback, useContext, useEffect, useState} from 'react'
+import React, {useCallback, useContext, useState} from 'react'
 import {Flex, Heading, Text} from '@metagg/mgg-uikit'
 import styled, {ThemeContext} from 'styled-components'
 import Page from 'components/layout/Page'
@@ -9,6 +9,9 @@ import {BgPage, Btn, Card, HeadingGlow, InformativeButton} from './styled'
 import {useGetPublicInfo, useGetUserInfo, useMint} from "../../hooks/usePFPNft";
 import {useWeb3React} from "@web3-react/core";
 import UnlockButton from "../../components/UnlockButton";
+import useToast from "../../hooks/useToast";
+import {getOpenSeaUrl, openInNewTab} from "../../utils/nftHelpers";
+import useWeb3 from "../../hooks/useWeb3";
 
 
 const BadgesContainer = styled(Flex)`
@@ -61,9 +64,11 @@ const InfoSection = styled(Flex)`
 
 const NFTpage: React.FC = () => {
     const theme = useContext(ThemeContext)
-    const {account} = useWeb3React()
+    const {account, chainId} = useWeb3React()
+    const web3 = useWeb3()
     const [requestedMint, setRequestMint] = useState(false)
     const {buyEnabled} = useGetUserInfo()
+    const {toastSuccess} = useToast()
 
     const {
         currentPhase,
@@ -73,6 +78,7 @@ const NFTpage: React.FC = () => {
     } = useGetPublicInfo()
 
     const {onMint} = useMint(price)
+
     const {
         phase1Enabled,
         phase2Enabled,
@@ -87,6 +93,11 @@ const NFTpage: React.FC = () => {
         try {
             setRequestMint(true)
             const txHash = await onMint()
+            toastSuccess('NFT Minted', `${txHash}`)
+            const tokenId = web3.utils.hexToNumber(txHash.events[0].raw.topics[3])
+            const tokenAddress = txHash.events[0].address
+            const openSeaUrl = getOpenSeaUrl(chainId?.toString(), tokenAddress, tokenId)
+            setTimeout(() => openInNewTab(openSeaUrl), 3000)
             setRequestMint(false)
         } catch (e) {
             setRequestMint(false)
@@ -116,12 +127,8 @@ const NFTpage: React.FC = () => {
                                         MetaGaming Guild ecosystem. A total of 5,000 individually designed NFTs will be
                                         up for grabs on August 2022.</Text>
                                 </DescText>
-
-
                             </BadgesDesc>
-                            {/*#037b14*/}
-                            {/*#958e03*/}
-                            {/*#9e0205*/}
+
                             <InfoSection alignItems='center' justifyContent='center' margin='1rem 0 0 0'>
                                 <InformativeButton disabled={phase1Enabled}
                                                    background={phase1Enabled ? '#037b14' : '#012c07'}
