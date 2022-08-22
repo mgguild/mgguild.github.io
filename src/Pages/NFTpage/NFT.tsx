@@ -67,6 +67,8 @@ const NFTpage: React.FC = () => {
     const {account, chainId} = useWeb3React()
     const web3 = useWeb3()
     const [requestedMint, setRequestMint] = useState(false)
+    const [activateCountdown, setActivateCountDown] = useState(false)
+    let [countdown, setCountDown] = useState(4)
     const {buyEnabled} = useGetUserInfo()
     const {toastSuccess} = useToast()
 
@@ -97,8 +99,14 @@ const NFTpage: React.FC = () => {
             const tokenId = web3.utils.hexToNumber(txHash.events[0].raw.topics[3])
             const tokenAddress = txHash.events[0].address
             const openSeaUrl = getOpenSeaUrl(chainId?.toString(), tokenAddress, tokenId)
-            setTimeout(() => openInNewTab(openSeaUrl), 3000)
-            setRequestMint(false)
+            setActivateCountDown(true)
+            const timer = setInterval(() => setCountDown(countdown--), 1000)
+            setTimeout(() => {
+                setActivateCountDown(false)
+                clearInterval(timer)
+                setRequestMint(false)
+                openInNewTab(openSeaUrl)
+            }, 4000)
         } catch (e) {
             setRequestMint(false)
             console.error(e)
@@ -147,7 +155,7 @@ const NFTpage: React.FC = () => {
                             {/* <Btn disabled style={{margin: '3rem 0 0 0'}}>BUY A LIMITED EDITION MGG NFT</Btn> */}
                             {account ?
                                 <Btn disabled={requestedMint || !buyEnabled} onClick={handleMint}
-                                     style={{margin: '3rem 0 0 0'}}>MINT</Btn>
+                                     style={{margin: '3rem 0 0 0'}}>MINT {activateCountdown && `(${countdown})`}</Btn>
                                 : <UnlockButton style={{margin: '3rem 0 0 0'}}/>
                             }
                             {/* <Flex>
