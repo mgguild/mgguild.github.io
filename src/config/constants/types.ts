@@ -1,3 +1,8 @@
+export interface Address {
+    1?: string
+    4?: string
+}
+
 export interface PageMeta {
   title: string;
   description?: string;
