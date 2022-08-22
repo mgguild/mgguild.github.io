@@ -8,7 +8,7 @@ import useRefresh from "./useRefresh";
 export const useMint = (amount) => {
     const {account, chainId} = useWeb3React()
     const web3 = useWeb3()
-    const { fastRefresh } = useRefresh()
+    const {fastRefresh} = useRefresh()
     const contract = getPFPNftContract(chainId?.toString(), web3)
     const handleMint = useCallback(async () => {
         try {
@@ -35,7 +35,7 @@ export const useGetUserInfo = (address = undefined) => {
         currentPhase: ''
     })
 
-    const { fastRefresh } = useRefresh()
+    const {fastRefresh} = useRefresh()
     const {account, chainId} = useWeb3React()
     const web3 = useWeb3()
 
@@ -76,30 +76,28 @@ export const useGetPublicInfo = () => {
         startTime: '',
         endTime: ''
     })
-    const { slowRefresh } = useRefresh()
     const {chainId, account} = useWeb3React()
     const web3 = useWeb3()
+    const fetchUserInfo = useCallback(async () => {
+        const contract = getPFPNftContract(chainId?.toString(), account ? web3 : null)
+
+        const {
+            currentPhase,
+            price,
+            startTime,
+            endTime
+        } = await contract.methods.currentPhase().call()
+
+        setPFPInfo({
+            currentPhase,
+            price,
+            startTime,
+            endTime
+        })
+    }, [])
     useEffect(() => {
-        const fetchUserInfo = async () => {
-            const contract = getPFPNftContract(chainId?.toString(), account? web3: null)
-
-            const {
-                currentPhase,
-                price,
-                startTime,
-                endTime
-            } = await contract.methods.currentPhase().call()
-
-            setPFPInfo({
-                currentPhase,
-                price,
-                startTime,
-                endTime
-            })
-        }
-
-        fetchUserInfo()
-    }, [slowRefresh])
+        fetchUserInfo();
+    }, [fetchUserInfo, account])
 
     return {
         currentPhase,
