@@ -95,10 +95,10 @@ const NFTpage: React.FC = () => {
         try {
             setRequestMint(true)
             const txHash = await onMint()
-            toastSuccess('NFT Minted', `${txHash}`)
             const tokenId = web3.utils.hexToNumber(txHash.events[0].raw.topics[3])
             const tokenAddress = txHash.events[0].address
             const openSeaUrl = getOpenSeaUrl(chainId?.toString(), tokenAddress, tokenId)
+            toastSuccess(`NFT Minted!`, <a href={openSeaUrl} target="_blank" style={{color: theme.colors.MGG_accent2}}>To check your minted NFT, please click here</a>)
             setActivateCountDown(true)
             const timer = setInterval(() => setCountDown(countdown--), 1000)
             setTimeout(() => {
@@ -142,10 +142,10 @@ const NFTpage: React.FC = () => {
                                                    background={phase1Enabled ? '#037b14' : '#012c07'}
                                                    borderColor='#054824'>Allowlist -
                                     0.07E</InformativeButton>
-                                <InformativeButton disabled={phase2Enabled}
+                                {/* <InformativeButton disabled={phase2Enabled}
                                                    background={phase2Enabled ? '#958e03' : '#2d2b02'}
                                                    borderColor='#515022'>Waitlist -
-                                    0.09E</InformativeButton>
+                                    0.09E</InformativeButton> */}
                                 <InformativeButton disabled={phase3Enabled}
                                                    background={phase3Enabled ? '#9e0205' : '#2d0102'}
                                                    borderColor='#73102f'>General Public -
@@ -221,10 +221,10 @@ const NFTpage: React.FC = () => {
                                         textAlign: 'left'
                                     }}>
                                         <Heading size='l' color={theme.colors.MGG_accent2}>Contact Address</Heading>
-                                        <Text>To be added</Text>
+                                        <Text>0xB88471E77b195aBa10068960ac83AC8c6983013F</Text>
 
-                                        <Heading size='l' color={theme.colors.MGG_accent2}>Token ID</Heading>
-                                        <Text>To be added</Text>
+                                        {/* <Heading size='l' color={theme.colors.MGG_accent2}>Token ID</Heading>
+                                        <Text>To be added</Text> */}
 
                                         <Heading size='l' color={theme.colors.MGG_accent2}>Blockchain</Heading>
                                         <Text>Ethereum</Text>
