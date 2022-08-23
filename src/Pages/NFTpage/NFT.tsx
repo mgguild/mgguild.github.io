@@ -120,6 +120,7 @@ const NFTpage: React.FC = () => {
                         <BadgesContainer className='pad-5rem'>
                             <BadgesDesc>
                                 <DescText>
+                                    <button onClick={() => toastSuccess('hello')}> test toast</button>
                                     <HeadingGlow size='xl' color='#fdda00' glow="#fdda00">MINT IS LIVE!</HeadingGlow>
                                     <br/>
                                     <br/>
@@ -142,10 +143,10 @@ const NFTpage: React.FC = () => {
                                                    background={phase1Enabled ? '#037b14' : '#012c07'}
                                                    borderColor='#054824'>Allowlist -
                                     0.07E</InformativeButton>
-                                <InformativeButton disabled={phase2Enabled}
+                                {/* <InformativeButton disabled={phase2Enabled}
                                                    background={phase2Enabled ? '#958e03' : '#2d2b02'}
                                                    borderColor='#515022'>Waitlist -
-                                    0.09E</InformativeButton>
+                                    0.09E</InformativeButton> */}
                                 <InformativeButton disabled={phase3Enabled}
                                                    background={phase3Enabled ? '#9e0205' : '#2d0102'}
                                                    borderColor='#73102f'>General Public -
