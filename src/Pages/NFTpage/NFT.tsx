@@ -10,8 +10,9 @@ import {useGetPublicInfo, useGetUserInfo, useMint} from "../../hooks/usePFPNft";
 import {useWeb3React} from "@web3-react/core";
 import UnlockButton from "../../components/UnlockButton";
 import useToast from "../../hooks/useToast";
-import {getOpenSeaUrl, openInNewTab} from "../../utils/nftHelpers";
+import {getOpenSeaUrl} from "../../utils/nftHelpers";
 import useWeb3 from "../../hooks/useWeb3";
+import {getBalanceAmount, getBalanceNumber, toBigNumber} from "../../utils/formatBalance";
 
 
 const BadgesContainer = styled(Flex)`
@@ -67,12 +68,13 @@ const NFTpage: React.FC = () => {
     const {account, chainId} = useWeb3React()
     const web3 = useWeb3()
     const [requestedMint, setRequestMint] = useState(false)
-    const [activateCountdown, setActivateCountDown] = useState(false)
-    let [countdown, setCountDown] = useState(4)
     const {buyEnabled} = useGetUserInfo()
     const {toastSuccess} = useToast()
 
     const {
+        totalSupply,
+        maxSupply,
+        nftAddress,
         currentPhase,
         price,
         startTime,
@@ -98,14 +100,11 @@ const NFTpage: React.FC = () => {
             const tokenId = web3.utils.hexToNumber(txHash.events[0].raw.topics[3])
             const tokenAddress = txHash.events[0].address
             const openSeaUrl = getOpenSeaUrl(chainId?.toString(), tokenAddress, tokenId)
-            toastSuccess(`NFT Minted!`, <a href={openSeaUrl} target="_blank" style={{color: theme.colors.MGG_accent2}}>To check your minted NFT, please click here</a>)
-            setActivateCountDown(true)
-            const timer = setInterval(() => setCountDown(countdown--), 1000)
             setTimeout(() => {
-                setActivateCountDown(false)
-                clearInterval(timer)
                 setRequestMint(false)
-                openInNewTab(openSeaUrl)
+                toastSuccess(`NFT Minted!`, <a href={openSeaUrl} target="_blank"
+                                               style={{color: theme.colors.MGG_accent2}}>To check your minted NFT,
+                    please click here</a>)
             }, 4000)
         } catch (e) {
             setRequestMint(false)
@@ -155,7 +154,7 @@ const NFTpage: React.FC = () => {
                             {/* <Btn disabled style={{margin: '3rem 0 0 0'}}>BUY A LIMITED EDITION MGG NFT</Btn> */}
                             {account ?
                                 <Btn disabled={requestedMint || !buyEnabled} onClick={handleMint}
-                                     style={{margin: '3rem 0 0 0'}}>MINT {activateCountdown && `(${countdown})`}</Btn>
+                                     style={{margin: '3rem 0 0 0'}}>MINT</Btn>
                                 : <UnlockButton style={{margin: '3rem 0 0 0'}}/>
                             }
                             {/* <Flex>
@@ -187,17 +186,17 @@ const NFTpage: React.FC = () => {
                                 <Flex style={{flexFlow: 'row wrap', columnGap: '2rem', justifyContent: 'space-evenly'}}>
                                     <div>
                                         <HeadingGlow size='xl' glow="#fdda00"
-                                                     color={theme.colors.primary}>5,000</HeadingGlow>
+                                                     color={theme.colors.primary}>{ maxSupply }</HeadingGlow>
                                         <Text>Total Supply</Text>
                                     </div>
                                     <div style={{minWidth: '5rem'}}>
                                         <HeadingGlow size='xl' glow="#fdda00"
-                                                     color={theme.colors.primary}>TBA</HeadingGlow>
+                                                     color={theme.colors.primary}>{maxSupply-totalSupply}</HeadingGlow>
                                         <Text>Available NFTs</Text>
                                     </div>
                                     <div>
                                         <HeadingGlow size='xl' glow="#fdda00"
-                                                     color={theme.colors.primary}>TBA</HeadingGlow>
+                                                     color={theme.colors.primary}>{getBalanceNumber(toBigNumber(price))}</HeadingGlow>
                                         <Text>Price</Text>
                                     </div>
                                 </Flex>
@@ -209,8 +208,8 @@ const NFTpage: React.FC = () => {
                             <Heading>Hurry! Don't miss your chance to own a LIMITED EDITION MetaGaming NFT!</Heading>
 
                             {/* <Btn disabled style={{margin: '3rem 0 5rem 0', padding: '2rem 5rem'}}>GO GET ONE! <Text style={{padding: '0 0 0.5rem 0'}}>&nbsp;👉</Text></Btn> */}
-                            <Btn style={{margin: '3rem 0 5rem 0', padding: '1rem 0rem'}}>August 22, 2022 1:00 PM
-                                UTC</Btn>
+                            {/*<Btn style={{margin: '3rem 0 5rem 0', padding: '1rem 0rem'}}>August 22, 2022 1:00 PM*/}
+                            {/*    UTC</Btn>*/}
 
                             <Card>
                                 <div style={{padding: '1rem'}}>
@@ -221,7 +220,7 @@ const NFTpage: React.FC = () => {
                                         textAlign: 'left'
                                     }}>
                                         <Heading size='l' color={theme.colors.MGG_accent2}>Contact Address</Heading>
-                                        <Text>0xB88471E77b195aBa10068960ac83AC8c6983013F</Text>
+                                        <Text>{nftAddress?? '0x2957b3c84BFa0daAcCb2902aC59f4f0C0694f555'}</Text>
 
                                         {/* <Heading size='l' color={theme.colors.MGG_accent2}>Token ID</Heading>
                                         <Text>To be added</Text> */}

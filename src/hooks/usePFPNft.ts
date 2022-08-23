@@ -1,10 +1,9 @@
 import {useCallback, useEffect, useState} from 'react'
 import {useWeb3React} from '@web3-react/core'
 import {mint} from 'utils/callHelpers'
-import {getPFPNftContract} from "../utils/contractHelpers";
+import {getMGGNftContract, getPFPNftContract} from "../utils/contractHelpers";
 import useWeb3 from "./useWeb3";
 import useRefresh from "./useRefresh";
-import {getPFPNftAddress} from "../utils/addressHelpers";
 
 export const useMint = (amount) => {
     const {account, chainId} = useWeb3React()
@@ -67,12 +66,16 @@ export const useGetUserInfo = (address = undefined) => {
 export const useGetPublicInfo = () => {
     const [{
         nftAddress,
+        totalSupply,
+        maxSupply,
         currentPhase,
         price,
         startTime,
         endTime
     }, setPFPInfo] = useState({
         nftAddress: '',
+        totalSupply: 0,
+        maxSupply: 0,
         currentPhase: '',
         price: '',
         startTime: '',
@@ -80,18 +83,22 @@ export const useGetPublicInfo = () => {
     })
     const {chainId, account} = useWeb3React()
     const web3 = useWeb3()
-    const fetchUserInfo = useCallback(async () => {
+    const fetchPublicInfo = useCallback(async () => {
         const contract = getPFPNftContract(chainId?.toString(), account ? web3 : null)
-
         const {
             currentPhase,
             price,
             startTime,
             endTime
         } = await contract.methods.currentPhase().call()
-
+        const nftAdd = await contract.methods.MGGPFPContract().call()
+        const mggNftContract = getMGGNftContract(nftAdd, chainId?.toString(), web3)
+        const mSupply = await mggNftContract.methods.maxSupply().call()
+        const tSupply = await mggNftContract.methods.totalSupply().call()
         setPFPInfo({
-            nftAddress: getPFPNftAddress(chainId?.toString()),
+            nftAddress: nftAdd,
+            totalSupply: tSupply,
+            maxSupply: mSupply,
             currentPhase,
             price,
             startTime,
@@ -99,10 +106,12 @@ export const useGetPublicInfo = () => {
         })
     }, [])
     useEffect(() => {
-        fetchUserInfo().then(console.info);
-    }, [fetchUserInfo, account])
+        fetchPublicInfo().then(console.info);
+    }, [fetchPublicInfo, account])
 
     return {
+        totalSupply,
+        maxSupply,
         nftAddress,
         currentPhase,
         price,
