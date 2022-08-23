@@ -116,7 +116,7 @@ const NFTpage: React.FC = () => {
             <Page>
                 <BgPage padding='0'>
                     <div style={{position: 'relative', zIndex: 2}}>
-                        <BadgesContainer className='pad-5rem'>
+                        <BadgesContainer className='pad-10rem'>
                             <BadgesDesc>
                                 <DescText>
                                     <HeadingGlow size='xl' color='#fdda00' glow="#fdda00">MINT IS LIVE!</HeadingGlow>
@@ -153,8 +153,10 @@ const NFTpage: React.FC = () => {
 
                             {/* <Btn disabled style={{margin: '3rem 0 0 0'}}>BUY A LIMITED EDITION MGG NFT</Btn> */}
                             {account ?
-                                <Btn disabled={requestedMint || !buyEnabled} onClick={handleMint}
-                                     style={{margin: '3rem 0 0 0'}}>MINT</Btn>
+                                <div style={{margin: '3rem 0 0 0'}}>
+                                <Text>Account: <span style={{color: theme.colors.primary}}>{account}</span></Text>
+                                <Btn marginTop='2rem' disabled={requestedMint || !buyEnabled} onClick={handleMint}>MINT</Btn>
+                                </div>
                                 : <UnlockButton style={{margin: '3rem 0 0 0'}}/>
                             }
                             {/* <Flex>

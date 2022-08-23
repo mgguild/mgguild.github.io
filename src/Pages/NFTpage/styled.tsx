@@ -87,13 +87,17 @@ export const BgPage = styled.div<{padding?: string}>`
   height: 100%;
   position: relative;
   & .pad-5rem {
+    padding: 3rem;
+    @media screen and (max-width: 500px) {
+      padding: 2rem 0;
+    }
+  }
+  & .pad-10rem {
     padding: 10rem;
-
     @media screen and (max-width: 500px) {
       padding: 5rem 0;
     }
   }
-
   &:before {
     content: '';
     position: absolute;
