@@ -220,7 +220,7 @@ const NFTpage: React.FC = () => {
                                         textAlign: 'left'
                                     }}>
                                         <Heading size='l' color={theme.colors.MGG_accent2}>Contact Address</Heading>
-                                        <Text>{nftAddress?? '0x2957b3c84BFa0daAcCb2902aC59f4f0C0694f555'}</Text>
+                                        <Text>{nftAddress?? 'n/a'}</Text>
 
                                         {/* <Heading size='l' color={theme.colors.MGG_accent2}>Token ID</Heading>
                                         <Text>To be added</Text> */}
