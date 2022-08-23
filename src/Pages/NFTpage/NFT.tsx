@@ -116,7 +116,7 @@ const NFTpage: React.FC = () => {
             <Page>
                 <BgPage padding='0'>
                     <div style={{position: 'relative', zIndex: 2}}>
-                        <BadgesContainer className='pad-5rem'>
+                        <BadgesContainer className='pad-10rem'>
                             <BadgesDesc>
                                 <DescText>
                                     <HeadingGlow size='xl' color='#fdda00' glow="#fdda00">MINT IS LIVE!</HeadingGlow>
