@@ -18,8 +18,8 @@ jobs:
 
       - name: Git-user
         run: |
-          git config user.name "$(git log -n 1 --pretty=format:%an)"
-          git config user.email "$(git log -n 1 --pretty=format:%ae)"
+            git config user.name "$(git log -n 1 --pretty=format:%an)"
+            git config user.email "$(git log -n 1 --pretty=format:%ae)"
 
       - name: Git-remote-add
         run: git remote add testrepo https://github.com/mgguild/test-mgg-site.git
