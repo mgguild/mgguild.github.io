@@ -95,10 +95,10 @@ const NFTpage: React.FC = () => {
         try {
             setRequestMint(true)
             const txHash = await onMint()
-            toastSuccess('NFT Minted', `${txHash}`)
             const tokenId = web3.utils.hexToNumber(txHash.events[0].raw.topics[3])
             const tokenAddress = txHash.events[0].address
             const openSeaUrl = getOpenSeaUrl(chainId?.toString(), tokenAddress, tokenId)
+            toastSuccess(`NFT Minted!`, <a href={openSeaUrl} target="_blank" style={{color: theme.colors.MGG_accent2}}>To check your minted nft, please click here</a>)
             setActivateCountDown(true)
             const timer = setInterval(() => setCountDown(countdown--), 1000)
             setTimeout(() => {
@@ -120,7 +120,6 @@ const NFTpage: React.FC = () => {
                         <BadgesContainer className='pad-5rem'>
                             <BadgesDesc>
                                 <DescText>
-                                    <button onClick={() => toastSuccess('hello')}> test toast</button>
                                     <HeadingGlow size='xl' color='#fdda00' glow="#fdda00">MINT IS LIVE!</HeadingGlow>
                                     <br/>
                                     <br/>
