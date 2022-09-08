@@ -54,7 +54,7 @@ export const Teams:TeamsConfig = {
     },
     {
       name: 'Khen Mendoza',
-      title: 'Commmunity Manager',
+      title: 'Community Manager',
     },
     {
       name: 'Aiza B Borinaga',
@@ -74,7 +74,7 @@ export const Teams:TeamsConfig = {
     },
     {
       name: 'Ador Cruz',
-      title: 'MGG  Trainerer'  
+      title: 'MGG  Trainer'  
     }
   ],
   'TECHNOLOGY & DEVELOPMENT': [
@@ -103,7 +103,7 @@ export const Teams:TeamsConfig = {
       title: 'Lead Back-end Developer'
     },
     {
-      name: 'Mike Reveno',
+      name: 'Mike Reñevo',
       title: 'Lead Game Developer'
     },
     {
