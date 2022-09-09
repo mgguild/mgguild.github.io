@@ -25,7 +25,7 @@ export { default as AldrickBonaobraImg } from "./AldrickBonaobra";
 export { default as MedardMandaneImg } from "./MedardMandane";
 export { default as HarvinCadagImg } from "./HarvinCadag";
 export { default as KojiAdrianoJrImg } from "./KojiAdrianoJr";
-export { default as MikeRevenoImg } from "./MikeReveno";
+export { default as MikeReñevoImg } from "./MikeReveno";
 export { default as SalvadorAmbaJrImg } from "./SalvadorAmba";
 export { default as JohnAnthonyBalbinImg } from "./JohnBalbin";
 export { default as EmmanAdornadoImg } from "./EmmanAdornado";
