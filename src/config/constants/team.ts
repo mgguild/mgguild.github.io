@@ -29,8 +29,52 @@ export const Teams:TeamsConfig = {
       title: 'Partner - KOL'
     },
     {
+      name: 'Jobelyn Ella A Hidalgo',
+      title: 'Marketing Asssociate'
+    },
+    {
       name: 'Karan Sharma',
       title: "Community Manager - India"
+    },
+    {
+      name: 'Yandro Abrazado',
+      title: 'Content Strategist at MSW'
+    },
+    {
+      name: 'Matthew Wills',
+      title: 'Telegram Community Moderator'
+    },
+    {
+      name: 'Marites Cabanilla',
+      title: 'Telegram Community Moderator'
+    },
+    {
+      name: 'Mr Hyo',
+      title: 'Telegram Community Moderator'
+    },
+    {
+      name: 'Khen Mendoza',
+      title: 'Community Manager',
+    },
+    {
+      name: 'Aiza B Borinaga',
+      title: 'Discord Admin'
+    },
+    {
+      name: 'Sheila',
+      title: 'Discord Admin'
+    },
+    {
+      name: 'Marc',
+      title: 'Discord Admin'
+    },
+    {
+      name: 'Jess',
+      title: 'Discord Support Staff'
+    },
+    {
+      name: 'Ador Cruz',
+      title: 'MGG  Trainer'  
     }
   ],
   'TECHNOLOGY & DEVELOPMENT': [
@@ -43,7 +87,7 @@ export const Teams:TeamsConfig = {
       title: 'Full Stack Developer'
     },
     {
-      name: 'Koji Adriano Jr.',
+      name: 'Koji Adriano Jr',
       title: 'Full Stack Developer'
     },
     {
@@ -59,7 +103,11 @@ export const Teams:TeamsConfig = {
       title: 'Lead Back-end Developer'
     },
     {
-      name: 'Salvador Amba Jr.',
+      name: 'Mike Reñevo',
+      title: 'Lead Game Developer'
+    },
+    {
+      name: 'Salvador Amba Jr',
       title: 'Back-end Developer'
     },
     {
