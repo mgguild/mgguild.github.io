@@ -31,12 +31,12 @@ const roadmaps: RoadmapConfig = {
     Q2 : [
       {txt: "GameFi Vault Official Launch", check: true},
       {txt: "MGG PFP NFTs Launch", check: true},
-      {txt: "MGG NFT Game Production", check: false},
-      {txt: "PVE Mode and Combat Mechanics", check: false},
-      {txt: "Implement Levels 1 to 4", check: false},
+      {txt: "MGG NFT Game Production", check: true},
+      {txt: "PVE Mode and Combat Mechanics", check: true},
+      {txt: "Implement Levels 1 to 4", check: true},
       {txt: "Onboarding of more scholars (1,500 to 5,000)", check: false},
       {txt: "Updated MGG Website: UI/UX Refresh", check: true},
-      {txt: "Exchange Listing and Partnerships", check: false},
+      {txt: "Exchange Listing and Partnerships", check: true},
       // {txt: "2nd buyback and burn program", check: false}
     ],
     Q3 : [
