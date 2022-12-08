@@ -70,6 +70,10 @@ const Config: Props = {
     {
       name: names.socials.youtube,
       href: 'https://www.youtube.com/channel/UCdVjfmKv-Qi3z2SXyB1f2gA'
+    },
+    {
+      name: names.socials.tiktok,
+      href: 'https://www.tiktok.com/@metagaming_guild'
     }
   ],
 };

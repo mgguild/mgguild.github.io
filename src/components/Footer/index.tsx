@@ -48,13 +48,15 @@ const Footer: React.FC = () => {
         >
           <Logo />
           <Description size="sm">"A community of tactical gamers"</Description>
-          <Flex paddingTop="10px">
+          <Grid paddingTop="10px" container alignItems='center' rowSpacing={1}>
             {socials.map((social) => (
+              <Grid item md={2} sx={{textAlign: 'center'}}>
               <a key={social.name} href={social.href} target="_blank">
                 <SocialIcon name={social.name} />
               </a>
+              </Grid>
             ))}
-          </Flex>
+          </Grid>
         </Flex>
       </StyledLogoWrapper>
       <StyledMenuWrapper>
