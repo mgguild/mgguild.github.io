@@ -73,7 +73,7 @@ const Config: Props = {
     },
     {
       name: names.socials.tiktok,
-      href: 'www.tiktok.com/@metagaming_guild'
+      href: 'https://www.tiktok.com/@metagaming_guild'
     }
   ],
 };
