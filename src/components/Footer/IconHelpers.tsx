@@ -1,7 +1,7 @@
 import React from 'react'
 import styled from 'styled-components'
 import { Facebook, Send, Twitter, Linkedin, Instagram, HelpCircle, Youtube} from "react-feather"
-import { SiDiscord } from 'react-icons/si' 
+import { SiDiscord, SiTiktok } from 'react-icons/si' 
 import { FaMediumM } from 'react-icons/fa'
 import { names } from "components/Footer/types"
 
@@ -9,9 +9,9 @@ const StyledLogo = styled.span`
     & > * {
         color: ${(({theme}) => theme.colors.primary)};
         font-size: 30px;
-        margin: 0 5px;
-        width: 30px;
-        height: 30px;
+        // margin: 0 5px;
+        // width: 30px;
+        // height: 30px;
     }
 `
 
@@ -35,6 +35,8 @@ export const SocialIcon:React.FC<{name: string}> = ({ name }) => {
                 return <FaMediumM />
             case socials.youtube:
                 return <Youtube />
+            case socials.tiktok:
+                return <SiTiktok />
             default: 
                 return (
                     <HelpCircle />
