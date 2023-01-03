@@ -36,10 +36,10 @@ export const Teams:TeamsConfig = {
       name: 'Karan Sharma',
       title: "Community Manager - India"
     },
-    {
-      name: 'Yandro Abrazado',
-      title: 'Content Strategist at MSW'
-    },
+    // {
+    //   name: 'Yandro Abrazado',
+    //   title: 'Content Strategist at MSW'
+    // },
     {
       name: 'Matthew Wills',
       title: 'Telegram Community Moderator'

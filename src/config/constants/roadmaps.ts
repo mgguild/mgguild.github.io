@@ -42,7 +42,7 @@ const roadmaps: RoadmapConfig = {
     Q3 : [
       {txt: "Earning Dashboard Launch", check: false},
       {txt: "NFT Game Blockchain Integration", check: false},
-      {txt: "Implement Levels 5 to 9", check: false},
+      {txt: "Implement Levels 5 to 9", check: true},
       {txt: "Exchange Listing and Partnerships", check: false},
       {txt: "ChainPort Bridge Integration", check: false},
       {txt: "Continue onboarding of scholars (5,000 to 7,500)", check: false},
@@ -50,7 +50,7 @@ const roadmaps: RoadmapConfig = {
       // {txt: "3rd buyback and burn program", check: false},
     ],
     Q4 : [
-      {txt: "NFT Game: Alpha version release", check: false},
+      {txt: "NFT Game: Alpha version release", check: true},
       {txt: "Launch of NFT Game Marketplace", check: false},
       {txt: "Exchange Listing and Partnerships", check: false},
       {txt: "Team Expansion", check: false},
