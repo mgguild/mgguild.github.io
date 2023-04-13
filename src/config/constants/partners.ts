@@ -76,6 +76,7 @@ import Metaoasis from '../../assets/logo/Partners/MetaOasis.png'
 import AVStarCapital from '../../assets/logo/Partners/av_star_capital.png'
 import Basketballverse from '../../assets/logo/Partners/basketballverse.png'
 import SLETI from '../../assets/logo/Partners/White_wTagline.png'
+import Arcus from '../../assets/logo/Partners/Arcus.png'
 
 const partners: Partners = {
   InvsBckrs:{
@@ -455,6 +456,11 @@ const partners: Partners = {
       name: 'Avstar Capital',
       logo: AVStarCapital,
       link: 'https://avstarcapital.co'
+    },
+    Arcus: {
+      name: 'Arcus',
+      logo: Arcus,
+      link: 'https://arcusgo8.com/'
     }
   }
 }
