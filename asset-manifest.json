@@ -1,12 +1,12 @@
 {
   "files": {
-    "main.js": "/static/js/main.d1f9724f.js",
+    "main.js": "/static/js/main.377cae12.js",
     "static/js/455.a04cf42b.chunk.js": "/static/js/455.a04cf42b.chunk.js",
     "static/js/260.bf1dd350.chunk.js": "/static/js/260.bf1dd350.chunk.js",
     "static/js/74.3a851f35.chunk.js": "/static/js/74.3a851f35.chunk.js",
     "static/js/378.4f3b2a0d.chunk.js": "/static/js/378.4f3b2a0d.chunk.js",
     "static/js/24.688d54fd.chunk.js": "/static/js/24.688d54fd.chunk.js",
-    "static/js/619.fe95b00a.chunk.js": "/static/js/619.fe95b00a.chunk.js",
+    "static/js/913.df377fdd.chunk.js": "/static/js/913.df377fdd.chunk.js",
     "static/css/747.d2931d57.chunk.css": "/static/css/747.d2931d57.chunk.css",
     "static/js/747.8ba2f40b.chunk.js": "/static/js/747.8ba2f40b.chunk.js",
     "static/js/413.6abea6d2.chunk.js": "/static/js/413.6abea6d2.chunk.js",
@@ -130,6 +130,7 @@
     "static/media/basketballverse.png": "/static/media/basketballverse.e57d67d6d7aff96b144f.png",
     "static/media/metagods.png": "/static/media/metagods.87e7d67a5a7531ca28a0.png",
     "static/media/Vault.png": "/static/media/Vault.5c4ffc20d64496810ae0.png",
+    "static/media/Arcus.png": "/static/media/Arcus.89f67a2ca1b9b2829915.png",
     "static/media/Gold_fever.png": "/static/media/Gold_fever.64d59ee8406e64ddcbe2.png",
     "static/media/Labs.png": "/static/media/Labs.a94fb17091a08ac85642.png",
     "static/media/ghaf.png": "/static/media/ghaf.5fce1cda23157eb3b05f.png",
@@ -151,13 +152,13 @@
     "static/media/Infinity_Force.png": "/static/media/Infinity_Force.719ebb28e1aa8898872b.png",
     "static/media/SupraOracles-White-Red-Horz.svg": "/static/media/SupraOracles-White-Red-Horz.30acc385d6133492f1afb135ca0b23c5.svg",
     "index.html": "/index.html",
-    "main.d1f9724f.js.map": "/static/js/main.d1f9724f.js.map",
+    "main.377cae12.js.map": "/static/js/main.377cae12.js.map",
     "455.a04cf42b.chunk.js.map": "/static/js/455.a04cf42b.chunk.js.map",
     "260.bf1dd350.chunk.js.map": "/static/js/260.bf1dd350.chunk.js.map",
     "74.3a851f35.chunk.js.map": "/static/js/74.3a851f35.chunk.js.map",
     "378.4f3b2a0d.chunk.js.map": "/static/js/378.4f3b2a0d.chunk.js.map",
     "24.688d54fd.chunk.js.map": "/static/js/24.688d54fd.chunk.js.map",
-    "619.fe95b00a.chunk.js.map": "/static/js/619.fe95b00a.chunk.js.map",
+    "913.df377fdd.chunk.js.map": "/static/js/913.df377fdd.chunk.js.map",
     "747.d2931d57.chunk.css.map": "/static/css/747.d2931d57.chunk.css.map",
     "747.8ba2f40b.chunk.js.map": "/static/js/747.8ba2f40b.chunk.js.map",
     "413.6abea6d2.chunk.js.map": "/static/js/413.6abea6d2.chunk.js.map",
@@ -168,6 +169,6 @@
     "521.dab52544.chunk.js.map": "/static/js/521.dab52544.chunk.js.map"
   },
   "entrypoints": [
-    "static/js/main.d1f9724f.js"
+    "static/js/main.377cae12.js"
   ]
 }
