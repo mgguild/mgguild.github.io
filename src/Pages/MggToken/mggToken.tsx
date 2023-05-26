@@ -84,8 +84,8 @@ const MggToken = () => {
                 <Text>Total Supply</Text>
               </div>
               <div>
-                <Heading size='xl' color={theme.colors.primary}>$5,794,250</Heading>
-                <Text>Initial Market Cap</Text>
+                <Heading size='xl' color={theme.colors.primary}>288,424,658</Heading>
+                <Text>Circulating Supply</Text>
               </div>
             </Flex>
           </Card>
