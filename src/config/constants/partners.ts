@@ -77,6 +77,7 @@ import AVStarCapital from '../../assets/logo/Partners/av_star_capital.png'
 import Basketballverse from '../../assets/logo/Partners/basketballverse.png'
 import SLETI from '../../assets/logo/Partners/White_wTagline.png'
 import Arcus from '../../assets/logo/Partners/Arcus.png'
+import Mhaya from '../../assets/logo/Partners/Mhaya.png'
 
 const partners: Partners = {
   InvsBckrs:{
@@ -461,6 +462,11 @@ const partners: Partners = {
       name: 'Arcus',
       logo: Arcus,
       link: 'https://arcusgo8.com/'
+    },
+    Mhaya: {
+      name: 'Mhaya',
+      logo: Mhaya,
+      link: 'http://www.mhaya.com/'
     }
   }
 }
