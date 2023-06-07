@@ -1,12 +1,12 @@
 {
   "files": {
-    "main.js": "/static/js/main.70cc3670.js",
+    "main.js": "/static/js/main.401077ae.js",
     "static/js/455.a04cf42b.chunk.js": "/static/js/455.a04cf42b.chunk.js",
     "static/js/260.bf1dd350.chunk.js": "/static/js/260.bf1dd350.chunk.js",
     "static/js/74.3a851f35.chunk.js": "/static/js/74.3a851f35.chunk.js",
     "static/js/378.4f3b2a0d.chunk.js": "/static/js/378.4f3b2a0d.chunk.js",
     "static/js/24.ac9d3605.chunk.js": "/static/js/24.ac9d3605.chunk.js",
-    "static/js/913.df377fdd.chunk.js": "/static/js/913.df377fdd.chunk.js",
+    "static/js/524.a53bfcf4.chunk.js": "/static/js/524.a53bfcf4.chunk.js",
     "static/css/747.d2931d57.chunk.css": "/static/css/747.d2931d57.chunk.css",
     "static/js/747.8ba2f40b.chunk.js": "/static/js/747.8ba2f40b.chunk.js",
     "static/js/413.6abea6d2.chunk.js": "/static/js/413.6abea6d2.chunk.js",
@@ -87,6 +87,7 @@
     "static/media/NFT Sales.png": "/static/media/NFT Sales.fea1dcb101c3e8be7ff0.png",
     "static/media/5 T&D Ralph.png": "/static/media/5 T&D Ralph.07e72595b4109a0eec96.png",
     "static/media/4 O&M Karan.png": "/static/media/4 O&M Karan.dd1f2d6cf1541464cfe4.png",
+    "static/media/Mhaya.png": "/static/media/Mhaya.ead7cdf6d0129d696436.png",
     "static/media/IDO INO Launchpad.png": "/static/media/IDO INO Launchpad.771227af2e97dbe9f0b7.png",
     "static/media/huobi.png": "/static/media/huobi.670a858231d3380c84ad.png",
     "static/media/monsterra.png": "/static/media/monsterra.c578144441092044b7ed.png",
@@ -152,13 +153,13 @@
     "static/media/Infinity_Force.png": "/static/media/Infinity_Force.719ebb28e1aa8898872b.png",
     "static/media/SupraOracles-White-Red-Horz.svg": "/static/media/SupraOracles-White-Red-Horz.30acc385d6133492f1afb135ca0b23c5.svg",
     "index.html": "/index.html",
-    "main.70cc3670.js.map": "/static/js/main.70cc3670.js.map",
+    "main.401077ae.js.map": "/static/js/main.401077ae.js.map",
     "455.a04cf42b.chunk.js.map": "/static/js/455.a04cf42b.chunk.js.map",
     "260.bf1dd350.chunk.js.map": "/static/js/260.bf1dd350.chunk.js.map",
     "74.3a851f35.chunk.js.map": "/static/js/74.3a851f35.chunk.js.map",
     "378.4f3b2a0d.chunk.js.map": "/static/js/378.4f3b2a0d.chunk.js.map",
     "24.ac9d3605.chunk.js.map": "/static/js/24.ac9d3605.chunk.js.map",
-    "913.df377fdd.chunk.js.map": "/static/js/913.df377fdd.chunk.js.map",
+    "524.a53bfcf4.chunk.js.map": "/static/js/524.a53bfcf4.chunk.js.map",
     "747.d2931d57.chunk.css.map": "/static/css/747.d2931d57.chunk.css.map",
     "747.8ba2f40b.chunk.js.map": "/static/js/747.8ba2f40b.chunk.js.map",
     "413.6abea6d2.chunk.js.map": "/static/js/413.6abea6d2.chunk.js.map",
@@ -169,6 +170,6 @@
     "521.dab52544.chunk.js.map": "/static/js/521.dab52544.chunk.js.map"
   },
   "entrypoints": [
-    "static/js/main.70cc3670.js"
+    "static/js/main.401077ae.js"
   ]
 }
