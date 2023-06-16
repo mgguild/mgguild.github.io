@@ -78,6 +78,7 @@ import Basketballverse from '../../assets/logo/Partners/basketballverse.png'
 import SLETI from '../../assets/logo/Partners/White_wTagline.png'
 import Arcus from '../../assets/logo/Partners/Arcus.png'
 import Mhaya from '../../assets/logo/Partners/Mhaya.png'
+import Metacene from '../../assets/logo/Partners/Metacenepng.png'
 
 const partners: Partners = {
   InvsBckrs:{
@@ -467,6 +468,11 @@ const partners: Partners = {
       name: 'Mhaya',
       logo: Mhaya,
       link: 'http://www.mhaya.com/'
+    },
+    Metecene: {
+      name: 'Metacene',
+      logo: Metacene,
+      link: 'https://www.metacene.io/'
     }
   }
 }
