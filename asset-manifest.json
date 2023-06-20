@@ -1,12 +1,12 @@
 {
   "files": {
-    "main.js": "/static/js/main.401077ae.js",
+    "main.js": "/static/js/main.3b897096.js",
     "static/js/455.a04cf42b.chunk.js": "/static/js/455.a04cf42b.chunk.js",
     "static/js/260.bf1dd350.chunk.js": "/static/js/260.bf1dd350.chunk.js",
     "static/js/74.3a851f35.chunk.js": "/static/js/74.3a851f35.chunk.js",
     "static/js/378.4f3b2a0d.chunk.js": "/static/js/378.4f3b2a0d.chunk.js",
-    "static/js/24.ac9d3605.chunk.js": "/static/js/24.ac9d3605.chunk.js",
-    "static/js/524.a53bfcf4.chunk.js": "/static/js/524.a53bfcf4.chunk.js",
+    "static/js/689.b2827126.chunk.js": "/static/js/689.b2827126.chunk.js",
+    "static/js/104.222d7885.chunk.js": "/static/js/104.222d7885.chunk.js",
     "static/css/747.d2931d57.chunk.css": "/static/css/747.d2931d57.chunk.css",
     "static/js/747.8ba2f40b.chunk.js": "/static/js/747.8ba2f40b.chunk.js",
     "static/js/413.6abea6d2.chunk.js": "/static/js/413.6abea6d2.chunk.js",
@@ -81,7 +81,6 @@
     "static/media/5 T&D Harvin.png": "/static/media/5 T&D Harvin.cfef2a1f66ccab491cc9.png",
     "static/media/5 T&D Aldrick.png": "/static/media/5 T&D Aldrick.27d7387583d8c8447e9c.png",
     "static/media/4 O&M Diana.png": "/static/media/4 O&M Diana.29d9b7201c396e7ca78b.png",
-    "static/media/mexc.png": "/static/media/mexc.a9d9a68f226e8fcbd8be.png",
     "static/media/pancakeswap.png": "/static/media/pancakeswap.e6e6451730721af0ff7a.png",
     "static/media/3 E&A Andy.png": "/static/media/3 E&A Andy.e92232259e8bf7c4ccb2.png",
     "static/media/NFT Sales.png": "/static/media/NFT Sales.fea1dcb101c3e8be7ff0.png",
@@ -139,6 +138,7 @@
     "static/media/dark_frontiers.png": "/static/media/dark_frontiers.6cffa238e75772c81bde.png",
     "static/media/WonderHero.png": "/static/media/WonderHero.531852cf93c8ab971454.png",
     "static/media/MetagamingPad.png": "/static/media/MetagamingPad.95e8eaae5ac0c6a5b4f9.png",
+    "static/media/Metacenepng.png": "/static/media/Metacenepng.0c22f67e52436d1cdb08.png",
     "static/media/Growth.svg": "/static/media/Growth.a189a640a1d975df85a886b5c0f7eb92.svg",
     "static/media/GuildRewards.png": "/static/media/GuildRewards.a27a2f2ccdb59ae8b64a.png",
     "static/media/Wizardia.png": "/static/media/Wizardia.b7193859b3ded42dd8a1.png",
@@ -153,13 +153,13 @@
     "static/media/Infinity_Force.png": "/static/media/Infinity_Force.719ebb28e1aa8898872b.png",
     "static/media/SupraOracles-White-Red-Horz.svg": "/static/media/SupraOracles-White-Red-Horz.30acc385d6133492f1afb135ca0b23c5.svg",
     "index.html": "/index.html",
-    "main.401077ae.js.map": "/static/js/main.401077ae.js.map",
+    "main.3b897096.js.map": "/static/js/main.3b897096.js.map",
     "455.a04cf42b.chunk.js.map": "/static/js/455.a04cf42b.chunk.js.map",
     "260.bf1dd350.chunk.js.map": "/static/js/260.bf1dd350.chunk.js.map",
     "74.3a851f35.chunk.js.map": "/static/js/74.3a851f35.chunk.js.map",
     "378.4f3b2a0d.chunk.js.map": "/static/js/378.4f3b2a0d.chunk.js.map",
-    "24.ac9d3605.chunk.js.map": "/static/js/24.ac9d3605.chunk.js.map",
-    "524.a53bfcf4.chunk.js.map": "/static/js/524.a53bfcf4.chunk.js.map",
+    "689.b2827126.chunk.js.map": "/static/js/689.b2827126.chunk.js.map",
+    "104.222d7885.chunk.js.map": "/static/js/104.222d7885.chunk.js.map",
     "747.d2931d57.chunk.css.map": "/static/css/747.d2931d57.chunk.css.map",
     "747.8ba2f40b.chunk.js.map": "/static/js/747.8ba2f40b.chunk.js.map",
     "413.6abea6d2.chunk.js.map": "/static/js/413.6abea6d2.chunk.js.map",
@@ -170,6 +170,6 @@
     "521.dab52544.chunk.js.map": "/static/js/521.dab52544.chunk.js.map"
   },
   "entrypoints": [
-    "static/js/main.401077ae.js"
+    "static/js/main.3b897096.js"
   ]
 }
