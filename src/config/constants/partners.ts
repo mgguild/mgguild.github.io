@@ -79,6 +79,7 @@ import SLETI from '../../assets/logo/Partners/White_wTagline.png'
 import Arcus from '../../assets/logo/Partners/Arcus.png'
 import Mhaya from '../../assets/logo/Partners/Mhaya.png'
 import Metacene from '../../assets/logo/Partners/Metacenepng.png'
+import CryptoUnicorns from '../../assets/logo/Partners/CryptoUnicorns.png'
 
 const partners: Partners = {
   InvsBckrs:{
@@ -473,6 +474,11 @@ const partners: Partners = {
       name: 'Metacene',
       logo: Metacene,
       link: 'https://www.metacene.io/'
+    },
+    CryptoUnicorns: {
+      name: 'Crypto Unicorns',
+      logo: CryptoUnicorns,
+      link: 'https://www.cryptounicorns.fun/'
     }
   }
 }
