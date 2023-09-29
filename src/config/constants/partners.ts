@@ -80,6 +80,8 @@ import Arcus from '../../assets/logo/Partners/Arcus.png'
 import Mhaya from '../../assets/logo/Partners/Mhaya.png'
 import Metacene from '../../assets/logo/Partners/Metacenepng.png'
 import CryptoUnicorns from '../../assets/logo/Partners/CryptoUnicorns.png'
+import Ecosmo from '../../assets/logo/Partners/Ecsomo.png'
+import Reanima from '../../assets/logo/Partners/Reanima.png'
 
 const partners: Partners = {
   InvsBckrs:{
@@ -479,6 +481,16 @@ const partners: Partners = {
       name: 'Crypto Unicorns',
       logo: CryptoUnicorns,
       link: 'https://www.cryptounicorns.fun/'
+    },
+    Ecosmo: {
+      name: 'E cosmo',
+      logo: Ecosmo,
+      link: 'https://ecosmo.xyz/'
+    },
+    Reanima: {
+      name: 'Re:Anima',
+      logo: Reanima,
+      link: 'https://www.reanima.io/#/home'
     }
   }
 }
