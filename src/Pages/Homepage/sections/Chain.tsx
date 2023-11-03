@@ -11,6 +11,12 @@ import { Grid } from "@mui/material";
 import useMedia from 'use-media'
 import { Card, CardContainer } from "Pages/Partners/styled";
 
+const SectionContainer = styled.div<{ height?: string }>`
+  max-width: 100vw;
+  display: flex;
+  padding: 15px;
+`;
+
 const Container = styled.div`
   font-size: 12px;
   min-width: 0px;
@@ -21,7 +27,6 @@ const Container = styled.div`
   padding: 25px;
   flex-direction: column;
   ${({ theme }) => theme.mediaQueries.md} {
-    min-width: 1500px;
     font-size: 16px;
   }
 `;
@@ -58,7 +63,7 @@ const Section: React.FC = () => {
   const isMobile = useMedia({ maxWidth: 550 })
 
   return (
-    <ChainContainer>
+    <SectionContainer>
       <Container>
         <Content
           flexDirection="column"
@@ -170,7 +175,7 @@ const Section: React.FC = () => {
           </Text> */}
         </Content>
       </Container>
-    </ChainContainer>
+    </SectionContainer>
   );
 };
 

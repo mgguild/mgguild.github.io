@@ -48,10 +48,10 @@ export const Ecosystems: IEcosystems[] = [
     name: "MetaSaga Warriors",
     subtitle: "NFT Game",
     description:
-      "MGG is crafting an action-packed roguelike play-and-earn NFT game with highly addictive gameplays & highly individualized NFTs.",
+      "An action-packed roguelike play-and-earn NFT game with highly addictive gameplays & highly individualized NFTs.",
     image: "Warriors",
-    link: 'https://metasagawarriors.com',
-    status: "Launching Soon!",
+    link: 'https://msw.gg',
+    status: "msw.gg",
   },
   {
     name: "MetaGaming NFTs",
