@@ -16,6 +16,14 @@ const Container = styled.div`
   align-items: center;
   flex-direction: column;
 `;
+
+const GridAdapt = styled.div`
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  align-items: center;
+`
+
 const FigureWrapper = styled.div`
   min-width: 0px;
   width: 100%;
@@ -30,17 +38,14 @@ const FigureWrapper = styled.div`
     }
   }
 
-  ${({theme}) => theme.mediaQueries.md} {
-      min-width: 1400px;
-  }
 `;
 
 const FigureComponent = () => {
   return (
     <FigureWrapper>
-      <Grid container alignItems='center' rowSpacing={{xs: 4, md: 4}} >
+      <GridAdapt>
         <Grid item xs={12} sm={12} md={6} zeroMinWidth>
-          <Grid container rowSpacing={{xs: 5,  md: 12 }}>
+          <Grid style={{justifyContent: 'center'}} container rowSpacing={{xs: 6,  md: 12 }}>
             {Figures.map((figure) => {
               return (
                 <Grid
@@ -49,6 +54,7 @@ const FigureComponent = () => {
                   xs={12}
                   md={6}
                   zeroMinWidth
+                  style={{maxWidth: '30rem'}}
                 >
                   <Heading size="xl">{figure.amount}</Heading>
                   <Text className="subtitle" fontSize="1.5em">
@@ -60,9 +66,9 @@ const FigureComponent = () => {
           </Grid>
         </Grid>
         <Grid item xs={12} sm={12} md={6}>
-          <img alt="growth-image" src={GrowthPNG} />
+          <img style={{maxWidth: '60%'}} alt="growth-image" src={GrowthPNG} />
         </Grid>
-      </Grid>
+      </GridAdapt>
     </FigureWrapper>
   );
 };
@@ -77,7 +83,7 @@ const Section: React.FC = () => {
             maintaned a 50% Month-on-Month growth
           </Text>
         </div>
-      <Container>
+      <Container style={{padding: '0'}}>
         <FigureComponent />
       </Container>
     </GrowthContainer>

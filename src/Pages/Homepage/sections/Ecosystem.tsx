@@ -25,7 +25,7 @@ const Container = styled(Flex)`
   }
 `;
 const StyledCard = styled.div<{ link?: boolean }>`
-  padding: 24px;
+  padding: 20px;
   border: 1px solid ${({ theme }) => theme.colors.MGG_accent2};
   background-color: ${({ theme }) => theme.addOnColors.background1};
   height: 375px;
@@ -42,7 +42,7 @@ const StyledCard = styled.div<{ link?: boolean }>`
     font-size: 12px;
   }
   & > * {
-    margin: 5px 0px;
+    margin: 0 0 1rem 0;
   }
 `;
 const CardSection = styled(Flex)`
