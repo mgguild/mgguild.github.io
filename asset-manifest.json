@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.js": "/static/js/main.af2a12f8.js",
+    "main.js": "/static/js/main.dcbf4d99.js",
     "static/js/70.e380884b.chunk.js": "/static/js/70.e380884b.chunk.js",
     "static/js/996.f48f265d.chunk.js": "/static/js/996.f48f265d.chunk.js",
     "static/js/293.622f7480.chunk.js": "/static/js/293.622f7480.chunk.js",
@@ -9,14 +9,15 @@
     "static/js/572.0258bfd3.chunk.js": "/static/js/572.0258bfd3.chunk.js",
     "static/css/747.d2931d57.chunk.css": "/static/css/747.d2931d57.chunk.css",
     "static/js/747.5c25fbfa.chunk.js": "/static/js/747.5c25fbfa.chunk.js",
-    "static/js/753.d429d37e.chunk.js": "/static/js/753.d429d37e.chunk.js",
-    "static/js/356.400732bb.chunk.js": "/static/js/356.400732bb.chunk.js",
+    "static/js/398.fa186148.chunk.js": "/static/js/398.fa186148.chunk.js",
+    "static/js/263.7a5b4f6c.chunk.js": "/static/js/263.7a5b4f6c.chunk.js",
     "static/js/563.c2e4d565.chunk.js": "/static/js/563.c2e4d565.chunk.js",
     "static/js/787.60fff1db.chunk.js": "/static/js/787.60fff1db.chunk.js",
     "static/js/685.df56210d.chunk.js": "/static/js/685.df56210d.chunk.js",
-    "static/js/668.8a53d1c5.chunk.js": "/static/js/668.8a53d1c5.chunk.js",
+    "static/js/481.1a008415.chunk.js": "/static/js/481.1a008415.chunk.js",
     "static/js/163.85443b37.chunk.js": "/static/js/163.85443b37.chunk.js",
     "static/js/521.dab52544.chunk.js": "/static/js/521.dab52544.chunk.js",
+    "static/js/471.af51c262.chunk.js": "/static/js/471.af51c262.chunk.js",
     "static/media/NFT.gif": "/static/media/NFT.aaeeaa3f963721d1145b.gif",
     "static/media/MetaGaming-Guild-White-Paper-02082022.pdf": "/static/media/MetaGaming-Guild-White-Paper-02082022.4d508e1d3bb8623f9301.pdf",
     "static/media/BGStaking1.png": "/static/media/BGStaking1.e170b55a849ea1cc9997.png",
@@ -110,6 +111,7 @@
     "static/media/The_kill_box.png": "/static/media/The_kill_box.627bce78398f70115e94.png",
     "static/media/BCV.png": "/static/media/BCV.86f5edc0b86ebdc6a480.png",
     "static/media/spookyswap.png": "/static/media/spookyswap.6a5f7cb1a33a6516d279.png",
+    "static/media/rio_icon.png": "/static/media/rio_icon.0997a855bcfabfda5d0c.png",
     "static/media/RM_PnE.png": "/static/media/RM_PnE.905f86ea5643ba58811a.png",
     "static/media/BSC.png": "/static/media/BSC.7223008c357384fb8a5a.png",
     "static/media/MetaGamers.png": "/static/media/MetaGamers.5ca1525e4ee5008a3b4a.png",
@@ -150,7 +152,7 @@
     "static/media/Infinity_Force.png": "/static/media/Infinity_Force.719ebb28e1aa8898872b.png",
     "static/media/SupraOracles-White-Red-Horz.svg": "/static/media/SupraOracles-White-Red-Horz.30acc385d6133492f1afb135ca0b23c5.svg",
     "index.html": "/index.html",
-    "main.af2a12f8.js.map": "/static/js/main.af2a12f8.js.map",
+    "main.dcbf4d99.js.map": "/static/js/main.dcbf4d99.js.map",
     "70.e380884b.chunk.js.map": "/static/js/70.e380884b.chunk.js.map",
     "996.f48f265d.chunk.js.map": "/static/js/996.f48f265d.chunk.js.map",
     "293.622f7480.chunk.js.map": "/static/js/293.622f7480.chunk.js.map",
@@ -159,15 +161,16 @@
     "572.0258bfd3.chunk.js.map": "/static/js/572.0258bfd3.chunk.js.map",
     "747.d2931d57.chunk.css.map": "/static/css/747.d2931d57.chunk.css.map",
     "747.5c25fbfa.chunk.js.map": "/static/js/747.5c25fbfa.chunk.js.map",
-    "753.d429d37e.chunk.js.map": "/static/js/753.d429d37e.chunk.js.map",
-    "356.400732bb.chunk.js.map": "/static/js/356.400732bb.chunk.js.map",
+    "398.fa186148.chunk.js.map": "/static/js/398.fa186148.chunk.js.map",
+    "263.7a5b4f6c.chunk.js.map": "/static/js/263.7a5b4f6c.chunk.js.map",
     "787.60fff1db.chunk.js.map": "/static/js/787.60fff1db.chunk.js.map",
     "685.df56210d.chunk.js.map": "/static/js/685.df56210d.chunk.js.map",
-    "668.8a53d1c5.chunk.js.map": "/static/js/668.8a53d1c5.chunk.js.map",
+    "481.1a008415.chunk.js.map": "/static/js/481.1a008415.chunk.js.map",
     "163.85443b37.chunk.js.map": "/static/js/163.85443b37.chunk.js.map",
-    "521.dab52544.chunk.js.map": "/static/js/521.dab52544.chunk.js.map"
+    "521.dab52544.chunk.js.map": "/static/js/521.dab52544.chunk.js.map",
+    "471.af51c262.chunk.js.map": "/static/js/471.af51c262.chunk.js.map"
   },
   "entrypoints": [
-    "static/js/main.af2a12f8.js"
+    "static/js/main.dcbf4d99.js"
   ]
 }
