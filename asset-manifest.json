@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.js": "/static/js/main.1a162b6d.js",
+    "main.js": "/static/js/main.779c2ad1.js",
     "static/js/70.5534b0ae.chunk.js": "/static/js/70.5534b0ae.chunk.js",
     "static/js/996.f48f265d.chunk.js": "/static/js/996.f48f265d.chunk.js",
     "static/js/293.622f7480.chunk.js": "/static/js/293.622f7480.chunk.js",
@@ -10,7 +10,7 @@
     "static/css/747.d2931d57.chunk.css": "/static/css/747.d2931d57.chunk.css",
     "static/js/747.5c25fbfa.chunk.js": "/static/js/747.5c25fbfa.chunk.js",
     "static/js/389.dc4c97db.chunk.js": "/static/js/389.dc4c97db.chunk.js",
-    "static/js/613.c661f2fd.chunk.js": "/static/js/613.c661f2fd.chunk.js",
+    "static/js/564.a9086c06.chunk.js": "/static/js/564.a9086c06.chunk.js",
     "static/js/563.c2e4d565.chunk.js": "/static/js/563.c2e4d565.chunk.js",
     "static/js/787.60fff1db.chunk.js": "/static/js/787.60fff1db.chunk.js",
     "static/js/804.f5f0da30.chunk.js": "/static/js/804.f5f0da30.chunk.js",
@@ -62,9 +62,9 @@
     "static/media/18.png": "/static/media/18.49eb714a6b9fc68c378d.png",
     "static/media/Shiela Mae.png": "/static/media/Shiela Mae.2fbcc5982da54788e042.png",
     "static/media/BG2.png": "/static/media/BG2.95abb6ea4ec0dce673bc.png",
-    "static/media/Staking4.png": "/static/media/Staking4.9d101b8664c8a352e6a9.png",
     "static/media/av_star_capital.png": "/static/media/av_star_capital.65aaf1f127da85e8b333.png",
     "static/media/14.png": "/static/media/14.29beab19958e0b311102.png",
+    "static/media/Staking.png": "/static/media/Staking.53435bd687e132adc873.png",
     "static/media/Aiza B Borinaga.png": "/static/media/Aiza B Borinaga.c750180536c6112d0876.png",
     "static/media/Mr Hyo.png": "/static/media/Mr Hyo.68109b0c56737c55ff23.png",
     "static/media/Mike Reñevo.png": "/static/media/Mike Reñevo.e3c3bc49e37b97140072.png",
@@ -93,7 +93,6 @@
     "static/media/dragonevolution.png": "/static/media/dragonevolution.7991cc4f4cb4355b6218.png",
     "static/media/RM_NFTS.png": "/static/media/RM_NFTS.50fb937519e8adf719f9.png",
     "static/media/stephero.png": "/static/media/stephero.074eddb99709638a22b8.png",
-    "static/media/near.png": "/static/media/near.e1f5d07c35eb69dab7f9.png",
     "static/media/AOT_logo_Plain.png": "/static/media/AOT_logo_Plain.2e863bae09f4c4864fbe.png",
     "static/media/gunstar.png": "/static/media/gunstar.c3cbd714983bfd5f8dcf.png",
     "static/media/Demole.png": "/static/media/Demole.2677a9a6dc9905a5398c.png",
@@ -153,7 +152,7 @@
     "static/media/Infinity_Force.png": "/static/media/Infinity_Force.719ebb28e1aa8898872b.png",
     "static/media/SupraOracles-White-Red-Horz.svg": "/static/media/SupraOracles-White-Red-Horz.30acc385d6133492f1afb135ca0b23c5.svg",
     "index.html": "/index.html",
-    "main.1a162b6d.js.map": "/static/js/main.1a162b6d.js.map",
+    "main.779c2ad1.js.map": "/static/js/main.779c2ad1.js.map",
     "70.5534b0ae.chunk.js.map": "/static/js/70.5534b0ae.chunk.js.map",
     "996.f48f265d.chunk.js.map": "/static/js/996.f48f265d.chunk.js.map",
     "293.622f7480.chunk.js.map": "/static/js/293.622f7480.chunk.js.map",
@@ -163,7 +162,7 @@
     "747.d2931d57.chunk.css.map": "/static/css/747.d2931d57.chunk.css.map",
     "747.5c25fbfa.chunk.js.map": "/static/js/747.5c25fbfa.chunk.js.map",
     "389.dc4c97db.chunk.js.map": "/static/js/389.dc4c97db.chunk.js.map",
-    "613.c661f2fd.chunk.js.map": "/static/js/613.c661f2fd.chunk.js.map",
+    "564.a9086c06.chunk.js.map": "/static/js/564.a9086c06.chunk.js.map",
     "787.60fff1db.chunk.js.map": "/static/js/787.60fff1db.chunk.js.map",
     "804.f5f0da30.chunk.js.map": "/static/js/804.f5f0da30.chunk.js.map",
     "925.2de8e39d.chunk.js.map": "/static/js/925.2de8e39d.chunk.js.map",
@@ -172,6 +171,6 @@
     "521.dab52544.chunk.js.map": "/static/js/521.dab52544.chunk.js.map"
   },
   "entrypoints": [
-    "static/js/main.1a162b6d.js"
+    "static/js/main.779c2ad1.js"
   ]
 }
