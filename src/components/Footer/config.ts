@@ -33,6 +33,11 @@ const Config: Props = {
       href: "/White-Paper",
     },
 
+    {
+      name: 'Launch App',
+      href: "https://app.metagg.com/#/farms"
+    },
+
   ],
   socials: [
     {
