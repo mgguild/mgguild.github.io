@@ -62,7 +62,7 @@ const PanelBody: React.FC<Props> = ({ isPushed, pushNav, isMobile, links }) => {
       {links.map((entry, index) => {
         const isDropdownOpen = activeDropdown === entry.label;
 
-        if (entry.subMenu) {
+        if (entry.items) {
           isPreviousDropdownOpen = isDropdownOpen; // Track if current entry is an open dropdown
           return (
             <EarnMenuEntry
@@ -75,7 +75,7 @@ const PanelBody: React.FC<Props> = ({ isPushed, pushNav, isMobile, links }) => {
                 </LinkLabel>
               </MenuLink>
               <DropdownContainer isOpen={isDropdownOpen} isMobile={isMobile}>
-                {entry.subMenu.map((item) => (
+                {entry.items.map((item) => (
                   <MenuEntry
                     key={item.href}
                     secondary
