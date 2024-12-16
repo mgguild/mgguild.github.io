@@ -65,11 +65,6 @@ const DropdownItem = styled.div`
   }
 `;
 
-const DisabledMenuEntry = styled(StyledMenuEntry)`
-  pointer-events: none;
-  color: #aaa;
-`;
-
 const scrollToTop = () => {
   window.scrollTo({ top: 0, behavior: "smooth" });
 };

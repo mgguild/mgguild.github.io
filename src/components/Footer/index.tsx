@@ -1,9 +1,8 @@
-import React, { useContext } from "react";
+import React from "react";
 import { Link } from "react-router-dom";
-import styled from 'styled-components'
+import styled from 'styled-components';
 import { Flex, Heading, Text } from "@metagg/mgg-uikit";
 import { Grid } from "@mui/material";
-import LaunchButton from "components/LaunchButton";
 import MGGLogo from "assets/static/logo.png";
 import { SocialIcon } from "./IconHelpers";
 import {
@@ -21,7 +20,7 @@ const LaunchDiv = styled(Flex)`
     width: 50%;
     padding: 0px 25px;
   }
-`
+`;
 
 const scrollToTop = () => {
   window.scrollTo({ top: 0, behavior: "smooth" });
@@ -42,6 +41,7 @@ const Logo = () => {
 
 const Footer: React.FC = () => {
   const { socials, links } = config;
+
   return (
     <WrapperContainer>
       <StyledLogoWrapper>
@@ -52,12 +52,12 @@ const Footer: React.FC = () => {
         >
           <Logo />
           <Description size="sm">"A community of tactical gamers"</Description>
-          <Grid paddingTop="10px" container alignItems='center' rowSpacing={1}>
+          <Grid paddingTop="10px" container alignItems="center" rowSpacing={1}>
             {socials.map((social) => (
-              <Grid item md={2} sx={{textAlign: 'center'}}>
-              <a key={social.name} href={social.href} target="_blank">
-                <SocialIcon name={social.name} />
-              </a>
+              <Grid key={social.name} item md={2} sx={{ textAlign: "center" }}>
+                <a href={social.href} target="_blank" rel="noopener noreferrer">
+                  <SocialIcon name={social.name} />
+                </a>
               </Grid>
             ))}
           </Grid>
@@ -73,15 +73,18 @@ const Footer: React.FC = () => {
         >
           {links.map((link) => (
             <Grid key={link.name} item xs={4} md={5}>
-              <Link to={link.href} onClick={scrollToTop}>
-                <Text>{link.name}</Text>
-              </Link>
+              {link.href.startsWith("http") ? (
+                <a href={link.href} target="_blank" rel="noopener noreferrer">
+                  <Text>{link.name}</Text>
+                </a>
+              ) : (
+                <Link to={link.href} onClick={scrollToTop}>
+                  <Text>{link.name}</Text>
+                </Link>
+              )}
             </Grid>
           ))}
         </Grid>
-        <LaunchDiv justifyContent='flex-end'>
-              <LaunchButton />
-            </LaunchDiv>
       </StyledMenuWrapper>
     </WrapperContainer>
   );
