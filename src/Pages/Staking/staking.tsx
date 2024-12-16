@@ -8,7 +8,7 @@ import useFetchCoinsData from 'hooks/useFetchCoinsData';
 import LogoRonin from '../../assets/images/Logo_Ronin.png';
 import CarvIcon from '../../assets/images/Logo_Carv.png';
 import NearIcon from '../../assets/images/near.png';
-import StakingImg from '../../assets/images/Staking(2).png';
+import StakingImg from '../../assets/images/Staking5.png';
 import RioImg from '../../assets/images/rio_icon.png';
 import NamadaImg from '../../assets/images/Namadillo.png';
 import Page from 'components/layout/Page';
