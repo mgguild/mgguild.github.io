@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.js": "/static/js/main.f3e1afe1.js",
+    "main.js": "/static/js/main.8863b8d0.js",
     "static/js/70.5534b0ae.chunk.js": "/static/js/70.5534b0ae.chunk.js",
     "static/js/996.f48f265d.chunk.js": "/static/js/996.f48f265d.chunk.js",
     "static/js/293.622f7480.chunk.js": "/static/js/293.622f7480.chunk.js",
@@ -10,7 +10,7 @@
     "static/css/747.d2931d57.chunk.css": "/static/css/747.d2931d57.chunk.css",
     "static/js/747.5c25fbfa.chunk.js": "/static/js/747.5c25fbfa.chunk.js",
     "static/js/389.dc4c97db.chunk.js": "/static/js/389.dc4c97db.chunk.js",
-    "static/js/195.25bb15df.chunk.js": "/static/js/195.25bb15df.chunk.js",
+    "static/js/851.5366db76.chunk.js": "/static/js/851.5366db76.chunk.js",
     "static/js/563.c2e4d565.chunk.js": "/static/js/563.c2e4d565.chunk.js",
     "static/js/787.60fff1db.chunk.js": "/static/js/787.60fff1db.chunk.js",
     "static/js/804.f5f0da30.chunk.js": "/static/js/804.f5f0da30.chunk.js",
@@ -90,6 +90,7 @@
     "static/media/LiquidityRewards.png": "/static/media/LiquidityRewards.6b0f252d2098d2adc3d2.png",
     "static/media/RM_NFTS.png": "/static/media/RM_NFTS.50fb937519e8adf719f9.png",
     "static/media/stephero.png": "/static/media/stephero.074eddb99709638a22b8.png",
+    "static/media/near.png": "/static/media/near.e1f5d07c35eb69dab7f9.png",
     "static/media/gunstar.png": "/static/media/gunstar.c3cbd714983bfd5f8dcf.png",
     "static/media/kingdomx.png": "/static/media/kingdomx.c53a5254eebded7dd58e.png",
     "static/media/PlayZap.png": "/static/media/PlayZap.5ef24b7b74e7137702f7.png",
@@ -134,7 +135,7 @@
     "static/media/Infinity_Force.png": "/static/media/Infinity_Force.719ebb28e1aa8898872b.png",
     "static/media/SupraOracles-White-Red-Horz.svg": "/static/media/SupraOracles-White-Red-Horz.30acc385d6133492f1afb135ca0b23c5.svg",
     "index.html": "/index.html",
-    "main.f3e1afe1.js.map": "/static/js/main.f3e1afe1.js.map",
+    "main.8863b8d0.js.map": "/static/js/main.8863b8d0.js.map",
     "70.5534b0ae.chunk.js.map": "/static/js/70.5534b0ae.chunk.js.map",
     "996.f48f265d.chunk.js.map": "/static/js/996.f48f265d.chunk.js.map",
     "293.622f7480.chunk.js.map": "/static/js/293.622f7480.chunk.js.map",
@@ -144,7 +145,7 @@
     "747.d2931d57.chunk.css.map": "/static/css/747.d2931d57.chunk.css.map",
     "747.5c25fbfa.chunk.js.map": "/static/js/747.5c25fbfa.chunk.js.map",
     "389.dc4c97db.chunk.js.map": "/static/js/389.dc4c97db.chunk.js.map",
-    "195.25bb15df.chunk.js.map": "/static/js/195.25bb15df.chunk.js.map",
+    "851.5366db76.chunk.js.map": "/static/js/851.5366db76.chunk.js.map",
     "787.60fff1db.chunk.js.map": "/static/js/787.60fff1db.chunk.js.map",
     "804.f5f0da30.chunk.js.map": "/static/js/804.f5f0da30.chunk.js.map",
     "925.2de8e39d.chunk.js.map": "/static/js/925.2de8e39d.chunk.js.map",
@@ -153,6 +154,6 @@
     "521.dab52544.chunk.js.map": "/static/js/521.dab52544.chunk.js.map"
   },
   "entrypoints": [
-    "static/js/main.f3e1afe1.js"
+    "static/js/main.8863b8d0.js"
   ]
 }
