@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.js": "/static/js/main.b58135f1.js",
-    "static/js/315.8bf87528.chunk.js": "/static/js/315.8bf87528.chunk.js",
+    "main.js": "/static/js/main.0342e9d5.js",
+    "static/js/70.24c16747.chunk.js": "/static/js/70.24c16747.chunk.js",
     "static/js/996.f48f265d.chunk.js": "/static/js/996.f48f265d.chunk.js",
     "static/js/293.622f7480.chunk.js": "/static/js/293.622f7480.chunk.js",
     "static/js/264.43379c08.chunk.js": "/static/js/264.43379c08.chunk.js",
@@ -10,7 +10,7 @@
     "static/css/28.77850288.chunk.css": "/static/css/28.77850288.chunk.css",
     "static/js/28.bca4a753.chunk.js": "/static/js/28.bca4a753.chunk.js",
     "static/js/389.dc4c97db.chunk.js": "/static/js/389.dc4c97db.chunk.js",
-    "static/js/851.0944446b.chunk.js": "/static/js/851.0944446b.chunk.js",
+    "static/js/694.8281b105.chunk.js": "/static/js/694.8281b105.chunk.js",
     "static/js/563.c2e4d565.chunk.js": "/static/js/563.c2e4d565.chunk.js",
     "static/js/787.60fff1db.chunk.js": "/static/js/787.60fff1db.chunk.js",
     "static/js/804.f5f0da30.chunk.js": "/static/js/804.f5f0da30.chunk.js",
@@ -22,7 +22,6 @@
     "static/media/NFT.gif": "/static/media/NFT.aaeeaa3f963721d1145b.gif",
     "static/media/BGStaking1.png": "/static/media/BGStaking1.e170b55a849ea1cc9997.png",
     "static/media/BGTeam2@4x.png": "/static/media/BGTeam2@4x.1715c44fce8f791f8dc3.png",
-    "static/media/news1.png": "/static/media/news1.f126f07e8c2b9af0fd5f.png",
     "static/media/1.png": "/static/media/1.6eb151fe30d7ce752853.png",
     "static/media/9.png": "/static/media/9.9cfe1cb7183f61f49992.png",
     "static/media/news2.png": "/static/media/news2.58f346712a4ccf3b211e.png",
@@ -31,6 +30,7 @@
     "static/media/BGextra.png": "/static/media/BGextra.92346ba9d102a7f01545.png",
     "static/media/6.png": "/static/media/6.b67a30a41fccfcefaff1.png",
     "static/media/news3.png": "/static/media/news3.6039d29822ca62e6fe0e.png",
+    "static/media/news1.png": "/static/media/news1.78492994b88951176ca5.png",
     "static/media/11.png": "/static/media/11.8d3bb788566e7ac3ee94.png",
     "static/media/5.png": "/static/media/5.1cbbf18c08705d977aca.png",
     "static/media/8.png": "/static/media/8.9c981e549ac5d6b26b53.png",
@@ -167,8 +167,8 @@
     "static/media/Infinity_Force.png": "/static/media/Infinity_Force.719ebb28e1aa8898872b.png",
     "static/media/SupraOracles-White-Red-Horz.svg": "/static/media/SupraOracles-White-Red-Horz.30acc385d6133492f1afb135ca0b23c5.svg",
     "index.html": "/index.html",
-    "main.b58135f1.js.map": "/static/js/main.b58135f1.js.map",
-    "315.8bf87528.chunk.js.map": "/static/js/315.8bf87528.chunk.js.map",
+    "main.0342e9d5.js.map": "/static/js/main.0342e9d5.js.map",
+    "70.24c16747.chunk.js.map": "/static/js/70.24c16747.chunk.js.map",
     "996.f48f265d.chunk.js.map": "/static/js/996.f48f265d.chunk.js.map",
     "293.622f7480.chunk.js.map": "/static/js/293.622f7480.chunk.js.map",
     "264.43379c08.chunk.js.map": "/static/js/264.43379c08.chunk.js.map",
@@ -177,7 +177,7 @@
     "28.77850288.chunk.css.map": "/static/css/28.77850288.chunk.css.map",
     "28.bca4a753.chunk.js.map": "/static/js/28.bca4a753.chunk.js.map",
     "389.dc4c97db.chunk.js.map": "/static/js/389.dc4c97db.chunk.js.map",
-    "851.0944446b.chunk.js.map": "/static/js/851.0944446b.chunk.js.map",
+    "694.8281b105.chunk.js.map": "/static/js/694.8281b105.chunk.js.map",
     "787.60fff1db.chunk.js.map": "/static/js/787.60fff1db.chunk.js.map",
     "804.f5f0da30.chunk.js.map": "/static/js/804.f5f0da30.chunk.js.map",
     "925.2de8e39d.chunk.js.map": "/static/js/925.2de8e39d.chunk.js.map",
@@ -186,6 +186,6 @@
     "521.dab52544.chunk.js.map": "/static/js/521.dab52544.chunk.js.map"
   },
   "entrypoints": [
-    "static/js/main.b58135f1.js"
+    "static/js/main.0342e9d5.js"
   ]
 }
