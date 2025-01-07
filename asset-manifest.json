@@ -1,11 +1,11 @@
 {
   "files": {
-    "main.js": "/static/js/main.c69534a2.js",
-    "static/js/70.5534b0ae.chunk.js": "/static/js/70.5534b0ae.chunk.js",
+    "main.js": "/static/js/main.b58135f1.js",
+    "static/js/315.8bf87528.chunk.js": "/static/js/315.8bf87528.chunk.js",
     "static/js/996.f48f265d.chunk.js": "/static/js/996.f48f265d.chunk.js",
     "static/js/293.622f7480.chunk.js": "/static/js/293.622f7480.chunk.js",
-    "static/js/264.28baf874.chunk.js": "/static/js/264.28baf874.chunk.js",
-    "static/js/642.a93f1e47.chunk.js": "/static/js/642.a93f1e47.chunk.js",
+    "static/js/264.43379c08.chunk.js": "/static/js/264.43379c08.chunk.js",
+    "static/js/826.ead7620e.chunk.js": "/static/js/826.ead7620e.chunk.js",
     "static/js/20.31fc81b2.chunk.js": "/static/js/20.31fc81b2.chunk.js",
     "static/css/28.77850288.chunk.css": "/static/css/28.77850288.chunk.css",
     "static/js/28.bca4a753.chunk.js": "/static/js/28.bca4a753.chunk.js",
@@ -112,6 +112,7 @@
     "static/media/webcoin_capital.png": "/static/media/webcoin_capital.099bb116aac663551309.png",
     "static/media/RM_VCI.png": "/static/media/RM_VCI.9820e567b0c3b2ff648a.png",
     "static/media/BCV.png": "/static/media/BCV.86f5edc0b86ebdc6a480.png",
+    "static/media/coinsph_logo.png": "/static/media/coinsph_logo.301c35967c44b317b44d.png",
     "static/media/spookyswap.png": "/static/media/spookyswap.6a5f7cb1a33a6516d279.png",
     "static/media/rio_icon.png": "/static/media/rio_icon.0997a855bcfabfda5d0c.png",
     "static/media/RM_PnE.png": "/static/media/RM_PnE.905f86ea5643ba58811a.png",
@@ -166,12 +167,12 @@
     "static/media/Infinity_Force.png": "/static/media/Infinity_Force.719ebb28e1aa8898872b.png",
     "static/media/SupraOracles-White-Red-Horz.svg": "/static/media/SupraOracles-White-Red-Horz.30acc385d6133492f1afb135ca0b23c5.svg",
     "index.html": "/index.html",
-    "main.c69534a2.js.map": "/static/js/main.c69534a2.js.map",
-    "70.5534b0ae.chunk.js.map": "/static/js/70.5534b0ae.chunk.js.map",
+    "main.b58135f1.js.map": "/static/js/main.b58135f1.js.map",
+    "315.8bf87528.chunk.js.map": "/static/js/315.8bf87528.chunk.js.map",
     "996.f48f265d.chunk.js.map": "/static/js/996.f48f265d.chunk.js.map",
     "293.622f7480.chunk.js.map": "/static/js/293.622f7480.chunk.js.map",
-    "264.28baf874.chunk.js.map": "/static/js/264.28baf874.chunk.js.map",
-    "642.a93f1e47.chunk.js.map": "/static/js/642.a93f1e47.chunk.js.map",
+    "264.43379c08.chunk.js.map": "/static/js/264.43379c08.chunk.js.map",
+    "826.ead7620e.chunk.js.map": "/static/js/826.ead7620e.chunk.js.map",
     "20.31fc81b2.chunk.js.map": "/static/js/20.31fc81b2.chunk.js.map",
     "28.77850288.chunk.css.map": "/static/css/28.77850288.chunk.css.map",
     "28.bca4a753.chunk.js.map": "/static/js/28.bca4a753.chunk.js.map",
@@ -185,6 +186,6 @@
     "521.dab52544.chunk.js.map": "/static/js/521.dab52544.chunk.js.map"
   },
   "entrypoints": [
-    "static/js/main.c69534a2.js"
+    "static/js/main.b58135f1.js"
   ]
 }
