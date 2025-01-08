@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.js": "/static/js/main.0342e9d5.js",
-    "static/js/70.24c16747.chunk.js": "/static/js/70.24c16747.chunk.js",
+    "main.js": "/static/js/main.a17b19de.js",
+    "static/js/678.8c62bd54.chunk.js": "/static/js/678.8c62bd54.chunk.js",
     "static/js/996.f48f265d.chunk.js": "/static/js/996.f48f265d.chunk.js",
     "static/js/293.622f7480.chunk.js": "/static/js/293.622f7480.chunk.js",
     "static/js/264.43379c08.chunk.js": "/static/js/264.43379c08.chunk.js",
@@ -10,7 +10,7 @@
     "static/css/28.77850288.chunk.css": "/static/css/28.77850288.chunk.css",
     "static/js/28.bca4a753.chunk.js": "/static/js/28.bca4a753.chunk.js",
     "static/js/389.dc4c97db.chunk.js": "/static/js/389.dc4c97db.chunk.js",
-    "static/js/694.8281b105.chunk.js": "/static/js/694.8281b105.chunk.js",
+    "static/js/283.c89ef2d8.chunk.js": "/static/js/283.c89ef2d8.chunk.js",
     "static/js/563.c2e4d565.chunk.js": "/static/js/563.c2e4d565.chunk.js",
     "static/js/787.60fff1db.chunk.js": "/static/js/787.60fff1db.chunk.js",
     "static/js/804.f5f0da30.chunk.js": "/static/js/804.f5f0da30.chunk.js",
@@ -21,10 +21,10 @@
     "static/media/MGG White Paper-FINAL.pdf": "/static/media/MGG White Paper-FINAL.3e66b0eac9cf293b54b3.pdf",
     "static/media/NFT.gif": "/static/media/NFT.aaeeaa3f963721d1145b.gif",
     "static/media/BGStaking1.png": "/static/media/BGStaking1.e170b55a849ea1cc9997.png",
+    "static/media/news2.png": "/static/media/news2.003ddf1745136886272e.png",
     "static/media/BGTeam2@4x.png": "/static/media/BGTeam2@4x.1715c44fce8f791f8dc3.png",
     "static/media/1.png": "/static/media/1.6eb151fe30d7ce752853.png",
     "static/media/9.png": "/static/media/9.9cfe1cb7183f61f49992.png",
-    "static/media/news2.png": "/static/media/news2.58f346712a4ccf3b211e.png",
     "static/media/4.png": "/static/media/4.287bcb519d8df7be01fc.png",
     "static/media/bgpartner2@4x.png": "/static/media/bgpartner2@4x.fb10e9b5c2ec6060c1d1.png",
     "static/media/BGextra.png": "/static/media/BGextra.92346ba9d102a7f01545.png",
@@ -90,6 +90,7 @@
     "static/media/Khen Mendoza.png": "/static/media/Khen Mendoza.050de4fce22b2129e2c1.png",
     "static/media/Salvador Amba Jr.png": "/static/media/Salvador Amba Jr.1a0eb8b4c8c7f70d211f.png",
     "static/media/Aldrick Bonaobra.png": "/static/media/Aldrick Bonaobra.fe1917bb46aa063c1405.png",
+    "static/media/near_new.png": "/static/media/near_new.38b7414cd72c8bcd3f19.png",
     "static/media/Ador Cruz.png": "/static/media/Ador Cruz.79b62519a9d7c6019b20.png",
     "static/media/Leslie Diana Apongol.png": "/static/media/Leslie Diana Apongol.e86a9edc261dad626e97.png",
     "static/media/Andy Agnas.png": "/static/media/Andy Agnas.7613f37afc031bcdf3d3.png",
@@ -167,8 +168,8 @@
     "static/media/Infinity_Force.png": "/static/media/Infinity_Force.719ebb28e1aa8898872b.png",
     "static/media/SupraOracles-White-Red-Horz.svg": "/static/media/SupraOracles-White-Red-Horz.30acc385d6133492f1afb135ca0b23c5.svg",
     "index.html": "/index.html",
-    "main.0342e9d5.js.map": "/static/js/main.0342e9d5.js.map",
-    "70.24c16747.chunk.js.map": "/static/js/70.24c16747.chunk.js.map",
+    "main.a17b19de.js.map": "/static/js/main.a17b19de.js.map",
+    "678.8c62bd54.chunk.js.map": "/static/js/678.8c62bd54.chunk.js.map",
     "996.f48f265d.chunk.js.map": "/static/js/996.f48f265d.chunk.js.map",
     "293.622f7480.chunk.js.map": "/static/js/293.622f7480.chunk.js.map",
     "264.43379c08.chunk.js.map": "/static/js/264.43379c08.chunk.js.map",
@@ -177,7 +178,7 @@
     "28.77850288.chunk.css.map": "/static/css/28.77850288.chunk.css.map",
     "28.bca4a753.chunk.js.map": "/static/js/28.bca4a753.chunk.js.map",
     "389.dc4c97db.chunk.js.map": "/static/js/389.dc4c97db.chunk.js.map",
-    "694.8281b105.chunk.js.map": "/static/js/694.8281b105.chunk.js.map",
+    "283.c89ef2d8.chunk.js.map": "/static/js/283.c89ef2d8.chunk.js.map",
     "787.60fff1db.chunk.js.map": "/static/js/787.60fff1db.chunk.js.map",
     "804.f5f0da30.chunk.js.map": "/static/js/804.f5f0da30.chunk.js.map",
     "925.2de8e39d.chunk.js.map": "/static/js/925.2de8e39d.chunk.js.map",
@@ -186,6 +187,6 @@
     "521.dab52544.chunk.js.map": "/static/js/521.dab52544.chunk.js.map"
   },
   "entrypoints": [
-    "static/js/main.0342e9d5.js"
+    "static/js/main.a17b19de.js"
   ]
 }
