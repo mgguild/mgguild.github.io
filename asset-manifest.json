@@ -1,12 +1,12 @@
 {
   "files": {
-    "main.js": "/static/js/main.a17b19de.js",
+    "main.js": "/static/js/main.cced3baf.js",
     "static/js/678.8c62bd54.chunk.js": "/static/js/678.8c62bd54.chunk.js",
     "static/js/996.f48f265d.chunk.js": "/static/js/996.f48f265d.chunk.js",
     "static/js/293.622f7480.chunk.js": "/static/js/293.622f7480.chunk.js",
     "static/js/264.43379c08.chunk.js": "/static/js/264.43379c08.chunk.js",
     "static/js/826.ead7620e.chunk.js": "/static/js/826.ead7620e.chunk.js",
-    "static/js/20.31fc81b2.chunk.js": "/static/js/20.31fc81b2.chunk.js",
+    "static/js/999.7ded614a.chunk.js": "/static/js/999.7ded614a.chunk.js",
     "static/css/28.77850288.chunk.css": "/static/css/28.77850288.chunk.css",
     "static/js/28.bca4a753.chunk.js": "/static/js/28.bca4a753.chunk.js",
     "static/js/389.dc4c97db.chunk.js": "/static/js/389.dc4c97db.chunk.js",
@@ -97,6 +97,7 @@
     "static/media/Morris Perico.png": "/static/media/Morris Perico.789a3b21fa98223aecef.png",
     "static/media/Ralph Balanta.png": "/static/media/Ralph Balanta.7709ef002ab55be19bab.png",
     "static/media/Marc Rapi.png": "/static/media/Marc Rapi.faca9c559fb4053bb06b.png",
+    "static/media/sparkpoint.png": "/static/media/sparkpoint.bb4b0c453d51c013ccaf.png",
     "static/media/monsterra.png": "/static/media/monsterra.c578144441092044b7ed.png",
     "static/media/White_wTagline.png": "/static/media/White_wTagline.7fdf53fa4547e0be9b9e.png",
     "static/media/LiquidityRewards.png": "/static/media/LiquidityRewards.6b0f252d2098d2adc3d2.png",
@@ -104,6 +105,7 @@
     "static/media/stephero.png": "/static/media/stephero.074eddb99709638a22b8.png",
     "static/media/near.png": "/static/media/near.e1f5d07c35eb69dab7f9.png",
     "static/media/gunstar.png": "/static/media/gunstar.c3cbd714983bfd5f8dcf.png",
+    "static/media/nyan-removebg-preview.png": "/static/media/nyan-removebg-preview.240e3123c4d37755afac.png",
     "static/media/kingdomx.png": "/static/media/kingdomx.c53a5254eebded7dd58e.png",
     "static/media/PlayZap.png": "/static/media/PlayZap.5ef24b7b74e7137702f7.png",
     "static/media/AstraXLogo.png": "/static/media/AstraXLogo.c806b9d4a3ab2962e743.png",
@@ -168,13 +170,13 @@
     "static/media/Infinity_Force.png": "/static/media/Infinity_Force.719ebb28e1aa8898872b.png",
     "static/media/SupraOracles-White-Red-Horz.svg": "/static/media/SupraOracles-White-Red-Horz.30acc385d6133492f1afb135ca0b23c5.svg",
     "index.html": "/index.html",
-    "main.a17b19de.js.map": "/static/js/main.a17b19de.js.map",
+    "main.cced3baf.js.map": "/static/js/main.cced3baf.js.map",
     "678.8c62bd54.chunk.js.map": "/static/js/678.8c62bd54.chunk.js.map",
     "996.f48f265d.chunk.js.map": "/static/js/996.f48f265d.chunk.js.map",
     "293.622f7480.chunk.js.map": "/static/js/293.622f7480.chunk.js.map",
     "264.43379c08.chunk.js.map": "/static/js/264.43379c08.chunk.js.map",
     "826.ead7620e.chunk.js.map": "/static/js/826.ead7620e.chunk.js.map",
-    "20.31fc81b2.chunk.js.map": "/static/js/20.31fc81b2.chunk.js.map",
+    "999.7ded614a.chunk.js.map": "/static/js/999.7ded614a.chunk.js.map",
     "28.77850288.chunk.css.map": "/static/css/28.77850288.chunk.css.map",
     "28.bca4a753.chunk.js.map": "/static/js/28.bca4a753.chunk.js.map",
     "389.dc4c97db.chunk.js.map": "/static/js/389.dc4c97db.chunk.js.map",
@@ -187,6 +189,6 @@
     "521.dab52544.chunk.js.map": "/static/js/521.dab52544.chunk.js.map"
   },
   "entrypoints": [
-    "static/js/main.a17b19de.js"
+    "static/js/main.cced3baf.js"
   ]
 }
