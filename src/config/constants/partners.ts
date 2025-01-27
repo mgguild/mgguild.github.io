@@ -333,11 +333,11 @@ const partners: Partners = {
     //   logo: TankWarsZone,
     //   link: 'https://tankwars.zone/'
     // },
-    // EnginesOfFury: {
-    //   name: 'Engines Of Fury',
-    //   logo: EnginesOfFury,
-    //   link: 'https://www.eof.gg/'
-    // },
+    EnginesOfFury: {
+      name: 'Engines Of Fury',
+      logo: EnginesOfFury,
+      link: 'https://www.eof.gg/'
+    },
     InfinityForce: {
       name: 'Infinity Force',
       logo: InfinityForce,
