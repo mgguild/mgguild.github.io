@@ -110,11 +110,11 @@ const partners: Partners = {
       logo: LdCapital,
       link: 'http://ldcap.com/'
     },
-    CinchBlock: {
-      name: 'Cinch Block',
-      logo: CinchBlock,
-      link: 'https://www.cinchblock.com/'
-    },
+    // CinchBlock: {
+    //   name: 'Cinch Block',
+    //   logo: CinchBlock,
+    //   link: 'https://www.cinchblock.com/'
+    // },
     AX: {
       name: 'AstraX Capital',
       logo: AX,
@@ -140,16 +140,16 @@ const partners: Partners = {
       logo: Origin,
       link: 'https://originventures.co/'
     },
-    Metrix: {
-      name: 'Metrix',
-      logo: Metrix,
-      link: 'https://metrix.capital/'
-    },
-    Raptor: {
-      name: 'Raptor',
-      logo: Raptor,
-      link: 'https://www.raptorcapital.io/'
-    },
+    // Metrix: {
+    //   name: 'Metrix',
+    //   logo: Metrix,
+    //   link: 'https://metrix.capital/'
+    // },
+    // Raptor: {
+    //   name: 'Raptor',
+    //   logo: Raptor,
+    //   link: 'https://www.raptorcapital.io/'
+    // },
     TKVentures: {
       name: 'TK Ventures',
       logo: TKVentures,
@@ -160,11 +160,11 @@ const partners: Partners = {
       logo: Ghaf,
       link: 'https://ghafcapital.ae/'
     },
-    Halvings: {
-      name: 'Halvings Capital',
-      logo: Halvings,
-      link: 'https://halvingscapital.com/'
-    },
+    // Halvings: {
+    //   name: 'Halvings Capital',
+    //   logo: Halvings,
+    //   link: 'https://halvingscapital.com/'
+    // },
     // GateIO: {
     //   name: 'Gate.io',
     //   logo: GateIO
@@ -293,11 +293,11 @@ const partners: Partners = {
       logo: NitroLeague,
       link: 'https://www.nitroleague.com/index.html'
     },
-    Polinate: {
-      name: 'Polinate',
-      logo: Polinate,
-      link: 'https://www.polinate.io/'
-    },
+    // Polinate: {
+    //   name: 'Polinate',
+    //   logo: Polinate,
+    //   link: 'https://www.polinate.io/'
+    // },
     Warm: {
       name: 'Warm',
       logo: Warm,
@@ -323,26 +323,26 @@ const partners: Partners = {
       logo: GunStar,
       link: 'https://gunstar.io/'
     },
-    Kitsumon: {
-      name: 'Kitsumon',
-      logo: Kitsumon,
-      link: 'https://kitsumon.com/'
-    },
+    // Kitsumon: {
+    //   name: 'Kitsumon',
+    //   logo: Kitsumon,
+    //   link: 'https://kitsumon.com/'
+    // },
     // TankWarsZone: {
     //   name: 'TankWarsZone',
     //   logo: TankWarsZone,
     //   link: 'https://tankwars.zone/'
     // },
-    // EnginesOfFury: {
-    //   name: 'Engines Of Fury',
-    //   logo: EnginesOfFury,
-    //   link: 'https://www.eof.gg/'
-    // },
-    InfinityForce: {
-      name: 'Infinity Force',
-      logo: InfinityForce,
-      link: 'https://infinityforce.com/'
+    EnginesOfFury: {
+      name: 'Engines Of Fury',
+      logo: EnginesOfFury,
+      link: 'https://www.eof.gg/'
     },
+    // InfinityForce: {
+    //   name: 'Infinity Force',
+    //   logo: InfinityForce,
+    //   link: 'https://infinityforce.com/'
+    // },
     // MetaFi: {
     //   name: 'MetaFi',
     //   logo: MetaFi,
@@ -443,26 +443,26 @@ const partners: Partners = {
     //   logo: GateIo,
     //   link: ''
     // },
-    SL2: {
-      name: 'SL2 Capital',
-      logo: SL2,
-      link: 'https://sl2.capital/'
-    },
-    MetaPopIt: {
-      name: 'MetaPopit',
-      logo: MetaPopIt,
-      link: 'https://www.metapopit.com/'
-    },
+    // SL2: {
+    //   name: 'SL2 Capital',
+    //   logo: SL2,
+    //   link: 'https://sl2.capital/'
+    // },
+    // MetaPopIt: {
+    //   name: 'MetaPopit',
+    //   logo: MetaPopIt,
+    //   link: 'https://www.metapopit.com/'
+    // },
     WebcoinCapital: {
       name: 'Webcoin Capital',
       logo: WebcoinCapital,
       link: 'https://www.webcoin.capital/'
     },
-    // Wizardia: {
-    //   name: 'Wizardia',
-    //   logo: Wizardia,
-    //   link: 'https://wizardia.io/'
-    // },
+    Wizardia: {
+      name: 'Wizardia',
+      logo: Wizardia,
+      link: 'https://wizardia.io/'
+    },
     // Ookeenga: {
     //   name: 'Ookeenga',
     //   logo: Ookeenga,
@@ -483,16 +483,16 @@ const partners: Partners = {
       logo: PlayZap,
       link: 'https://www.playzap.games/'
     },
-    WonderHero: {
-      name: 'WonderHero',
-      logo: WonderHero,
-      link: 'https://wonderhero.io/'
-    },
-    ElfinKingdom: {
-      name: 'Elfin Kingdom',
-      logo: ElfinKingdom,
-      link: 'https://elfinkingdom.com/'
-    },
+    // WonderHero: {
+    //   name: 'WonderHero',
+    //   logo: WonderHero,
+    //   link: 'https://wonderhero.io/'
+    // },
+    // ElfinKingdom: {
+    //   name: 'Elfin Kingdom',
+    //   logo: ElfinKingdom,
+    //   link: 'https://elfinkingdom.com/'
+    // },
     AvstarCapital: {
       name: 'Avstar Capital',
       logo: AVStarCapital,
