@@ -170,11 +170,7 @@ const partners: Partners = {
     //   name: 'Gate.io',
     //   logo: GateIO
     // }
-    CoinEx: {
-      name: 'Coin Ex',
-      logo: CoinEx,
-      link: 'https://www.coinex.com/en/'
-    },
+ 
   },
 
   Partners:{
@@ -528,7 +524,12 @@ const partners: Partners = {
       name: 'Thetan',
       logo:  Thetan,
       link: 'https://thetanworld.com'
-    }
+    },
+    CoinEx: {
+      name: 'Coin Ex',
+      logo: CoinEx,
+      link: 'https://www.coinex.com/en/'
+    },
   }
 }
 
