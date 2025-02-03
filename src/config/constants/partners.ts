@@ -87,6 +87,7 @@ import WildForest from '../../assets/logo/Partners/wildForest.png'
 import PlanetAtmos from '../../assets/logo/Partners/planetatmos.png'
 import Sparkchain from '../../assets/logo/Partners/sparkchain_logo.png'
 import Thetan from '../../assets/logo/Partners/thetan.png'
+import CoinEx from '../../assets/logo/Partners/CoinEx.png'
 
 const partners: Partners = {
   InvsBckrs:{
@@ -169,6 +170,11 @@ const partners: Partners = {
     //   name: 'Gate.io',
     //   logo: GateIO
     // }
+    CoinEx: {
+      name: 'Coin Ex',
+      logo: CoinEx,
+      link: 'https://www.coinex.com/en/'
+    },
   },
 
   Partners:{
