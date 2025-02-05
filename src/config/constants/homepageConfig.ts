@@ -97,8 +97,8 @@ export const News:INews[] = [
   },
   {
     image: 'News2',
-    description: 'MGG Celebrates Year 3 in Web3',
+    description: 'Tap-to-Earn, Tap-to-Win 200K $MGG: Mole Smash x CoinEx Giveaway',
     name: "page3",
-    link: "https://medium.com/@support_62719/mgg-celebrates-year-3-in-web3-a2cfb5257a3d",
+    link: "https://medium.com/metagamingguild/tap-to-earn-tap-to-win-200k-mgg-mole-smash-x-coinex-giveaway-fcb4b2030f6c",
   },
 ]

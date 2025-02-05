@@ -87,7 +87,7 @@ import WildForest from '../../assets/logo/Partners/wildForest.png'
 import PlanetAtmos from '../../assets/logo/Partners/planetatmos.png'
 import Sparkchain from '../../assets/logo/Partners/sparkchain_logo.png'
 import Thetan from '../../assets/logo/Partners/thetan.png'
-import CoinEx from '../../assets/logo/Partners/CoinEx.png'
+import CoinEx from '../../assets/logo/Partners/CoinExlogo.png'
 
 const partners: Partners = {
   InvsBckrs:{
