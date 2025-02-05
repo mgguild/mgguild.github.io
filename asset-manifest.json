@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.js": "/static/js/main.1031f787.js",
-    "static/js/678.98c47b15.chunk.js": "/static/js/678.98c47b15.chunk.js",
+    "main.js": "/static/js/main.4f6fb039.js",
+    "static/js/678.37fa8465.chunk.js": "/static/js/678.37fa8465.chunk.js",
     "static/js/996.f48f265d.chunk.js": "/static/js/996.f48f265d.chunk.js",
     "static/js/293.622f7480.chunk.js": "/static/js/293.622f7480.chunk.js",
     "static/js/264.43379c08.chunk.js": "/static/js/264.43379c08.chunk.js",
@@ -167,8 +167,8 @@
     "static/media/blocktides.png": "/static/media/blocktides.e256711d146d5c15e88b.png",
     "static/media/SupraOracles-White-Red-Horz.svg": "/static/media/SupraOracles-White-Red-Horz.30acc385d6133492f1afb135ca0b23c5.svg",
     "index.html": "/index.html",
-    "main.1031f787.js.map": "/static/js/main.1031f787.js.map",
-    "678.98c47b15.chunk.js.map": "/static/js/678.98c47b15.chunk.js.map",
+    "main.4f6fb039.js.map": "/static/js/main.4f6fb039.js.map",
+    "678.37fa8465.chunk.js.map": "/static/js/678.37fa8465.chunk.js.map",
     "996.f48f265d.chunk.js.map": "/static/js/996.f48f265d.chunk.js.map",
     "293.622f7480.chunk.js.map": "/static/js/293.622f7480.chunk.js.map",
     "264.43379c08.chunk.js.map": "/static/js/264.43379c08.chunk.js.map",
@@ -186,6 +186,6 @@
     "521.dab52544.chunk.js.map": "/static/js/521.dab52544.chunk.js.map"
   },
   "entrypoints": [
-    "static/js/main.1031f787.js"
+    "static/js/main.4f6fb039.js"
   ]
 }
