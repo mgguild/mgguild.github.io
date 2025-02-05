@@ -84,6 +84,12 @@ export const App:IApp[] = [
 export const News:INews[] = [
   
   {
+    image: 'News2',
+    description: 'Tap-to-Earn, Tap-to-Win 200K $MGG: Mole Smash x CoinEx Giveaway',
+    name: "page3",
+    link: "https://medium.com/metagamingguild/tap-to-earn-tap-to-win-200k-mgg-mole-smash-x-coinex-giveaway-fcb4b2030f6c",
+  },
+  {
     image: 'News1',
     description: `$MGG is Now Listed on Coins.ph`,
     name: "page1",
@@ -95,10 +101,5 @@ export const News:INews[] = [
     name: "page2",
     link: "https://medium.com/metagamingguild/metagaming-guild-is-now-a-ronin-validator-78b4845a6203",
   },
-  {
-    image: 'News2',
-    description: 'Tap-to-Earn, Tap-to-Win 200K $MGG: Mole Smash x CoinEx Giveaway',
-    name: "page3",
-    link: "https://medium.com/metagamingguild/tap-to-earn-tap-to-win-200k-mgg-mole-smash-x-coinex-giveaway-fcb4b2030f6c",
-  },
+ 
 ]
