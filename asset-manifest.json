@@ -1,12 +1,12 @@
 {
   "files": {
-    "main.js": "/static/js/main.8801e292.js",
-    "static/js/678.8c62bd54.chunk.js": "/static/js/678.8c62bd54.chunk.js",
+    "main.js": "/static/js/main.1031f787.js",
+    "static/js/678.98c47b15.chunk.js": "/static/js/678.98c47b15.chunk.js",
     "static/js/996.f48f265d.chunk.js": "/static/js/996.f48f265d.chunk.js",
     "static/js/293.622f7480.chunk.js": "/static/js/293.622f7480.chunk.js",
     "static/js/264.43379c08.chunk.js": "/static/js/264.43379c08.chunk.js",
     "static/js/826.ead7620e.chunk.js": "/static/js/826.ead7620e.chunk.js",
-    "static/js/160.c32dcce7.chunk.js": "/static/js/160.c32dcce7.chunk.js",
+    "static/js/637.b8e64f37.chunk.js": "/static/js/637.b8e64f37.chunk.js",
     "static/css/28.77850288.chunk.css": "/static/css/28.77850288.chunk.css",
     "static/js/28.bca4a753.chunk.js": "/static/js/28.bca4a753.chunk.js",
     "static/js/389.dc4c97db.chunk.js": "/static/js/389.dc4c97db.chunk.js",
@@ -21,7 +21,6 @@
     "static/media/MGG White Paper-FINAL.pdf": "/static/media/MGG White Paper-FINAL.3e66b0eac9cf293b54b3.pdf",
     "static/media/NFT.gif": "/static/media/NFT.aaeeaa3f963721d1145b.gif",
     "static/media/BGStaking1.png": "/static/media/BGStaking1.e170b55a849ea1cc9997.png",
-    "static/media/news2.png": "/static/media/news2.003ddf1745136886272e.png",
     "static/media/BGTeam2@4x.png": "/static/media/BGTeam2@4x.1715c44fce8f791f8dc3.png",
     "static/media/1.png": "/static/media/1.6eb151fe30d7ce752853.png",
     "static/media/9.png": "/static/media/9.9cfe1cb7183f61f49992.png",
@@ -46,6 +45,7 @@
     "static/media/bgpartner1@4x.png": "/static/media/bgpartner1@4x.9c189b1da4a5cca0fa1a.png",
     "static/media/BGUtilities@4x.png": "/static/media/BGUtilities@4x.4f805c454468144410b1.png",
     "static/media/MGG White Paper-FINAL-03.png": "/static/media/MGG White Paper-FINAL-03.89b3c4f47f6cc7915962.png",
+    "static/media/news2.png": "/static/media/news2.4b08895d888af23b493c.png",
     "static/media/MGG White Paper-FINAL-01.png": "/static/media/MGG White Paper-FINAL-01.80453c262dcdea373c31.png",
     "static/media/MGG White Paper-FINAL-19.png": "/static/media/MGG White Paper-FINAL-19.39bc2be83ea6abf0f9e3.png",
     "static/media/MGG White Paper-FINAL-05.png": "/static/media/MGG White Paper-FINAL-05.479fd60b2ac51c91741a.png",
@@ -64,7 +64,6 @@
     "static/media/MGG White Paper-FINAL-08.png": "/static/media/MGG White Paper-FINAL-08.c1b5e18ec3f48588c81a.png",
     "static/media/MGG White Paper-FINAL-06.png": "/static/media/MGG White Paper-FINAL-06.f1b0f2ec52dea7a85cb6.png",
     "static/media/MGG White Paper-FINAL-10.png": "/static/media/MGG White Paper-FINAL-10.54400a02a3b39ba446af.png",
-    "static/media/CoinEx.png": "/static/media/CoinEx.2a5e233d720517e71fa4.png",
     "static/media/CryptoUnicorns.png": "/static/media/CryptoUnicorns.133b8fc922c1476ca547.png",
     "static/media/MGG White Paper-FINAL-04.png": "/static/media/MGG White Paper-FINAL-04.148a3319756abf60c48b.png",
     "static/media/wildForest.png": "/static/media/wildForest.23fc8695fb64a9879b07.png",
@@ -99,6 +98,7 @@
     "static/media/Ralph Balanta.png": "/static/media/Ralph Balanta.7709ef002ab55be19bab.png",
     "static/media/Marc Rapi.png": "/static/media/Marc Rapi.faca9c559fb4053bb06b.png",
     "static/media/sparkpoint.png": "/static/media/sparkpoint.bb4b0c453d51c013ccaf.png",
+    "static/media/CoinExlogo.png": "/static/media/CoinExlogo.559ae0513d2ec4ea5c6e.png",
     "static/media/monsterra.png": "/static/media/monsterra.c578144441092044b7ed.png",
     "static/media/White_wTagline.png": "/static/media/White_wTagline.7fdf53fa4547e0be9b9e.png",
     "static/media/LiquidityRewards.png": "/static/media/LiquidityRewards.6b0f252d2098d2adc3d2.png",
@@ -167,13 +167,13 @@
     "static/media/blocktides.png": "/static/media/blocktides.e256711d146d5c15e88b.png",
     "static/media/SupraOracles-White-Red-Horz.svg": "/static/media/SupraOracles-White-Red-Horz.30acc385d6133492f1afb135ca0b23c5.svg",
     "index.html": "/index.html",
-    "main.8801e292.js.map": "/static/js/main.8801e292.js.map",
-    "678.8c62bd54.chunk.js.map": "/static/js/678.8c62bd54.chunk.js.map",
+    "main.1031f787.js.map": "/static/js/main.1031f787.js.map",
+    "678.98c47b15.chunk.js.map": "/static/js/678.98c47b15.chunk.js.map",
     "996.f48f265d.chunk.js.map": "/static/js/996.f48f265d.chunk.js.map",
     "293.622f7480.chunk.js.map": "/static/js/293.622f7480.chunk.js.map",
     "264.43379c08.chunk.js.map": "/static/js/264.43379c08.chunk.js.map",
     "826.ead7620e.chunk.js.map": "/static/js/826.ead7620e.chunk.js.map",
-    "160.c32dcce7.chunk.js.map": "/static/js/160.c32dcce7.chunk.js.map",
+    "637.b8e64f37.chunk.js.map": "/static/js/637.b8e64f37.chunk.js.map",
     "28.77850288.chunk.css.map": "/static/css/28.77850288.chunk.css.map",
     "28.bca4a753.chunk.js.map": "/static/js/28.bca4a753.chunk.js.map",
     "389.dc4c97db.chunk.js.map": "/static/js/389.dc4c97db.chunk.js.map",
@@ -186,6 +186,6 @@
     "521.dab52544.chunk.js.map": "/static/js/521.dab52544.chunk.js.map"
   },
   "entrypoints": [
-    "static/js/main.8801e292.js"
+    "static/js/main.1031f787.js"
   ]
 }
