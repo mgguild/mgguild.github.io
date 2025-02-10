@@ -47,7 +47,7 @@ export const Teams:TeamsConfig = {
     },
     {
       name: 'Shiela Mae Perico',
-      title: 'Guild Players Data Account Manager'
+      title: 'Market Maker/Data Account Manager'
     },
     {
       name: 'Marc Rapi',
