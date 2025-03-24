@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.js": "/static/js/main.79981faa.js",
-    "static/js/678.37fa8465.chunk.js": "/static/js/678.37fa8465.chunk.js",
+    "main.js": "/static/js/main.506e16a7.js",
+    "static/js/678.60f8ae76.chunk.js": "/static/js/678.60f8ae76.chunk.js",
     "static/js/996.f48f265d.chunk.js": "/static/js/996.f48f265d.chunk.js",
     "static/js/293.8b2dda11.chunk.js": "/static/js/293.8b2dda11.chunk.js",
     "static/js/264.43379c08.chunk.js": "/static/js/264.43379c08.chunk.js",
@@ -28,8 +28,6 @@
     "static/media/bgpartner2@4x.png": "/static/media/bgpartner2@4x.fb10e9b5c2ec6060c1d1.png",
     "static/media/BGextra.png": "/static/media/BGextra.92346ba9d102a7f01545.png",
     "static/media/6.png": "/static/media/6.b67a30a41fccfcefaff1.png",
-    "static/media/news3.png": "/static/media/news3.6039d29822ca62e6fe0e.png",
-    "static/media/news1.png": "/static/media/news1.78492994b88951176ca5.png",
     "static/media/11.png": "/static/media/11.8d3bb788566e7ac3ee94.png",
     "static/media/5.png": "/static/media/5.1cbbf18c08705d977aca.png",
     "static/media/8.png": "/static/media/8.9c981e549ac5d6b26b53.png",
@@ -40,10 +38,12 @@
     "static/media/BGGameFinanceDemocratized.png": "/static/media/BGGameFinanceDemocratized.84c2009629c97d42929c.png",
     "static/media/2.png": "/static/media/2.1f4416e8643ed99ba8a2.png",
     "static/media/12.png": "/static/media/12.9ce37431956da45d1d55.png",
+    "static/media/news1.png": "/static/media/news1.22dbc3c4e0ce40c5cd1c.png",
     "static/media/7.png": "/static/media/7.c26f95dcf449dc53de30.png",
     "static/media/3.png": "/static/media/3.edbd16b2805e4b45974a.png",
     "static/media/bgpartner1@4x.png": "/static/media/bgpartner1@4x.9c189b1da4a5cca0fa1a.png",
     "static/media/BGUtilities@4x.png": "/static/media/BGUtilities@4x.4f805c454468144410b1.png",
+    "static/media/news3.png": "/static/media/news3.5fd111e329faacb343fb.png",
     "static/media/MGG White Paper-FINAL-03.png": "/static/media/MGG White Paper-FINAL-03.89b3c4f47f6cc7915962.png",
     "static/media/news2.png": "/static/media/news2.4b08895d888af23b493c.png",
     "static/media/MGG White Paper-FINAL-01.png": "/static/media/MGG White Paper-FINAL-01.80453c262dcdea373c31.png",
@@ -167,8 +167,8 @@
     "static/media/blocktides.png": "/static/media/blocktides.e256711d146d5c15e88b.png",
     "static/media/SupraOracles-White-Red-Horz.svg": "/static/media/SupraOracles-White-Red-Horz.30acc385d6133492f1afb135ca0b23c5.svg",
     "index.html": "/index.html",
-    "main.79981faa.js.map": "/static/js/main.79981faa.js.map",
-    "678.37fa8465.chunk.js.map": "/static/js/678.37fa8465.chunk.js.map",
+    "main.506e16a7.js.map": "/static/js/main.506e16a7.js.map",
+    "678.60f8ae76.chunk.js.map": "/static/js/678.60f8ae76.chunk.js.map",
     "996.f48f265d.chunk.js.map": "/static/js/996.f48f265d.chunk.js.map",
     "293.8b2dda11.chunk.js.map": "/static/js/293.8b2dda11.chunk.js.map",
     "264.43379c08.chunk.js.map": "/static/js/264.43379c08.chunk.js.map",
@@ -186,6 +186,6 @@
     "521.dab52544.chunk.js.map": "/static/js/521.dab52544.chunk.js.map"
   },
   "entrypoints": [
-    "static/js/main.79981faa.js"
+    "static/js/main.506e16a7.js"
   ]
 }
