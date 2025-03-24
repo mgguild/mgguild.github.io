@@ -84,22 +84,22 @@ export const App:IApp[] = [
 export const News:INews[] = [
   
   {
-    image: 'News2',
-    description: 'Tap-to-Earn, Tap-to-Win 200K $MGG: Mole Smash x CoinEx Giveaway',
-    name: "page3",
-    link: "https://medium.com/metagamingguild/tap-to-earn-tap-to-win-200k-mgg-mole-smash-x-coinex-giveaway-fcb4b2030f6c",
-  },
-  {
     image: 'News1',
-    description: `$MGG is Now Listed on Coins.ph`,
-    name: "page1",
-    link: "https://medium.com/metagamingguild/mgg-is-now-listed-on-coins-ph-3a9ef186bd44",
+    description: 'Mole Smash x Planet Atmos: A Next-Level Collaboration for Gamers',
+    name: "page3",
+    link: "https://medium.com/metagamingguild/mole-smash-x-planet-atmos-a-next-level-collaboration-for-gamers-00734f458999",
   },
   {
     image: 'News3',
-    description: 'MetaGaming Guild is Now a Ronin Validator',
+    description: `Mole Smash x Metarush Collaboration Giveaway`,
+    name: "page1",
+    link: "https://medium.com/metagamingguild/mole-smash-x-metarush-collaboration-giveaway-241c0e0e49bd",
+  },
+  {
+    image: 'News2',
+    description: 'Tap-to-Earn, Tap-to-Win 200K $MGG: Mole Smash x CoinEx Giveaway',
     name: "page2",
-    link: "https://medium.com/metagamingguild/metagaming-guild-is-now-a-ronin-validator-78b4845a6203",
+    link: "https://medium.com/metagamingguild/tap-to-earn-tap-to-win-200k-mgg-mole-smash-x-coinex-giveaway-fcb4b2030f6c",
   },
  
 ]
