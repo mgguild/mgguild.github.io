@@ -77,7 +77,7 @@ export const Teams:TeamsConfig = {
     },
     {
       name: 'Diana Gee Delas Alas',
-      title: 'Full Stack Developer'
+      title: 'Front-end Developer'
     },
     {
       name: 'Ralph Balanta',
