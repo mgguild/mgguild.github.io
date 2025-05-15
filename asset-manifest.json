@@ -1,9 +1,9 @@
 {
   "files": {
-    "main.js": "/static/js/main.506e16a7.js",
+    "main.js": "/static/js/main.f2b4edfe.js",
     "static/js/678.60f8ae76.chunk.js": "/static/js/678.60f8ae76.chunk.js",
     "static/js/996.f48f265d.chunk.js": "/static/js/996.f48f265d.chunk.js",
-    "static/js/293.8b2dda11.chunk.js": "/static/js/293.8b2dda11.chunk.js",
+    "static/js/293.9051d64b.chunk.js": "/static/js/293.9051d64b.chunk.js",
     "static/js/264.43379c08.chunk.js": "/static/js/264.43379c08.chunk.js",
     "static/js/826.ead7620e.chunk.js": "/static/js/826.ead7620e.chunk.js",
     "static/js/637.b8e64f37.chunk.js": "/static/js/637.b8e64f37.chunk.js",
@@ -167,10 +167,10 @@
     "static/media/blocktides.png": "/static/media/blocktides.e256711d146d5c15e88b.png",
     "static/media/SupraOracles-White-Red-Horz.svg": "/static/media/SupraOracles-White-Red-Horz.30acc385d6133492f1afb135ca0b23c5.svg",
     "index.html": "/index.html",
-    "main.506e16a7.js.map": "/static/js/main.506e16a7.js.map",
+    "main.f2b4edfe.js.map": "/static/js/main.f2b4edfe.js.map",
     "678.60f8ae76.chunk.js.map": "/static/js/678.60f8ae76.chunk.js.map",
     "996.f48f265d.chunk.js.map": "/static/js/996.f48f265d.chunk.js.map",
-    "293.8b2dda11.chunk.js.map": "/static/js/293.8b2dda11.chunk.js.map",
+    "293.9051d64b.chunk.js.map": "/static/js/293.9051d64b.chunk.js.map",
     "264.43379c08.chunk.js.map": "/static/js/264.43379c08.chunk.js.map",
     "826.ead7620e.chunk.js.map": "/static/js/826.ead7620e.chunk.js.map",
     "637.b8e64f37.chunk.js.map": "/static/js/637.b8e64f37.chunk.js.map",
@@ -186,6 +186,6 @@
     "521.dab52544.chunk.js.map": "/static/js/521.dab52544.chunk.js.map"
   },
   "entrypoints": [
-    "static/js/main.506e16a7.js"
+    "static/js/main.f2b4edfe.js"
   ]
 }
