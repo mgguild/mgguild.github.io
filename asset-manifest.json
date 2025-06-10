@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.js": "/static/js/main.f2b4edfe.js",
+    "main.js": "/static/js/main.99eab278.js",
     "static/js/678.60f8ae76.chunk.js": "/static/js/678.60f8ae76.chunk.js",
     "static/js/996.f48f265d.chunk.js": "/static/js/996.f48f265d.chunk.js",
     "static/js/293.9051d64b.chunk.js": "/static/js/293.9051d64b.chunk.js",
@@ -167,7 +167,7 @@
     "static/media/blocktides.png": "/static/media/blocktides.e256711d146d5c15e88b.png",
     "static/media/SupraOracles-White-Red-Horz.svg": "/static/media/SupraOracles-White-Red-Horz.30acc385d6133492f1afb135ca0b23c5.svg",
     "index.html": "/index.html",
-    "main.f2b4edfe.js.map": "/static/js/main.f2b4edfe.js.map",
+    "main.99eab278.js.map": "/static/js/main.99eab278.js.map",
     "678.60f8ae76.chunk.js.map": "/static/js/678.60f8ae76.chunk.js.map",
     "996.f48f265d.chunk.js.map": "/static/js/996.f48f265d.chunk.js.map",
     "293.9051d64b.chunk.js.map": "/static/js/293.9051d64b.chunk.js.map",
@@ -186,6 +186,6 @@
     "521.dab52544.chunk.js.map": "/static/js/521.dab52544.chunk.js.map"
   },
   "entrypoints": [
-    "static/js/main.f2b4edfe.js"
+    "static/js/main.99eab278.js"
   ]
 }
